@@ -1,0 +1,46 @@
+\documentclass[a4paper,titlepage,twoside,12pt,leqno]{article}
+
+\usepackage[]{fontspec}
+\usepackage{xltxtra}
+\usepackage[monogreek]{xgreek}
+
+\newcommand{\en}[1]{\setlanguage{american}#1\setlanguage{monogreek}} % Για υφενώσεις στα αγγλικά
+
+\defaultfontfeatures{Mapping=tex-text%, Scale=MatchLowercase}
+} 
+
+% Γραμματοσειρά
+\setmainfont[Mapping=tex-text]{DejaVu Sans}
+
+
+\usepackage{longtable} % για έναν μεγάλο πίνακα
+\usepackage{graphicx, array, blindtext}
+
+%Για την εντολή \caption* και την αφαίρεση του πίνακας 1:
+\usepackage{caption}
+
+
+\begin{document}
+
+%Για την αφαίρεση της αρίθμησης των σελίδων
+\thispagestyle{empty}
+
+\begin{table}[ht]
+\caption*{\huge{Σύντομες οδηγίες εκκίνησης}}
+\centering
+\begin{tabular}{*{2}{m{0.48\textwidth}}}
+\hline
+This is some text
+&\begin{center}\rule{0.4\textwidth}{0.3\textwidth}\end{center} \\
+\hline
+
+\blindtext
+&\begin{center}\rule{0.4\textwidth}{0.3\textwidth}\end{center} \\
+
+\hline
+\end{tabular}
+\label{table:getting_started}
+\end{table}
+
+
+\end{document}
