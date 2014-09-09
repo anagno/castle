@@ -1,15 +1,13 @@
-C:\Users\Βασίλης-Θάνος\Documents\GitHub\castle\castle\castle\bin\Debug\castle.exe.config
-C:\Users\Βασίλης-Θάνος\Documents\GitHub\castle\castle\castle\bin\Debug\castle.exe
-C:\Users\Βασίλης-Θάνος\Documents\GitHub\castle\castle\castle\bin\Debug\castle.pdb
-C:\Users\Βασίλης-Θάνος\Documents\GitHub\castle\castle\castle\obj\Debug\MainWindow.baml
-C:\Users\Βασίλης-Θάνος\Documents\GitHub\castle\castle\castle\obj\Debug\MainWindow.g.cs
-C:\Users\Βασίλης-Θάνος\Documents\GitHub\castle\castle\castle\obj\Debug\App.g.cs
-C:\Users\Βασίλης-Θάνος\Documents\GitHub\castle\castle\castle\obj\Debug\castle_MarkupCompile.cache
-C:\Users\Βασίλης-Θάνος\Documents\GitHub\castle\castle\castle\obj\Debug\castle.g.resources
-C:\Users\Βασίλης-Θάνος\Documents\GitHub\castle\castle\castle\obj\Debug\castle.Properties.Resources.resources
-C:\Users\Βασίλης-Θάνος\Documents\GitHub\castle\castle\castle\obj\Debug\castle.csproj.GenerateResource.Cache
-C:\Users\Βασίλης-Θάνος\Documents\GitHub\castle\castle\castle\obj\Debug\castle.exe
-C:\Users\Βασίλης-Θάνος\Documents\GitHub\castle\castle\castle\obj\Debug\castle.pdb
-C:\Users\Βασίλης-Θάνος\Documents\GitHub\castle\castle\castle\obj\Debug\castle.csprojResolveAssemblyReference.cache
-C:\Users\Βασίλης-Θάνος\Documents\GitHub\castle\castle\castle\obj\Debug\Window1.baml
-C:\Users\Βασίλης-Θάνος\Documents\GitHub\castle\castle\castle\obj\Debug\Window1.g.cs
+C:\Users\George\Documents\Visual Studio 2013\Projects\C#\Castle\Castle\bin\Debug\Castle.exe.config
+C:\Users\George\Documents\Visual Studio 2013\Projects\C#\Castle\Castle\bin\Debug\Castle.exe
+C:\Users\George\Documents\Visual Studio 2013\Projects\C#\Castle\Castle\bin\Debug\Castle.pdb
+C:\Users\George\Documents\Visual Studio 2013\Projects\C#\Castle\Castle\obj\Debug\Castle.csprojResolveAssemblyReference.cache
+C:\Users\George\Documents\Visual Studio 2013\Projects\C#\Castle\Castle\obj\Debug\Castle.Form1.resources
+C:\Users\George\Documents\Visual Studio 2013\Projects\C#\Castle\Castle\obj\Debug\Castle.Form2.resources
+C:\Users\George\Documents\Visual Studio 2013\Projects\C#\Castle\Castle\obj\Debug\Castle.Properties.Resources.resources
+C:\Users\George\Documents\Visual Studio 2013\Projects\C#\Castle\Castle\obj\Debug\Castle.csproj.GenerateResource.Cache
+C:\Users\George\Documents\Visual Studio 2013\Projects\C#\Castle\Castle\obj\Debug\Castle.exe
+C:\Users\George\Documents\Visual Studio 2013\Projects\C#\Castle\Castle\obj\Debug\Castle.pdb
+C:\Users\George\Documents\Visual Studio 2013\Projects\C#\Castle\Castle\obj\Debug\Castle.Form3.resources
+C:\Users\George\Documents\Visual Studio 2013\Projects\C#\Castle\Castle\obj\Debug\Castle.Form4.resources
+C:\Users\George\Documents\Visual Studio 2013\Projects\C#\Castle\Castle\obj\Debug\Castle.Form5.resources
