@@ -73,6 +73,16 @@ namespace Castle.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap bedroom2 {
+            get {
+                object obj = ResourceManager.GetObject("bedroom2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap castle_5 {
             get {
                 object obj = ResourceManager.GetObject("castle-5", resourceCulture);
