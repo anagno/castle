@@ -58,9 +58,9 @@
             this.checkBox2.AutoSize = true;
             this.checkBox2.Location = new System.Drawing.Point(37, 103);
             this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(100, 23);
+            this.checkBox2.Size = new System.Drawing.Size(99, 23);
             this.checkBox2.TabIndex = 6;
-            this.checkBox2.Text = "Κλείσιμο Φώτων";
+            this.checkBox2.Text = "Άνοιγμα Φώτων";
             this.checkBox2.UseVisualStyleBackColor = true;
             this.checkBox2.CheckedChanged += new System.EventHandler(this.checkBox2_CheckedChanged);
             // 

@@ -53,10 +53,12 @@ namespace Castle
         {
             if(checkBox2.Checked)
             {
+                checkBox2.Text = "Κλείσιμο Φώτων";
                 this.BackgroundImage = Castle.Properties.Resources.bedroom2;
             }
             else
             {
+                checkBox2.Text = "Άνοιγμα Φώτων";
                 this.BackgroundImage = Castle.Properties.Resources.bedroom;
             }
         }
