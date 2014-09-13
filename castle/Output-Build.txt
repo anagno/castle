@@ -1,3 +1,0 @@
-﻿------ Build started: Project: Castle, Configuration: Debug Any CPU ------
-  Castle -> E:\unipi\2ο Εξάμηνο\Αλληλεπίδραση Ανθρώπου - Υπολογιστή\Θέμα Εξαμήνου\castle\Castle\bin\Debug\Castle.exe
-========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========

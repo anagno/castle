@@ -230,7 +230,7 @@
         AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
         LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
         ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAABk
-        EAAAAk1TRnQBSQFMAwEBAAFUAQABVAEAAW4BAAFkAQAE/wEJAQAI/wFCAU0BNgEEBgABNgEEAgABKAMA
+        EAAAAk1TRnQBSQFMAwEBAAFwAQABcAEAAW4BAAFkAQAE/wEJAQAI/wFCAU0BNgEEBgABNgEEAgABKAMA
         AbgBAQIAAWQDAAEBAQABCAUAAeABqxgAAYACAAGAAwACgAEAAYADAAGAAQABgAEAAoACAAPAAQABwAHc
         AcABAAHwAcoBpgEAATMFAAEzAQABMwEAATMBAAIzAgADFgEAAxwBAAMiAQADKQEAA1UBAANNAQADQgEA
         AzkBAAGAAXwB/wEAAlAB/wEAAZMBAAHWAQAB/wHsAcwBAAHGAdYB7wEAAdYC5wEAAZABqQGtAgAB/wEz
@@ -420,6 +420,138 @@
   <data name="tabPageExit.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
   </data>
+  <data name="labelDescritptionPool.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelDescritptionPool.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt</value>
+  </data>
+  <data name="labelDescritptionPool.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelDescritptionPool.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 44</value>
+  </data>
+  <data name="labelDescritptionPool.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 31</value>
+  </data>
+  <data name="labelDescritptionPool.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="labelDescritptionPool.Text" xml:space="preserve">
+    <value>Pool</value>
+  </data>
+  <data name="&gt;&gt;labelDescritptionPool.Name" xml:space="preserve">
+    <value>labelDescritptionPool</value>
+  </data>
+  <data name="&gt;&gt;labelDescritptionPool.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelDescritptionPool.Parent" xml:space="preserve">
+    <value>tabPageExit</value>
+  </data>
+  <data name="&gt;&gt;labelDescritptionPool.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="labelDescritpionExit.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelDescritpionExit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt</value>
+  </data>
+  <data name="labelDescritpionExit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelDescritpionExit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 401</value>
+  </data>
+  <data name="labelDescritpionExit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 31</value>
+  </data>
+  <data name="labelDescritpionExit.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="labelDescritpionExit.Text" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="&gt;&gt;labelDescritpionExit.Name" xml:space="preserve">
+    <value>labelDescritpionExit</value>
+  </data>
+  <data name="&gt;&gt;labelDescritpionExit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelDescritpionExit.Parent" xml:space="preserve">
+    <value>tabPageExit</value>
+  </data>
+  <data name="&gt;&gt;labelDescritpionExit.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="labelDescriptionRoomDevices.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelDescriptionRoomDevices.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt</value>
+  </data>
+  <data name="labelDescriptionRoomDevices.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelDescriptionRoomDevices.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 284</value>
+  </data>
+  <data name="labelDescriptionRoomDevices.Size" type="System.Drawing.Size, System.Drawing">
+    <value>191, 31</value>
+  </data>
+  <data name="labelDescriptionRoomDevices.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="labelDescriptionRoomDevices.Text" xml:space="preserve">
+    <value>Room Devices</value>
+  </data>
+  <data name="&gt;&gt;labelDescriptionRoomDevices.Name" xml:space="preserve">
+    <value>labelDescriptionRoomDevices</value>
+  </data>
+  <data name="&gt;&gt;labelDescriptionRoomDevices.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelDescriptionRoomDevices.Parent" xml:space="preserve">
+    <value>tabPageExit</value>
+  </data>
+  <data name="&gt;&gt;labelDescriptionRoomDevices.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="labelDescritpionMenu.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelDescritpionMenu.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt</value>
+  </data>
+  <data name="labelDescritpionMenu.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelDescritpionMenu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 169</value>
+  </data>
+  <data name="labelDescritpionMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 31</value>
+  </data>
+  <data name="labelDescritpionMenu.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="labelDescritpionMenu.Text" xml:space="preserve">
+    <value>Foods-Drinks</value>
+  </data>
+  <data name="&gt;&gt;labelDescritpionMenu.Name" xml:space="preserve">
+    <value>labelDescritpionMenu</value>
+  </data>
+  <data name="&gt;&gt;labelDescritpionMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelDescritpionMenu.Parent" xml:space="preserve">
+    <value>tabPageExit</value>
+  </data>
+  <data name="&gt;&gt;labelDescritpionMenu.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
   <data name="buttonLanguageEnglish.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -445,7 +577,7 @@
     <value>tabPageExit</value>
   </data>
   <data name="&gt;&gt;buttonLanguageEnglish.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>4</value>
   </data>
   <data name="buttonLanguageGreek.Location" type="System.Drawing.Point, System.Drawing">
     <value>460, 118</value>
@@ -469,7 +601,7 @@
     <value>tabPageExit</value>
   </data>
   <data name="&gt;&gt;buttonLanguageGreek.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>5</value>
   </data>
   <data name="labelWelcome.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -499,7 +631,7 @@
     <value>tabPageExit</value>
   </data>
   <data name="&gt;&gt;labelWelcome.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>6</value>
   </data>
   <data name="tabPageExit.ImageIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -559,7 +691,7 @@
     <value>734, 511</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>Form6</value>
+    <value>Our little castle !!!</value>
   </data>
   <data name="&gt;&gt;imageList.Name" xml:space="preserve">
     <value>imageList</value>

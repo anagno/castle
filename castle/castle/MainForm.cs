@@ -17,32 +17,9 @@ namespace Castle
     {
         public MainForm()
         {
-            //Thread.CurrentThread.CurrentUICulture = new CultureInfo("el");
-            //Thread.CurrentThread.CurrentCulture = new CultureInfo("el");
             InitializeComponent();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            Thread.CurrentThread.CurrentUICulture = CultureInfo.GetCultureInfo("el");
-            Thread.CurrentThread.CurrentCulture = new CultureInfo("el");
-            //this.Refresh();
-            //this.labelWelcome.Refresh();
-
-            changeLanguage("el");
-
-            //Application.Run(new LanguageMenu(new System.Globalization.CultureInfo("el")));
-            //Application.ExitThread();
-        }
-
-        private void changeLanguage(string lang)
-        {
-            foreach (Control c in this.tabControl.SelectedTab.Controls)
-            {
-                ComponentResourceManager resources = new ComponentResourceManager(typeof(MainForm));
-                Console.WriteLine(c.Name);
-                resources.ApplyResources(c, c.Name, new CultureInfo(lang));
-            }
+            // Για να επιλεχθεί το τελευαίο tab στην Form
+            tabControl.SelectedTab = tabPageExit;
         }
 
         private void buttonLanguageGreek_Click(object sender, EventArgs e)
@@ -57,6 +34,7 @@ namespace Castle
             changeLanguage(lang);
         }
 
+        // http://www.dotnetcurry.com/showarticle.aspx?ID=174
         private void changeLanguage (CultureInfo new_lang)
         {
             Thread.CurrentThread.CurrentCulture = new_lang;
@@ -72,9 +50,8 @@ namespace Castle
                     resources.ApplyResources(c, c.Name, new_lang);
                 }
             }
-                
+
+            //Δεν αλλάζει γλώσσα ο τίτλος της φόρμας. Ή να το φιτάξω ή να το διαγράψω ...
         }
-
-
     }
 }

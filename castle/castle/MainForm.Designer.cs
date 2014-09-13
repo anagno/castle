@@ -40,9 +40,13 @@
             this.tabPageDevices = new System.Windows.Forms.TabPage();
             this.labelRoomDevices = new System.Windows.Forms.Label();
             this.tabPageExit = new System.Windows.Forms.TabPage();
+            this.labelDescritptionPool = new System.Windows.Forms.Label();
+            this.labelDescritpionExit = new System.Windows.Forms.Label();
+            this.labelDescriptionRoomDevices = new System.Windows.Forms.Label();
+            this.labelDescritpionMenu = new System.Windows.Forms.Label();
+            this.buttonLanguageEnglish = new System.Windows.Forms.Button();
             this.buttonLanguageGreek = new System.Windows.Forms.Button();
             this.labelWelcome = new System.Windows.Forms.Label();
-            this.buttonLanguageEnglish = new System.Windows.Forms.Button();
             this.tabControl.SuspendLayout();
             this.tabPageMenu.SuspendLayout();
             this.tabControlMenu.SuspendLayout();
@@ -126,11 +130,46 @@
             // 
             resources.ApplyResources(this.tabPageExit, "tabPageExit");
             this.tabPageExit.BackgroundImage = global::Castle.Properties.Resources.castle_wallpaper_3;
+            this.tabPageExit.Controls.Add(this.labelDescritptionPool);
+            this.tabPageExit.Controls.Add(this.labelDescritpionExit);
+            this.tabPageExit.Controls.Add(this.labelDescriptionRoomDevices);
+            this.tabPageExit.Controls.Add(this.labelDescritpionMenu);
             this.tabPageExit.Controls.Add(this.buttonLanguageEnglish);
             this.tabPageExit.Controls.Add(this.buttonLanguageGreek);
             this.tabPageExit.Controls.Add(this.labelWelcome);
             this.tabPageExit.Name = "tabPageExit";
             this.tabPageExit.UseVisualStyleBackColor = true;
+            // 
+            // labelDescritptionPool
+            // 
+            resources.ApplyResources(this.labelDescritptionPool, "labelDescritptionPool");
+            this.labelDescritptionPool.ForeColor = System.Drawing.Color.Yellow;
+            this.labelDescritptionPool.Name = "labelDescritptionPool";
+            // 
+            // labelDescritpionExit
+            // 
+            resources.ApplyResources(this.labelDescritpionExit, "labelDescritpionExit");
+            this.labelDescritpionExit.ForeColor = System.Drawing.Color.Yellow;
+            this.labelDescritpionExit.Name = "labelDescritpionExit";
+            // 
+            // labelDescriptionRoomDevices
+            // 
+            resources.ApplyResources(this.labelDescriptionRoomDevices, "labelDescriptionRoomDevices");
+            this.labelDescriptionRoomDevices.ForeColor = System.Drawing.Color.Yellow;
+            this.labelDescriptionRoomDevices.Name = "labelDescriptionRoomDevices";
+            // 
+            // labelDescritpionMenu
+            // 
+            resources.ApplyResources(this.labelDescritpionMenu, "labelDescritpionMenu");
+            this.labelDescritpionMenu.ForeColor = System.Drawing.Color.Yellow;
+            this.labelDescritpionMenu.Name = "labelDescritpionMenu";
+            // 
+            // buttonLanguageEnglish
+            // 
+            resources.ApplyResources(this.buttonLanguageEnglish, "buttonLanguageEnglish");
+            this.buttonLanguageEnglish.Name = "buttonLanguageEnglish";
+            this.buttonLanguageEnglish.UseVisualStyleBackColor = true;
+            this.buttonLanguageEnglish.Click += new System.EventHandler(this.buttonLanguageEnglish_Click);
             // 
             // buttonLanguageGreek
             // 
@@ -143,13 +182,6 @@
             // 
             resources.ApplyResources(this.labelWelcome, "labelWelcome");
             this.labelWelcome.Name = "labelWelcome";
-            // 
-            // buttonLanguageEnglish
-            // 
-            resources.ApplyResources(this.buttonLanguageEnglish, "buttonLanguageEnglish");
-            this.buttonLanguageEnglish.Name = "buttonLanguageEnglish";
-            this.buttonLanguageEnglish.UseVisualStyleBackColor = true;
-            this.buttonLanguageEnglish.Click += new System.EventHandler(this.buttonLanguageEnglish_Click);
             // 
             // MainForm
             // 
@@ -183,5 +215,9 @@
         private System.Windows.Forms.Button buttonLanguageGreek;
         private System.Windows.Forms.Label labelRoomDevices;
         private System.Windows.Forms.Button buttonLanguageEnglish;
+        private System.Windows.Forms.Label labelDescritpionMenu;
+        private System.Windows.Forms.Label labelDescriptionRoomDevices;
+        private System.Windows.Forms.Label labelDescritpionExit;
+        private System.Windows.Forms.Label labelDescritptionPool;
     }
 }
