@@ -1,0 +1,576 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tabControl.Alignment" type="System.Windows.Forms.TabAlignment, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="tabPagePool.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tabPagePool.ImageIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="tabPagePool.Location" type="System.Drawing.Point, System.Drawing">
+    <value>114, 4</value>
+  </data>
+  <data name="tabPagePool.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabPagePool.Size" type="System.Drawing.Size, System.Drawing">
+    <value>618, 505</value>
+  </data>
+  <data name="tabPagePool.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tabPagePool.Name" xml:space="preserve">
+    <value>tabPagePool</value>
+  </data>
+  <data name="&gt;&gt;tabPagePool.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPagePool.Parent" xml:space="preserve">
+    <value>tabControl</value>
+  </data>
+  <data name="&gt;&gt;tabPagePool.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabPageMenu.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="tabControlMenu.Alignment" type="System.Windows.Forms.TabAlignment, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="tabControlMenu.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="tabPageRestaurant.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="tabPageRestaurant.ImageKey" xml:space="preserve">
+    <value>glass.png</value>
+  </data>
+  <data name="tabPageRestaurant.Location" type="System.Drawing.Point, System.Drawing">
+    <value>114, 4</value>
+  </data>
+  <data name="tabPageRestaurant.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabPageRestaurant.Size" type="System.Drawing.Size, System.Drawing">
+    <value>504, 505</value>
+  </data>
+  <data name="tabPageRestaurant.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tabPageRestaurant.Name" xml:space="preserve">
+    <value>tabPageRestaurant</value>
+  </data>
+  <data name="&gt;&gt;tabPageRestaurant.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPageRestaurant.Parent" xml:space="preserve">
+    <value>tabControlMenu</value>
+  </data>
+  <data name="&gt;&gt;tabPageRestaurant.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabPageCafeteria.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="tabPageCafeteria.ImageKey" xml:space="preserve">
+    <value>glass.png</value>
+  </data>
+  <data name="tabPageCafeteria.Location" type="System.Drawing.Point, System.Drawing">
+    <value>114, 4</value>
+  </data>
+  <data name="tabPageCafeteria.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabPageCafeteria.Size" type="System.Drawing.Size, System.Drawing">
+    <value>504, 505</value>
+  </data>
+  <data name="tabPageCafeteria.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;tabPageCafeteria.Name" xml:space="preserve">
+    <value>tabPageCafeteria</value>
+  </data>
+  <data name="&gt;&gt;tabPageCafeteria.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPageCafeteria.Parent" xml:space="preserve">
+    <value>tabControlMenu</value>
+  </data>
+  <data name="&gt;&gt;tabPageCafeteria.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="imageList.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="imageList.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAABk
+        EAAAAk1TRnQBSQFMAwEBAAFUAQABVAEAAW4BAAFkAQAE/wEJAQAI/wFCAU0BNgEEBgABNgEEAgABKAMA
+        AbgBAQIAAWQDAAEBAQABCAUAAeABqxgAAYACAAGAAwACgAEAAYADAAGAAQABgAEAAoACAAPAAQABwAHc
+        AcABAAHwAcoBpgEAATMFAAEzAQABMwEAATMBAAIzAgADFgEAAxwBAAMiAQADKQEAA1UBAANNAQADQgEA
+        AzkBAAGAAXwB/wEAAlAB/wEAAZMBAAHWAQAB/wHsAcwBAAHGAdYB7wEAAdYC5wEAAZABqQGtAgAB/wEz
+        AwABZgMAAZkDAAHMAgABMwMAAjMCAAEzAWYCAAEzAZkCAAEzAcwCAAEzAf8CAAFmAwABZgEzAgACZgIA
+        AWYBmQIAAWYBzAIAAWYB/wIAAZkDAAGZATMCAAGZAWYCAAKZAgABmQHMAgABmQH/AgABzAMAAcwBMwIA
+        AcwBZgIAAcwBmQIAAswCAAHMAf8CAAH/AWYCAAH/AZkCAAH/AcwBAAEzAf8CAAH/AQABMwEAATMBAAFm
+        AQABMwEAAZkBAAEzAQABzAEAATMBAAH/AQAB/wEzAgADMwEAAjMBZgEAAjMBmQEAAjMBzAEAAjMB/wEA
+        ATMBZgIAATMBZgEzAQABMwJmAQABMwFmAZkBAAEzAWYBzAEAATMBZgH/AQABMwGZAgABMwGZATMBAAEz
+        AZkBZgEAATMCmQEAATMBmQHMAQABMwGZAf8BAAEzAcwCAAEzAcwBMwEAATMBzAFmAQABMwHMAZkBAAEz
+        AswBAAEzAcwB/wEAATMB/wEzAQABMwH/AWYBAAEzAf8BmQEAATMB/wHMAQABMwL/AQABZgMAAWYBAAEz
+        AQABZgEAAWYBAAFmAQABmQEAAWYBAAHMAQABZgEAAf8BAAFmATMCAAFmAjMBAAFmATMBZgEAAWYBMwGZ
+        AQABZgEzAcwBAAFmATMB/wEAAmYCAAJmATMBAANmAQACZgGZAQACZgHMAQABZgGZAgABZgGZATMBAAFm
+        AZkBZgEAAWYCmQEAAWYBmQHMAQABZgGZAf8BAAFmAcwCAAFmAcwBMwEAAWYBzAGZAQABZgLMAQABZgHM
+        Af8BAAFmAf8CAAFmAf8BMwEAAWYB/wGZAQABZgH/AcwBAAHMAQAB/wEAAf8BAAHMAQACmQIAAZkBMwGZ
+        AQABmQEAAZkBAAGZAQABzAEAAZkDAAGZAjMBAAGZAQABZgEAAZkBMwHMAQABmQEAAf8BAAGZAWYCAAGZ
+        AWYBMwEAAZkBMwFmAQABmQFmAZkBAAGZAWYBzAEAAZkBMwH/AQACmQEzAQACmQFmAQADmQEAApkBzAEA
+        ApkB/wEAAZkBzAIAAZkBzAEzAQABZgHMAWYBAAGZAcwBmQEAAZkCzAEAAZkBzAH/AQABmQH/AgABmQH/
+        ATMBAAGZAcwBZgEAAZkB/wGZAQABmQH/AcwBAAGZAv8BAAHMAwABmQEAATMBAAHMAQABZgEAAcwBAAGZ
+        AQABzAEAAcwBAAGZATMCAAHMAjMBAAHMATMBZgEAAcwBMwGZAQABzAEzAcwBAAHMATMB/wEAAcwBZgIA
+        AcwBZgEzAQABmQJmAQABzAFmAZkBAAHMAWYBzAEAAZkBZgH/AQABzAGZAgABzAGZATMBAAHMAZkBZgEA
+        AcwCmQEAAcwBmQHMAQABzAGZAf8BAALMAgACzAEzAQACzAFmAQACzAGZAQADzAEAAswB/wEAAcwB/wIA
+        AcwB/wEzAQABmQH/AWYBAAHMAf8BmQEAAcwB/wHMAQABzAL/AQABzAEAATMBAAH/AQABZgEAAf8BAAGZ
+        AQABzAEzAgAB/wIzAQAB/wEzAWYBAAH/ATMBmQEAAf8BMwHMAQAB/wEzAf8BAAH/AWYCAAH/AWYBMwEA
+        AcwCZgEAAf8BZgGZAQAB/wFmAcwBAAHMAWYB/wEAAf8BmQIAAf8BmQEzAQAB/wGZAWYBAAH/ApkBAAH/
+        AZkBzAEAAf8BmQH/AQAB/wHMAgAB/wHMATMBAAH/AcwBZgEAAf8BzAGZAQAB/wLMAQAB/wHMAf8BAAL/
+        ATMBAAHMAf8BZgEAAv8BmQEAAv8BzAEAAmYB/wEAAWYB/wFmAQABZgL/AQAB/wJmAQAB/wFmAf8BAAL/
+        AWYBAAEhAQABpQEAA18BAAN3AQADhgEAA5YBAAPLAQADsgEAA9cBAAPdAQAD4wEAA+oBAAPxAQAD+AEA
+        AfAB+wH/AQABpAKgAQADgAMAAf8CAAH/AwAC/wEAAf8DAAH/AQAB/wEAAv8CAAP//wD/AP8A/wD/AP8A
+        /wD/ALgAAfIBDz0AAff/AHkAAf8BbTwAAQ4B8/8AegAB9AEQOgABDgHy/wB8AAH/AfABBxPvARUOAAEQ
+        FO8BvAH0Af//AJIAAW0OAAEUAf//AKgAAW0OAAEUAf//AKgAAW0OAAEUAf//AKgAAW0OAAEUAf//AKgA
+        AW0OAAEUAf//AKgAAW0OAAEUAf//AKgAAW0OAAEUAf//AKgAAW0OAAEUAf//AKgAAW0OAAEUAf//AKgA
+        AW0OAAEUAf//AKgAAW0OAAEUAf//AKgAAW0OAAEUAf//AKgAAW0OAAEUAf//AKgAAW0OAAEUAf//AKgA
+        AW0OAAEUAf//AKgAAW0OAAEUAf//AKgAAW0OAAEUAf//AKgAAW0OAAEUAf//AKgAAW0OAAEUAf//AKgA
+        AW0OAAEUAf//AKgAAW0OAAEUAf//AKgAAW0OAAEUAf//AKgAAW0OAAEUAf//AKgAAW0OAAEUAf//AKgA
+        AW0OAAEUAf//AKgAAW0OAAEUAf//AKgAAW0OAAEUAf//AKgAAW0OAAEUAf//AKgAAW0OAAEUAf//AKgA
+        AW0OAAEUAf//AKgAAW0OAAEUAf//AKgAAW0OAAEUAf//AKgAAW0OAAEUAf//AKgAAW0OAAEUAf//AKgA
+        AW0OAAEUAf//AKgAAW0OAAEUAf//AKgAAW0OAAEUAf//AKgAAW0OAAEUAf//AKgAAW0OAAEUAf//AKgA
+        AW0OAAEUAf//AKgAAW0OAAEUAf//AKgAAW0OAAEUAf//AKcAAf8BQw4AAQ8B9P8ApgAB8wESEAABEAHw
+        Af//AKMAAf8BERIAAQ4B8P8AoQAB/wHxARAUAAEOAQcB//8AnwAB8gEPFwAB9wH//wCcAAH/AQcBDxgA
+        AQ4BkgH//wCaAAH/Ae8cAAFtAf//AJgAAf8B7wEOHQAB6wH0/wCWAAH/AewgAAEVAf//AJQAAf8B7CIA
+        ARQB8wH//wCRAAH/ARQkAAERAfT/AJAAAfMBEiYAARAB8AH//wCNAAH/AREoAAEOAfD/AIsAAf8B8QEQ
+        KgABDgEHAf//AIkAAfIBDy0AAfcB//8AhgAB/wEHAQ8uAAEOAZIB//8AhAAB/wHvMgABbQH//wCCAAH/
+        Ae8BDjMAAesB9P8AgAAB/wHsNgABFQH//wB+AAH/Aew4AAEUAfMB//8AewAB/wEUOgABEQH0/wB6AAHz
+        ARI8AAEQAfAB//8AdwAB/wERPgABDgHw/wB1AAH/AfEBEEAAAQ4BBwH//wBzAAHyAQ9DAAH3Af//AHAA
+        Af8BBwEPRAABDgGSAf//AG4AAf8B70gAAW0B//8AbAAB/wHvAQ5JAAHrAfT/AGoAAf8B7EwAARUB//8A
+        aAAB/wHsTgABFAHzAf//AGUAAf8BFFAAAREB9P8AZAAB8wESUgABEAHwAf//AGEAAf8BEVQAAQ4B8P8A
+        XwAB/wHxARBWAAEOAQcB//8AXQAB8gEPWQAB9wH//wBaAAH/AQcBD1oAAQ4BkgH//wBYAAH/AQcBDl0A
+        AewB//8AVwAB8wERXgABDgEHAf//AFYAAW1gAAEVAfT/AFUAAf9iAAHy/wBVAAH/YgAB8v8AVgAB7wEO
+        XwAB6wH//wBWAAH/AfIBFVwAARABBwH//wBZAAH/AfQB81nyAfQB//8A/wD/AP8A/wD/AP8A/wD/APMA
+        AUIBTQE+BwABPgMAASgDAAG4AQECAAFkAwABAQEAAQEFAAHgARUWAAP/AQAN/wH8KgAN/wH8KgAN/wH8
+        KgAN/wH8KgAN/wH8KgAC/wH+BwABAQL/AfwqAAL/Af4HAAEBAv8B/CoAA/8HAAEDAv8B/CoAA/8BgAYA
+        AQMC/wH8KgAF/wH+AgAF/wH8KgAF/wH+AgAF/wH8KgAF/wH+AgAF/wH8KgAF/wH+AgAF/wH8KgAF/wH+
+        AgAF/wH8KgAF/wH+AgAF/wH8KgAF/wH+AgAF/wH8KgAF/wH+AgAF/wH8KgAF/wH+AgAF/wH8KgAF/wH+
+        AgAF/wH8KgAF/wH+AgAF/wH8KgAF/wH+AgAF/wH8KgAF/wH+AgAF/wH8KgAF/wH+AgAF/wH8KgAF/wH+
+        AgAF/wH8KgAF/wH+AgAF/wH8KgAF/wH+AgAF/wH8KgAF/wH+AgAF/wH8KgAF/wH+AgAF/wH8KgAF/wH+
+        AgAF/wH8KgAF/wH+AgAF/wH8KgAF/wH+AgAF/wH8KgAF/wH+AgAF/wH8KgAF/wH+AgAF/wH8KgAF/wH+
+        AgAF/wH8KgAF/wH+AgAF/wH8KgAF/wH+AgAF/wH8KgAF/wH+AgAF/wH8KgAF/wH+AgAF/wH8KgAF/wH+
+        AgAF/wH8KgAF/wH+AgAF/wH8KgAF/wH+AgAF/wH8KgAF/wH+AgAF/wH8KgAF/wH+AgAF/wH8KgAF/wH+
+        AgAF/wH8KgAF/wH+AgAF/wH8KgAF/wH+AgAF/wH8KgAF/wH+AgAF/wH8KgAF/wH+AgAF/wH8KgAF/wH+
+        AgAF/wH8KgAF/wH+AgAF/wH8KgAF/wH+AgAF/wH8KgAF/wH8AgAF/wH8KgAF/wH4AgABPwT/AfwqAAX/
+        AfACAAE/BP8B/CoABf8BwAIAAQ8E/wH8KgAF/wHAAgABBwT/AfwqAAX/AwABAwT/AfwqAAT/Af4DAAEB
+        BP8B/CoABP8B/AQABP8B/CoABP8B+AQAAX8D/wH8KgAE/wHwBAABHwP/AfwqAAT/AeAEAAEfA/8B/CoA
+        BP8BwAQAAQcD/wH8KgAE/wGABAABBwP/AfwqAAP/Af4FAAEBA/8B/CoAA/8B/gYAA/8B/CoAA/8B+AYA
+        AX8C/wH8KgAD/wHwBgABPwL/AfwqAAP/AeAGAAEfAv8B/CoAA/8BwAYAAQ8C/wH8KgAD/wGABgABAwL/
+        AfwqAAP/BwABAwL/AfwqAAL/Af4IAAL/AfwqAAL/AfwIAAL/AfwqAAL/AfAIAAE/Af8B/CoAAv8B8AgA
+        AR8B/wH8KgAC/wHACAABDwH/AfwqAAL/AYAIAAEHAf8B/CoAAv8JAAEDAf8B/CoAAf8B/gkAAQEB/wH8
+        KgAB/wH8CgABfwH8KgAB/wH4CgABfwH8KgAB/wHwCgABHwH8KgAB/wHgCgABHwH8KgAB/wGACgABBwH8
+        KgAB/wGACgABAwH8KgAB/gsAAQEB/CoAAfwMAAH8KgAB/AwAAXwqAAH8DAABfCoAAfgMAAF8KgAB+AwA
+        AXwqAAH8DAABfCoAAfwMAAH8KgAB/wsAAQMB/CoADf8B/CoADf8B/CoADf8B/CoADf8B/CoADf8B/CoA
+        Cw==
+</value>
+  </data>
+  <data name="tabControlMenu.ItemSize" type="System.Drawing.Size, System.Drawing">
+    <value>110, 110</value>
+  </data>
+  <data name="tabControlMenu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, -4</value>
+  </data>
+  <data name="tabControlMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>622, 513</value>
+  </data>
+  <data name="tabControlMenu.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tabControlMenu.Name" xml:space="preserve">
+    <value>tabControlMenu</value>
+  </data>
+  <data name="&gt;&gt;tabControlMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabControlMenu.Parent" xml:space="preserve">
+    <value>tabPageMenu</value>
+  </data>
+  <data name="&gt;&gt;tabControlMenu.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabPageMenu.ImageIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tabPageMenu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>114, 4</value>
+  </data>
+  <data name="tabPageMenu.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabPageMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>618, 505</value>
+  </data>
+  <data name="tabPageMenu.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;tabPageMenu.Name" xml:space="preserve">
+    <value>tabPageMenu</value>
+  </data>
+  <data name="&gt;&gt;tabPageMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPageMenu.Parent" xml:space="preserve">
+    <value>tabControl</value>
+  </data>
+  <data name="&gt;&gt;tabPageMenu.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tabPageDevices.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="labelRoomDevices.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelRoomDevices.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt</value>
+  </data>
+  <data name="labelRoomDevices.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelRoomDevices.Location" type="System.Drawing.Point, System.Drawing">
+    <value>177, 33</value>
+  </data>
+  <data name="labelRoomDevices.Size" type="System.Drawing.Size, System.Drawing">
+    <value>191, 31</value>
+  </data>
+  <data name="labelRoomDevices.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="labelRoomDevices.Text" xml:space="preserve">
+    <value>Room Devices</value>
+  </data>
+  <data name="&gt;&gt;labelRoomDevices.Name" xml:space="preserve">
+    <value>labelRoomDevices</value>
+  </data>
+  <data name="&gt;&gt;labelRoomDevices.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelRoomDevices.Parent" xml:space="preserve">
+    <value>tabPageDevices</value>
+  </data>
+  <data name="&gt;&gt;labelRoomDevices.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabPageDevices.ImageIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tabPageDevices.Location" type="System.Drawing.Point, System.Drawing">
+    <value>114, 4</value>
+  </data>
+  <data name="tabPageDevices.Size" type="System.Drawing.Size, System.Drawing">
+    <value>618, 505</value>
+  </data>
+  <data name="tabPageDevices.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;tabPageDevices.Name" xml:space="preserve">
+    <value>tabPageDevices</value>
+  </data>
+  <data name="&gt;&gt;tabPageDevices.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPageDevices.Parent" xml:space="preserve">
+    <value>tabControl</value>
+  </data>
+  <data name="&gt;&gt;tabPageDevices.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tabPageExit.AutoScrollMargin" type="System.Drawing.Size, System.Drawing">
+    <value>110, 110</value>
+  </data>
+  <data name="tabPageExit.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="buttonLanguageEnglish.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="buttonLanguageEnglish.Location" type="System.Drawing.Point, System.Drawing">
+    <value>460, 270</value>
+  </data>
+  <data name="buttonLanguageEnglish.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 70</value>
+  </data>
+  <data name="buttonLanguageEnglish.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="buttonLanguageEnglish.Text" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="&gt;&gt;buttonLanguageEnglish.Name" xml:space="preserve">
+    <value>buttonLanguageEnglish</value>
+  </data>
+  <data name="&gt;&gt;buttonLanguageEnglish.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonLanguageEnglish.Parent" xml:space="preserve">
+    <value>tabPageExit</value>
+  </data>
+  <data name="&gt;&gt;buttonLanguageEnglish.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="buttonLanguageGreek.Location" type="System.Drawing.Point, System.Drawing">
+    <value>460, 118</value>
+  </data>
+  <data name="buttonLanguageGreek.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 70</value>
+  </data>
+  <data name="buttonLanguageGreek.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="buttonLanguageGreek.Text" xml:space="preserve">
+    <value>Greek</value>
+  </data>
+  <data name="&gt;&gt;buttonLanguageGreek.Name" xml:space="preserve">
+    <value>buttonLanguageGreek</value>
+  </data>
+  <data name="&gt;&gt;buttonLanguageGreek.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonLanguageGreek.Parent" xml:space="preserve">
+    <value>tabPageExit</value>
+  </data>
+  <data name="&gt;&gt;buttonLanguageGreek.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="labelWelcome.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelWelcome.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt</value>
+  </data>
+  <data name="labelWelcome.Location" type="System.Drawing.Point, System.Drawing">
+    <value>237, 29</value>
+  </data>
+  <data name="labelWelcome.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 31</value>
+  </data>
+  <data name="labelWelcome.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="labelWelcome.Text" xml:space="preserve">
+    <value>Welcome</value>
+  </data>
+  <data name="&gt;&gt;labelWelcome.Name" xml:space="preserve">
+    <value>labelWelcome</value>
+  </data>
+  <data name="&gt;&gt;labelWelcome.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelWelcome.Parent" xml:space="preserve">
+    <value>tabPageExit</value>
+  </data>
+  <data name="&gt;&gt;labelWelcome.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tabPageExit.ImageIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tabPageExit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>114, 4</value>
+  </data>
+  <data name="tabPageExit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>618, 505</value>
+  </data>
+  <data name="tabPageExit.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;tabPageExit.Name" xml:space="preserve">
+    <value>tabPageExit</value>
+  </data>
+  <data name="&gt;&gt;tabPageExit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPageExit.Parent" xml:space="preserve">
+    <value>tabControl</value>
+  </data>
+  <data name="&gt;&gt;tabPageExit.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="tabControl.ItemSize" type="System.Drawing.Size, System.Drawing">
+    <value>110, 110</value>
+  </data>
+  <data name="tabControl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-1, -2</value>
+  </data>
+  <data name="tabControl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>736, 513</value>
+  </data>
+  <data name="tabControl.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tabControl.Name" xml:space="preserve">
+    <value>tabControl</value>
+  </data>
+  <data name="&gt;&gt;tabControl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabControl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tabControl.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>734, 511</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Form6</value>
+  </data>
+  <data name="&gt;&gt;imageList.Name" xml:space="preserve">
+    <value>imageList</value>
+  </data>
+  <data name="&gt;&gt;imageList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ImageList, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>MainForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
