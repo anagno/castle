@@ -16,6 +16,10 @@ namespace Castle
 {
     public partial class MainForm : Form
     {
+        // Music Player variable. Για να μην έχουμε απόλυτα μονοπάτια θα πρέπει να προστίθενται
+        // οι τυχόν επιλογές στο Resources.resx
+        private System.Media.SoundPlayer music_player = new System.Media.SoundPlayer(Castle.Properties.Resources.song);
+
         public MainForm()
         {
             InitializeComponent();
@@ -53,6 +57,9 @@ namespace Castle
                 }
             }
 
+            // Για να βάλουμε σωστά την τιμή της θερμοκρασίας όταν αλλάζουμε την γλώσσα.
+            labelRoomDevicesTemperatureValue.Text = trackBarTemperature.Value.ToString() + " C";
+
             //Δεν αλλάζει γλώσσα ο τίτλος της φόρμας. Ή να το φιτάξω ή να το διαγράψω ...
         }
 
@@ -71,7 +78,7 @@ namespace Castle
 
         private void trackBarAlarm_ValueChanged(object sender, EventArgs e)
         {
-            ResourceManager LocRM = new ResourceManager("Castle.MainForm", typeof(MainForm).Assembly);
+            ResourceManager LocRM = new ResourceManager("Castle.Properties.strings", typeof(MainForm).Assembly);
 
             switch (trackBarAlarm.Value)
             {
@@ -82,6 +89,37 @@ namespace Castle
                     MessageBox.Show(LocRM.GetString("trackBarAlarmEnable"));
                     break;
             }
+        }
+
+        private void buttonPlay_Click(object sender, EventArgs e)
+        {
+            music_player.Play();
+        }
+
+        private void buttonStop_Click_1(object sender, EventArgs e)
+        {
+            music_player.Stop();                 
+        }
+
+        private void trackBarTemperature_ValueChanged(object sender, EventArgs e)
+        {
+            labelRoomDevicesTemperatureValue.Text = trackBarTemperature.Value.ToString() +" C";
+        }
+
+        private void trackBarDoor_ValueChanged(object sender, EventArgs e)
+        {
+            ResourceManager LocRM = new ResourceManager("Castle.Properties.strings", typeof(MainForm).Assembly);
+
+            switch (trackBarDoor.Value)
+            {
+                case 0:
+                    MessageBox.Show(LocRM.GetString("trackBarDoorClose"));
+                    break;
+                case 1:
+                    MessageBox.Show(LocRM.GetString("trackBarDoorOpen"));
+                    break;
+            }
+
         }
     }
 }

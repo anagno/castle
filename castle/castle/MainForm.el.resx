@@ -117,19 +117,12 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="tabPagePool.ImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
-  </data>
-  <data name="tabPagePool.ImageKey" xml:space="preserve">
-    <value>glass.png</value>
-  </data>
   <data name="imageList.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
         LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
         ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAABk
-        EAAAAk1TRnQBSQFMAwEBAAFcAQABYAEAAW4BAAFkAQAE/wEJARAI/wFCAU0BNgEEBgABNgEEAgABKAMA
+        EAAAAk1TRnQBSQFMAwEBAAGEAQABhAEAAW4BAAFkAQAE/wEJAQAI/wFCAU0BNgEEBgABNgEEAgABKAMA
         AbgBAQIAAWQDAAEBAQABCAUAAeABqxgAAYACAAGAAwACgAEAAYADAAGAAQABgAEAAoACAAPAAQABwAHc
         AcABAAHwAcoBpgEAATMFAAEzAQABMwEAATMBAAIzAgADFgEAAxwBAAMiAQADKQEAA1UBAANNAQADQgEA
         AzkBAAGAAXwB/wEAAlAB/wEAAZMBAAHWAQAB/wHsAcwBAAHGAdYB7wEAAdYC5wEAAZABqQGtAgAB/wEz
@@ -198,17 +191,32 @@
         AR8B/wH8KgAC/wHACAABDwH/AfwqAAL/AYAIAAEHAf8B/CoAAv8JAAEDAf8B/CoAAf8B/gkAAQEB/wH8
         KgAB/wH8CgABfwH8KgAB/wH4CgABfwH8KgAB/wHwCgABHwH8KgAB/wHgCgABHwH8KgAB/wGACgABBwH8
         KgAB/wGACgABAwH8KgAB/gsAAQEB/CoAAfwMAAH8KgAB/AwAAXwqAAH8DAABfCoAAfgMAAF8KgAB+AwA
-        AXwqAAH8DAABfCoAAfwMAAH8KgAB/wsAAQMB/CoADf8B/CoADf8B/CoADf8B/CoADf8B/CoADf8B/EAA
+        AXwqAAH8DAABfCoAAfwMAAH8KgAB/wsAAQMB/CoADf8B/CoADf8B/CoADf8B/CoADf8B/CoADf8B/CoA
         Cw==
 </value>
   </data>
-  <data name="tabPageMenu.ImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
-  </data>
-  <data name="tabPageMenu.ImageKey" xml:space="preserve">
-    <value>glass.png</value>
-  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="labelRoomDevicesDoor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 31</value>
+  </data>
+  <data name="labelRoomDevicesDoor.Text" xml:space="preserve">
+    <value>Πόρτα</value>
+  </data>
+  <data name="labelRoomDevicesTemperature.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 31</value>
+  </data>
+  <data name="labelRoomDevicesTemperature.Text" xml:space="preserve">
+    <value>Θερμοκρασία</value>
+  </data>
+  <data name="labelRoomDevicesRadio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 259</value>
+  </data>
+  <data name="labelRoomDevicesRadio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 31</value>
+  </data>
+  <data name="labelRoomDevicesRadio.Text" xml:space="preserve">
+    <value>Ραδιόφωνο</value>
+  </data>
   <data name="labelRoomDevicesAlarm.Location" type="System.Drawing.Point, System.Drawing">
     <value>97, 196</value>
   </data>
@@ -251,12 +259,6 @@
   <data name="labelRoomDevices.Text" xml:space="preserve">
     <value>Συσκευές Δωματίου</value>
   </data>
-  <data name="tabPageDevices.ImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
-  </data>
-  <data name="tabPageDevices.ImageKey" xml:space="preserve">
-    <value>glass.png</value>
-  </data>
   <data name="labelDescritptionPool.Size" type="System.Drawing.Size, System.Drawing">
     <value>92, 31</value>
   </data>
@@ -281,10 +283,6 @@
   <data name="labelDescritpionMenu.Text" xml:space="preserve">
     <value>Φαγητό - Ποτό</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="labelWelcome.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
   <data name="labelWelcome.Location" type="System.Drawing.Point, System.Drawing">
     <value>200, 26</value>
   </data>
@@ -294,19 +292,7 @@
   <data name="labelWelcome.Text" xml:space="preserve">
     <value>Καλώς ήρθατε</value>
   </data>
-  <data name="tabPageExit.ImageIndex" type="System.Int32, mscorlib">
-    <value>-1</value>
-  </data>
-  <data name="tabPageExit.ImageKey" xml:space="preserve">
-    <value>glass.png</value>
-  </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Η μικρή καστροπολιτείας μας !!!</value>
-  </data>
-  <data name="trackBarAlarmDisable" xml:space="preserve">
-    <value>Ο συναγερμός είναι απενεργοποιημένος. Προσοχή στους κλέφτες !!!</value>
-  </data>
-  <data name="trackBarAlarmEnable" xml:space="preserve">
-    <value>Ο συναγερμός είναι ενεργοποιημένος. Είστε ασφαλείς !!!</value>
   </data>
 </root>

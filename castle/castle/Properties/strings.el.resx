@@ -118,31 +118,19 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="bedroom" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bedroom.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="villecroze_cafe_provence" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\villecroze_cafe_provence.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="castle-wallpaper-3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\castle-wallpaper-3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="castle-5" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\castle-5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="size1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\size1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="bedroom2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bedroom2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="play" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\play.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="stop" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\stop.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="song" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\song.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="trackBarAlarmDisable" xml:space="preserve">
+    <value>Ο συναγερμός είναι απενεργοποιημένος. Προσοχή στους κλέφτες !!!</value>
+  </data>
+  <data name="trackBarAlarmEnable" xml:space="preserve">
+    <value>Ο συναγερμός είναι ενεργοποιημένος. Είστε ασφαλείς !!!</value>
+  </data>
+  <data name="trackBarDoorClose" xml:space="preserve">
+    <value>Η πόρτα είναι τώρα κλειδωμένη !!!</value>
+  </data>
+  <data name="trackBarDoorOpen" xml:space="preserve">
+    <value>Η πόρτα είναι ανοικτή !!!</value>
   </data>
 </root>

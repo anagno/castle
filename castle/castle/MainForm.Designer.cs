@@ -38,6 +38,14 @@
             this.tabPageCafeteria = new System.Windows.Forms.TabPage();
             this.imageList = new System.Windows.Forms.ImageList(this.components);
             this.tabPageDevices = new System.Windows.Forms.TabPage();
+            this.trackBarDoor = new System.Windows.Forms.TrackBar();
+            this.labelRoomDevicesTemperatureValue = new System.Windows.Forms.Label();
+            this.trackBarTemperature = new System.Windows.Forms.TrackBar();
+            this.labelRoomDevicesDoor = new System.Windows.Forms.Label();
+            this.labelRoomDevicesTemperature = new System.Windows.Forms.Label();
+            this.labelRoomDevicesRadio = new System.Windows.Forms.Label();
+            this.buttonStop = new System.Windows.Forms.Button();
+            this.buttonPlay = new System.Windows.Forms.Button();
             this.labelRoomDevicesAlarm = new System.Windows.Forms.Label();
             this.trackBarAlarm = new System.Windows.Forms.TrackBar();
             this.labelRoomDevicesON = new System.Windows.Forms.Label();
@@ -57,6 +65,8 @@
             this.tabPageMenu.SuspendLayout();
             this.tabControlMenu.SuspendLayout();
             this.tabPageDevices.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.trackBarDoor)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.trackBarTemperature)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBarAlarm)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBarLights)).BeginInit();
             this.tabPageExit.SuspendLayout();
@@ -76,15 +86,15 @@
             // 
             // tabPagePool
             // 
-            this.tabPagePool.BackgroundImage = global::Castle.Properties.Resources.castle_5;
             resources.ApplyResources(this.tabPagePool, "tabPagePool");
+            this.tabPagePool.BackgroundImage = global::Castle.Properties.Resources.castle_5;
             this.tabPagePool.Name = "tabPagePool";
             this.tabPagePool.UseVisualStyleBackColor = true;
             // 
             // tabPageMenu
             // 
-            this.tabPageMenu.BackgroundImage = global::Castle.Properties.Resources.castle_5;
             resources.ApplyResources(this.tabPageMenu, "tabPageMenu");
+            this.tabPageMenu.BackgroundImage = global::Castle.Properties.Resources.castle_5;
             this.tabPageMenu.Controls.Add(this.tabControlMenu);
             this.tabPageMenu.Name = "tabPageMenu";
             this.tabPageMenu.UseVisualStyleBackColor = true;
@@ -102,15 +112,15 @@
             // 
             // tabPageRestaurant
             // 
-            this.tabPageRestaurant.BackgroundImage = global::Castle.Properties.Resources.villecroze_cafe_provence;
             resources.ApplyResources(this.tabPageRestaurant, "tabPageRestaurant");
+            this.tabPageRestaurant.BackgroundImage = global::Castle.Properties.Resources.villecroze_cafe_provence;
             this.tabPageRestaurant.Name = "tabPageRestaurant";
             this.tabPageRestaurant.UseVisualStyleBackColor = true;
             // 
             // tabPageCafeteria
             // 
-            this.tabPageCafeteria.BackgroundImage = global::Castle.Properties.Resources.size1;
             resources.ApplyResources(this.tabPageCafeteria, "tabPageCafeteria");
+            this.tabPageCafeteria.BackgroundImage = global::Castle.Properties.Resources.size1;
             this.tabPageCafeteria.Name = "tabPageCafeteria";
             this.tabPageCafeteria.UseVisualStyleBackColor = true;
             // 
@@ -122,8 +132,16 @@
             // 
             // tabPageDevices
             // 
-            this.tabPageDevices.BackgroundImage = global::Castle.Properties.Resources.bedroom;
             resources.ApplyResources(this.tabPageDevices, "tabPageDevices");
+            this.tabPageDevices.BackgroundImage = global::Castle.Properties.Resources.bedroom;
+            this.tabPageDevices.Controls.Add(this.trackBarDoor);
+            this.tabPageDevices.Controls.Add(this.labelRoomDevicesTemperatureValue);
+            this.tabPageDevices.Controls.Add(this.trackBarTemperature);
+            this.tabPageDevices.Controls.Add(this.labelRoomDevicesDoor);
+            this.tabPageDevices.Controls.Add(this.labelRoomDevicesTemperature);
+            this.tabPageDevices.Controls.Add(this.labelRoomDevicesRadio);
+            this.tabPageDevices.Controls.Add(this.buttonStop);
+            this.tabPageDevices.Controls.Add(this.buttonPlay);
             this.tabPageDevices.Controls.Add(this.labelRoomDevicesAlarm);
             this.tabPageDevices.Controls.Add(this.trackBarAlarm);
             this.tabPageDevices.Controls.Add(this.labelRoomDevicesON);
@@ -133,6 +151,63 @@
             this.tabPageDevices.Controls.Add(this.labelRoomDevices);
             this.tabPageDevices.Name = "tabPageDevices";
             this.tabPageDevices.UseVisualStyleBackColor = true;
+            // 
+            // trackBarDoor
+            // 
+            resources.ApplyResources(this.trackBarDoor, "trackBarDoor");
+            this.trackBarDoor.Maximum = 1;
+            this.trackBarDoor.Name = "trackBarDoor";
+            this.trackBarDoor.Value = 1;
+            this.trackBarDoor.ValueChanged += new System.EventHandler(this.trackBarDoor_ValueChanged);
+            // 
+            // labelRoomDevicesTemperatureValue
+            // 
+            resources.ApplyResources(this.labelRoomDevicesTemperatureValue, "labelRoomDevicesTemperatureValue");
+            this.labelRoomDevicesTemperatureValue.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.labelRoomDevicesTemperatureValue.Name = "labelRoomDevicesTemperatureValue";
+            // 
+            // trackBarTemperature
+            // 
+            resources.ApplyResources(this.trackBarTemperature, "trackBarTemperature");
+            this.trackBarTemperature.Maximum = 35;
+            this.trackBarTemperature.Minimum = 14;
+            this.trackBarTemperature.Name = "trackBarTemperature";
+            this.trackBarTemperature.Value = 22;
+            this.trackBarTemperature.ValueChanged += new System.EventHandler(this.trackBarTemperature_ValueChanged);
+            // 
+            // labelRoomDevicesDoor
+            // 
+            resources.ApplyResources(this.labelRoomDevicesDoor, "labelRoomDevicesDoor");
+            this.labelRoomDevicesDoor.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.labelRoomDevicesDoor.Name = "labelRoomDevicesDoor";
+            // 
+            // labelRoomDevicesTemperature
+            // 
+            resources.ApplyResources(this.labelRoomDevicesTemperature, "labelRoomDevicesTemperature");
+            this.labelRoomDevicesTemperature.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.labelRoomDevicesTemperature.Name = "labelRoomDevicesTemperature";
+            // 
+            // labelRoomDevicesRadio
+            // 
+            resources.ApplyResources(this.labelRoomDevicesRadio, "labelRoomDevicesRadio");
+            this.labelRoomDevicesRadio.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.labelRoomDevicesRadio.Name = "labelRoomDevicesRadio";
+            // 
+            // buttonStop
+            // 
+            resources.ApplyResources(this.buttonStop, "buttonStop");
+            this.buttonStop.BackgroundImage = global::Castle.Properties.Resources.stop;
+            this.buttonStop.Name = "buttonStop";
+            this.buttonStop.UseVisualStyleBackColor = true;
+            this.buttonStop.Click += new System.EventHandler(this.buttonStop_Click_1);
+            // 
+            // buttonPlay
+            // 
+            resources.ApplyResources(this.buttonPlay, "buttonPlay");
+            this.buttonPlay.BackgroundImage = global::Castle.Properties.Resources.play;
+            this.buttonPlay.Name = "buttonPlay";
+            this.buttonPlay.UseVisualStyleBackColor = true;
+            this.buttonPlay.Click += new System.EventHandler(this.buttonPlay_Click);
             // 
             // labelRoomDevicesAlarm
             // 
@@ -247,6 +322,8 @@
             this.tabControlMenu.ResumeLayout(false);
             this.tabPageDevices.ResumeLayout(false);
             this.tabPageDevices.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.trackBarDoor)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.trackBarTemperature)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBarAlarm)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBarLights)).EndInit();
             this.tabPageExit.ResumeLayout(false);
@@ -280,5 +357,13 @@
         private System.Windows.Forms.Label labelRoomDevicesOFF;
         private System.Windows.Forms.TrackBar trackBarAlarm;
         private System.Windows.Forms.Label labelRoomDevicesAlarm;
+        private System.Windows.Forms.Label labelRoomDevicesRadio;
+        private System.Windows.Forms.Button buttonStop;
+        private System.Windows.Forms.Button buttonPlay;
+        private System.Windows.Forms.TrackBar trackBarTemperature;
+        private System.Windows.Forms.Label labelRoomDevicesDoor;
+        private System.Windows.Forms.Label labelRoomDevicesTemperature;
+        private System.Windows.Forms.Label labelRoomDevicesTemperatureValue;
+        private System.Windows.Forms.TrackBar trackBarDoor;
     }
 }
