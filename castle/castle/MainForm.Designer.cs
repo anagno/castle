@@ -38,6 +38,12 @@
             this.tabPageCafeteria = new System.Windows.Forms.TabPage();
             this.imageList = new System.Windows.Forms.ImageList(this.components);
             this.tabPageDevices = new System.Windows.Forms.TabPage();
+            this.labelRoomDevicesAlarm = new System.Windows.Forms.Label();
+            this.trackBarAlarm = new System.Windows.Forms.TrackBar();
+            this.labelRoomDevicesON = new System.Windows.Forms.Label();
+            this.labelRoomDevicesOFF = new System.Windows.Forms.Label();
+            this.labelRoomDevicesLights = new System.Windows.Forms.Label();
+            this.trackBarLights = new System.Windows.Forms.TrackBar();
             this.labelRoomDevices = new System.Windows.Forms.Label();
             this.tabPageExit = new System.Windows.Forms.TabPage();
             this.labelDescritptionPool = new System.Windows.Forms.Label();
@@ -47,10 +53,14 @@
             this.buttonLanguageEnglish = new System.Windows.Forms.Button();
             this.buttonLanguageGreek = new System.Windows.Forms.Button();
             this.labelWelcome = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.tabControl.SuspendLayout();
+            this.tabPagePool.SuspendLayout();
             this.tabPageMenu.SuspendLayout();
             this.tabControlMenu.SuspendLayout();
             this.tabPageDevices.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.trackBarAlarm)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.trackBarLights)).BeginInit();
             this.tabPageExit.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -70,6 +80,7 @@
             // 
             this.tabPagePool.BackgroundImage = global::Castle.Properties.Resources.castle_5;
             resources.ApplyResources(this.tabPagePool, "tabPagePool");
+            this.tabPagePool.Controls.Add(this.button1);
             this.tabPagePool.Name = "tabPagePool";
             this.tabPagePool.UseVisualStyleBackColor = true;
             // 
@@ -116,9 +127,53 @@
             // 
             this.tabPageDevices.BackgroundImage = global::Castle.Properties.Resources.bedroom;
             resources.ApplyResources(this.tabPageDevices, "tabPageDevices");
+            this.tabPageDevices.Controls.Add(this.labelRoomDevicesAlarm);
+            this.tabPageDevices.Controls.Add(this.trackBarAlarm);
+            this.tabPageDevices.Controls.Add(this.labelRoomDevicesON);
+            this.tabPageDevices.Controls.Add(this.labelRoomDevicesOFF);
+            this.tabPageDevices.Controls.Add(this.labelRoomDevicesLights);
+            this.tabPageDevices.Controls.Add(this.trackBarLights);
             this.tabPageDevices.Controls.Add(this.labelRoomDevices);
             this.tabPageDevices.Name = "tabPageDevices";
             this.tabPageDevices.UseVisualStyleBackColor = true;
+            // 
+            // labelRoomDevicesAlarm
+            // 
+            resources.ApplyResources(this.labelRoomDevicesAlarm, "labelRoomDevicesAlarm");
+            this.labelRoomDevicesAlarm.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.labelRoomDevicesAlarm.Name = "labelRoomDevicesAlarm";
+            // 
+            // trackBarAlarm
+            // 
+            resources.ApplyResources(this.trackBarAlarm, "trackBarAlarm");
+            this.trackBarAlarm.Maximum = 1;
+            this.trackBarAlarm.Name = "trackBarAlarm";
+            this.trackBarAlarm.ValueChanged += new System.EventHandler(this.trackBarAlarm_ValueChanged);
+            // 
+            // labelRoomDevicesON
+            // 
+            resources.ApplyResources(this.labelRoomDevicesON, "labelRoomDevicesON");
+            this.labelRoomDevicesON.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.labelRoomDevicesON.Name = "labelRoomDevicesON";
+            // 
+            // labelRoomDevicesOFF
+            // 
+            resources.ApplyResources(this.labelRoomDevicesOFF, "labelRoomDevicesOFF");
+            this.labelRoomDevicesOFF.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.labelRoomDevicesOFF.Name = "labelRoomDevicesOFF";
+            // 
+            // labelRoomDevicesLights
+            // 
+            resources.ApplyResources(this.labelRoomDevicesLights, "labelRoomDevicesLights");
+            this.labelRoomDevicesLights.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.labelRoomDevicesLights.Name = "labelRoomDevicesLights";
+            // 
+            // trackBarLights
+            // 
+            resources.ApplyResources(this.trackBarLights, "trackBarLights");
+            this.trackBarLights.Maximum = 1;
+            this.trackBarLights.Name = "trackBarLights";
+            this.trackBarLights.ValueChanged += new System.EventHandler(this.trackBarLights_ValueChanged);
             // 
             // labelRoomDevices
             // 
@@ -183,6 +238,12 @@
             resources.ApplyResources(this.labelWelcome, "labelWelcome");
             this.labelWelcome.Name = "labelWelcome";
             // 
+            // button1
+            // 
+            resources.ApplyResources(this.button1, "button1");
+            this.button1.Name = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // MainForm
             // 
             resources.ApplyResources(this, "$this");
@@ -190,10 +251,13 @@
             this.Controls.Add(this.tabControl);
             this.Name = "MainForm";
             this.tabControl.ResumeLayout(false);
+            this.tabPagePool.ResumeLayout(false);
             this.tabPageMenu.ResumeLayout(false);
             this.tabControlMenu.ResumeLayout(false);
             this.tabPageDevices.ResumeLayout(false);
             this.tabPageDevices.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.trackBarAlarm)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.trackBarLights)).EndInit();
             this.tabPageExit.ResumeLayout(false);
             this.tabPageExit.PerformLayout();
             this.ResumeLayout(false);
@@ -219,5 +283,12 @@
         private System.Windows.Forms.Label labelDescriptionRoomDevices;
         private System.Windows.Forms.Label labelDescritpionExit;
         private System.Windows.Forms.Label labelDescritptionPool;
+        private System.Windows.Forms.TrackBar trackBarLights;
+        private System.Windows.Forms.Label labelRoomDevicesLights;
+        private System.Windows.Forms.Label labelRoomDevicesON;
+        private System.Windows.Forms.Label labelRoomDevicesOFF;
+        private System.Windows.Forms.TrackBar trackBarAlarm;
+        private System.Windows.Forms.Label labelRoomDevicesAlarm;
+        private System.Windows.Forms.Button button1;
     }
 }

@@ -124,11 +124,35 @@
   <data name="tabPagePool.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
   </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>273, 114</value>
+  </data>
+  <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="button1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="button1.Text" xml:space="preserve">
+    <value>button1</value>
+  </data>
+  <data name="&gt;&gt;button1.Name" xml:space="preserve">
+    <value>button1</value>
+  </data>
+  <data name="&gt;&gt;button1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button1.Parent" xml:space="preserve">
+    <value>tabPagePool</value>
+  </data>
+  <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <data name="tabPagePool.ImageIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="tabPagePool.Location" type="System.Drawing.Point, System.Drawing">
     <value>114, 4</value>
   </data>
@@ -222,15 +246,15 @@
   <data name="&gt;&gt;tabPageCafeteria.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <metadata name="imageList.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+  <data name="imageList.TrayLocation" type="System.Drawing.Point, System.Drawing">
     <value>17, 17</value>
-  </metadata>
+  </data>
   <data name="imageList.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
         LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
         ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAABk
-        EAAAAk1TRnQBSQFMAwEBAAFwAQABcAEAAW4BAAFkAQAE/wEJAQAI/wFCAU0BNgEEBgABNgEEAgABKAMA
+        EAAAAk1TRnQBSQFMAwEBAAHEAQAByAEAAW4BAAFkAQAE/wEJARAI/wFCAU0BNgEEBgABNgEEAgABKAMA
         AbgBAQIAAWQDAAEBAQABCAUAAeABqxgAAYACAAGAAwACgAEAAYADAAGAAQABgAEAAoACAAPAAQABwAHc
         AcABAAHwAcoBpgEAATMFAAEzAQABMwEAATMBAAIzAgADFgEAAxwBAAMiAQADKQEAA1UBAANNAQADQgEA
         AzkBAAGAAXwB/wEAAlAB/wEAAZMBAAHWAQAB/wHsAcwBAAHGAdYB7wEAAdYC5wEAAZABqQGtAgAB/wEz
@@ -299,7 +323,7 @@
         AR8B/wH8KgAC/wHACAABDwH/AfwqAAL/AYAIAAEHAf8B/CoAAv8JAAEDAf8B/CoAAf8B/gkAAQEB/wH8
         KgAB/wH8CgABfwH8KgAB/wH4CgABfwH8KgAB/wHwCgABHwH8KgAB/wHgCgABHwH8KgAB/wGACgABBwH8
         KgAB/wGACgABAwH8KgAB/gsAAQEB/CoAAfwMAAH8KgAB/AwAAXwqAAH8DAABfCoAAfgMAAF8KgAB+AwA
-        AXwqAAH8DAABfCoAAfwMAAH8KgAB/wsAAQMB/CoADf8B/CoADf8B/CoADf8B/CoADf8B/CoADf8B/CoA
+        AXwqAAH8DAABfCoAAfwMAAH8KgAB/wsAAQMB/CoADf8B/CoADf8B/CoADf8B/CoADf8B/CoADf8B/EAA
         Cw==
 </value>
   </data>
@@ -357,6 +381,180 @@
   <data name="tabPageDevices.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
   </data>
+  <data name="labelRoomDevicesAlarm.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelRoomDevicesAlarm.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt</value>
+  </data>
+  <data name="labelRoomDevicesAlarm.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelRoomDevicesAlarm.Location" type="System.Drawing.Point, System.Drawing">
+    <value>132, 196</value>
+  </data>
+  <data name="labelRoomDevicesAlarm.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 31</value>
+  </data>
+  <data name="labelRoomDevicesAlarm.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="labelRoomDevicesAlarm.Text" xml:space="preserve">
+    <value>Alarm</value>
+  </data>
+  <data name="&gt;&gt;labelRoomDevicesAlarm.Name" xml:space="preserve">
+    <value>labelRoomDevicesAlarm</value>
+  </data>
+  <data name="&gt;&gt;labelRoomDevicesAlarm.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelRoomDevicesAlarm.Parent" xml:space="preserve">
+    <value>tabPageDevices</value>
+  </data>
+  <data name="&gt;&gt;labelRoomDevicesAlarm.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="trackBarAlarm.Location" type="System.Drawing.Point, System.Drawing">
+    <value>314, 196</value>
+  </data>
+  <data name="trackBarAlarm.Size" type="System.Drawing.Size, System.Drawing">
+    <value>264, 45</value>
+  </data>
+  <data name="trackBarAlarm.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;trackBarAlarm.Name" xml:space="preserve">
+    <value>trackBarAlarm</value>
+  </data>
+  <data name="&gt;&gt;trackBarAlarm.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;trackBarAlarm.Parent" xml:space="preserve">
+    <value>tabPageDevices</value>
+  </data>
+  <data name="&gt;&gt;trackBarAlarm.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="labelRoomDevicesON.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelRoomDevicesON.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="labelRoomDevicesON.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelRoomDevicesON.Location" type="System.Drawing.Point, System.Drawing">
+    <value>535, 100</value>
+  </data>
+  <data name="labelRoomDevicesON.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 25</value>
+  </data>
+  <data name="labelRoomDevicesON.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="labelRoomDevicesON.Text" xml:space="preserve">
+    <value>ON</value>
+  </data>
+  <data name="&gt;&gt;labelRoomDevicesON.Name" xml:space="preserve">
+    <value>labelRoomDevicesON</value>
+  </data>
+  <data name="&gt;&gt;labelRoomDevicesON.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelRoomDevicesON.Parent" xml:space="preserve">
+    <value>tabPageDevices</value>
+  </data>
+  <data name="&gt;&gt;labelRoomDevicesON.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="labelRoomDevicesOFF.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelRoomDevicesOFF.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="labelRoomDevicesOFF.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelRoomDevicesOFF.Location" type="System.Drawing.Point, System.Drawing">
+    <value>290, 100</value>
+  </data>
+  <data name="labelRoomDevicesOFF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 25</value>
+  </data>
+  <data name="labelRoomDevicesOFF.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="labelRoomDevicesOFF.Text" xml:space="preserve">
+    <value>OFF</value>
+  </data>
+  <data name="&gt;&gt;labelRoomDevicesOFF.Name" xml:space="preserve">
+    <value>labelRoomDevicesOFF</value>
+  </data>
+  <data name="&gt;&gt;labelRoomDevicesOFF.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelRoomDevicesOFF.Parent" xml:space="preserve">
+    <value>tabPageDevices</value>
+  </data>
+  <data name="&gt;&gt;labelRoomDevicesOFF.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="labelRoomDevicesLights.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelRoomDevicesLights.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt</value>
+  </data>
+  <data name="labelRoomDevicesLights.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelRoomDevicesLights.Location" type="System.Drawing.Point, System.Drawing">
+    <value>132, 128</value>
+  </data>
+  <data name="labelRoomDevicesLights.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 31</value>
+  </data>
+  <data name="labelRoomDevicesLights.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="labelRoomDevicesLights.Text" xml:space="preserve">
+    <value>Lights</value>
+  </data>
+  <data name="&gt;&gt;labelRoomDevicesLights.Name" xml:space="preserve">
+    <value>labelRoomDevicesLights</value>
+  </data>
+  <data name="&gt;&gt;labelRoomDevicesLights.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelRoomDevicesLights.Parent" xml:space="preserve">
+    <value>tabPageDevices</value>
+  </data>
+  <data name="&gt;&gt;labelRoomDevicesLights.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="trackBarLights.Location" type="System.Drawing.Point, System.Drawing">
+    <value>314, 128</value>
+  </data>
+  <data name="trackBarLights.Size" type="System.Drawing.Size, System.Drawing">
+    <value>260, 45</value>
+  </data>
+  <data name="trackBarLights.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;trackBarLights.Name" xml:space="preserve">
+    <value>trackBarLights</value>
+  </data>
+  <data name="&gt;&gt;trackBarLights.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;trackBarLights.Parent" xml:space="preserve">
+    <value>tabPageDevices</value>
+  </data>
+  <data name="&gt;&gt;trackBarLights.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
   <data name="labelRoomDevices.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -388,7 +586,7 @@
     <value>tabPageDevices</value>
   </data>
   <data name="&gt;&gt;labelRoomDevices.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>6</value>
   </data>
   <data name="tabPageDevices.ImageIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -681,9 +879,9 @@
   <data name="&gt;&gt;tabControl.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <data name="$this.Localizable" type="System.Boolean, mscorlib">
     <value>True</value>
-  </metadata>
+  </data>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>6, 13</value>
   </data>
@@ -704,5 +902,11 @@
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
     <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="trackBarAlarmDisable" xml:space="preserve">
+    <value>The alarm is disable. Be aware of the thieves !!!!</value>
+  </data>
+  <data name="trackBarAlarmEnable" xml:space="preserve">
+    <value>The alarm is enable. You are safe !!!</value>
   </data>
 </root>

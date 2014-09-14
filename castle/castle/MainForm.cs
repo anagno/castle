@@ -10,6 +10,7 @@ using System.Windows.Forms;
 
 using System.Threading;
 using System.Globalization;
+using System.Resources;
 
 namespace Castle
 {
@@ -18,6 +19,10 @@ namespace Castle
         public MainForm()
         {
             InitializeComponent();
+
+            // Ενεργοποίηση των φώτων
+            trackBarLights.Value = 1;
+
             // Για να επιλεχθεί το τελευαίο tab στην Form
             tabControl.SelectedTab = tabPageExit;
         }
@@ -52,6 +57,34 @@ namespace Castle
             }
 
             //Δεν αλλάζει γλώσσα ο τίτλος της φόρμας. Ή να το φιτάξω ή να το διαγράψω ...
+        }
+
+        private void trackBarLights_ValueChanged(object sender, EventArgs e)
+        {
+            switch(trackBarLights.Value)
+            {
+                case 0:
+                    this.tabControl.SelectedTab.BackgroundImage = Castle.Properties.Resources.bedroom2;
+                    break;
+                case 1:
+                    this.tabControl.SelectedTab.BackgroundImage = Castle.Properties.Resources.bedroom;
+                    break;
+            }
+        }
+
+        private void trackBarAlarm_ValueChanged(object sender, EventArgs e)
+        {
+            ResourceManager LocRM = new ResourceManager("Castle.MainForm", typeof(MainForm).Assembly);
+
+            switch (trackBarAlarm.Value)
+            {
+                case 0:
+                    MessageBox.Show(LocRM.GetString("trackBarAlarmDisable"));
+                    break;
+                case 1:
+                    MessageBox.Show(LocRM.GetString("trackBarAlarmEnable"));
+                    break;
+            }
         }
     }
 }
