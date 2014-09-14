@@ -124,35 +124,11 @@
   <data name="tabPagePool.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>273, 114</value>
-  </data>
-  <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="button1.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="button1.Text" xml:space="preserve">
-    <value>button1</value>
-  </data>
-  <data name="&gt;&gt;button1.Name" xml:space="preserve">
-    <value>button1</value>
-  </data>
-  <data name="&gt;&gt;button1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;button1.Parent" xml:space="preserve">
-    <value>tabPagePool</value>
-  </data>
-  <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
   <data name="tabPagePool.ImageIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="tabPagePool.Location" type="System.Drawing.Point, System.Drawing">
     <value>114, 4</value>
   </data>
@@ -254,7 +230,7 @@
         AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
         LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
         ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAABk
-        EAAAAk1TRnQBSQFMAwEBAAHEAQAByAEAAW4BAAFkAQAE/wEJARAI/wFCAU0BNgEEBgABNgEEAgABKAMA
+        EAAAAk1TRnQBSQFMAwEBAAHQAQAB1AEAAW4BAAFkAQAE/wEJARAI/wFCAU0BNgEEBgABNgEEAgABKAMA
         AbgBAQIAAWQDAAEBAQABCAUAAeABqxgAAYACAAGAAwACgAEAAYADAAGAAQABgAEAAoACAAPAAQABwAHc
         AcABAAHwAcoBpgEAATMFAAEzAQABMwEAATMBAAIzAgADFgEAAxwBAAMiAQADKQEAA1UBAANNAQADQgEA
         AzkBAAGAAXwB/wEAAlAB/wEAAZMBAAHWAQAB/wHsAcwBAAHGAdYB7wEAAdYC5wEAAZABqQGtAgAB/wEz
@@ -904,7 +880,7 @@
     <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="trackBarAlarmDisable" xml:space="preserve">
-    <value>The alarm is disable. Be aware of the thieves !!!!</value>
+    <value>The alarm is disable. Be aware of the thieves !!!</value>
   </data>
   <data name="trackBarAlarmEnable" xml:space="preserve">
     <value>The alarm is enable. You are safe !!!</value>

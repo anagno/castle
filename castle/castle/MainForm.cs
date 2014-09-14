@@ -20,9 +20,6 @@ namespace Castle
         {
             InitializeComponent();
 
-            // Ενεργοποίηση των φώτων
-            trackBarLights.Value = 1;
-
             // Για να επιλεχθεί το τελευαίο tab στην Form
             tabControl.SelectedTab = tabPageExit;
         }

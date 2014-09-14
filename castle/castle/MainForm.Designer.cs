@@ -53,9 +53,7 @@
             this.buttonLanguageEnglish = new System.Windows.Forms.Button();
             this.buttonLanguageGreek = new System.Windows.Forms.Button();
             this.labelWelcome = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
             this.tabControl.SuspendLayout();
-            this.tabPagePool.SuspendLayout();
             this.tabPageMenu.SuspendLayout();
             this.tabControlMenu.SuspendLayout();
             this.tabPageDevices.SuspendLayout();
@@ -80,7 +78,6 @@
             // 
             this.tabPagePool.BackgroundImage = global::Castle.Properties.Resources.castle_5;
             resources.ApplyResources(this.tabPagePool, "tabPagePool");
-            this.tabPagePool.Controls.Add(this.button1);
             this.tabPagePool.Name = "tabPagePool";
             this.tabPagePool.UseVisualStyleBackColor = true;
             // 
@@ -173,6 +170,7 @@
             resources.ApplyResources(this.trackBarLights, "trackBarLights");
             this.trackBarLights.Maximum = 1;
             this.trackBarLights.Name = "trackBarLights";
+            this.trackBarLights.Value = 1;
             this.trackBarLights.ValueChanged += new System.EventHandler(this.trackBarLights_ValueChanged);
             // 
             // labelRoomDevices
@@ -238,12 +236,6 @@
             resources.ApplyResources(this.labelWelcome, "labelWelcome");
             this.labelWelcome.Name = "labelWelcome";
             // 
-            // button1
-            // 
-            resources.ApplyResources(this.button1, "button1");
-            this.button1.Name = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
             // MainForm
             // 
             resources.ApplyResources(this, "$this");
@@ -251,7 +243,6 @@
             this.Controls.Add(this.tabControl);
             this.Name = "MainForm";
             this.tabControl.ResumeLayout(false);
-            this.tabPagePool.ResumeLayout(false);
             this.tabPageMenu.ResumeLayout(false);
             this.tabControlMenu.ResumeLayout(false);
             this.tabPageDevices.ResumeLayout(false);
@@ -289,6 +280,5 @@
         private System.Windows.Forms.Label labelRoomDevicesOFF;
         private System.Windows.Forms.TrackBar trackBarAlarm;
         private System.Windows.Forms.Label labelRoomDevicesAlarm;
-        private System.Windows.Forms.Button button1;
     }
 }
