@@ -61,6 +61,51 @@ namespace Castle.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to The sum is: .
+        /// </summary>
+        internal static string buttonMenuPayment {
+            get {
+                return ResourceManager.GetString("buttonMenuPayment", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to  euros. Procced? .
+        /// </summary>
+        internal static string buttonMenuPayment2 {
+            get {
+                return ResourceManager.GetString("buttonMenuPayment2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The order was canceled..
+        /// </summary>
+        internal static string buttonMenuPaymentCancel {
+            get {
+                return ResourceManager.GetString("buttonMenuPaymentCancel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Your card was charged..
+        /// </summary>
+        internal static string buttonMenuPaymentCard {
+            get {
+                return ResourceManager.GetString("buttonMenuPaymentCard", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to You must choose something..
+        /// </summary>
+        internal static string buttonMenuPaymentEmpty {
+            get {
+                return ResourceManager.GetString("buttonMenuPaymentEmpty", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
         internal static System.IO.UnmanagedMemoryStream song {

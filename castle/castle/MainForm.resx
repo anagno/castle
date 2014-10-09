@@ -117,120 +117,951 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="labelRoomDevicesLights.Size" type="System.Drawing.Size, System.Drawing">
-    <value>87, 31</value>
-  </data>
-  <data name="labelWelcome.Text" xml:space="preserve">
-    <value>Welcome</value>
-  </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="labelRoomDevicesTemperatureValue.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="tabControl.Alignment" type="System.Windows.Forms.TabAlignment, System.Windows.Forms">
+    <value>Left</value>
   </data>
-  <data name="&gt;&gt;labelDescritpionExit.Parent" xml:space="preserve">
-    <value>tabPageExit</value>
-  </data>
-  <data name="&gt;&gt;labelRoomDevicesDoor.Name" xml:space="preserve">
-    <value>labelRoomDevicesDoor</value>
-  </data>
-  <data name="labelDescriptionRoomDevices.Size" type="System.Drawing.Size, System.Drawing">
-    <value>191, 31</value>
-  </data>
-  <data name="labelRoomDevicesON.Size" type="System.Drawing.Size, System.Drawing">
-    <value>43, 25</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="labelRoomDevicesDoor.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
-  </data>
-  <data name="labelRoomDevicesOFF.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;labelRoomDevicesRadio.Parent" xml:space="preserve">
-    <value>tabPageDevices</value>
-  </data>
-  <data name="labelRoomDevicesRadio.Size" type="System.Drawing.Size, System.Drawing">
-    <value>85, 31</value>
-  </data>
-  <data name="&gt;&gt;buttonLanguageEnglish.Parent" xml:space="preserve">
-    <value>tabPageExit</value>
-  </data>
-  <data name="labelRoomDevicesOFF.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;labelDescriptionRoomDevices.Parent" xml:space="preserve">
-    <value>tabPageExit</value>
-  </data>
-  <data name="tabPageDevices.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+  <data name="tabPagePool.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
   </data>
-  <data name="trackBarLights.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
+  <data name="tabPagePool.ImageKey" xml:space="preserve">
+    <value>glass.png</value>
   </data>
-  <data name="buttonLanguageGreek.TabIndex" type="System.Int32, mscorlib">
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="tabPagePool.Location" type="System.Drawing.Point, System.Drawing">
+    <value>114, 4</value>
+  </data>
+  <data name="tabPagePool.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabPagePool.Size" type="System.Drawing.Size, System.Drawing">
+    <value>618, 505</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tabPagePool.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="labelRoomDevicesDoor.Location" type="System.Drawing.Point, System.Drawing">
-    <value>134, 411</value>
+  <data name="&gt;&gt;tabPagePool.Name" xml:space="preserve">
+    <value>tabPagePool</value>
   </data>
-  <data name="labelRoomDevicesLights.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 20.25pt</value>
+  <data name="&gt;&gt;tabPagePool.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="labelRoomDevicesOFF.Location" type="System.Drawing.Point, System.Drawing">
-    <value>290, 100</value>
-  </data>
-  <data name="&gt;&gt;labelRoomDevicesLights.Parent" xml:space="preserve">
-    <value>tabPageDevices</value>
-  </data>
-  <data name="labelDescritpionMenu.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="&gt;&gt;tabPagePool.Parent" xml:space="preserve">
+    <value>tabControl</value>
   </data>
   <data name="&gt;&gt;tabPagePool.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;labelRoomDevicesLights.ZOrder" xml:space="preserve">
-    <value>12</value>
+  <data name="tabPageMenu.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
   </data>
-  <data name="labelWelcome.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="buttonMenuPayment.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
-  <data name="labelRoomDevicesOFF.Text" xml:space="preserve">
-    <value>OFF</value>
+  <data name="buttonMenuPayment.Location" type="System.Drawing.Point, System.Drawing">
+    <value>175, 477</value>
   </data>
-  <data name="tabPageMenu.TabIndex" type="System.Int32, mscorlib">
+  <data name="buttonMenuPayment.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 23</value>
+  </data>
+  <data name="buttonMenuPayment.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="buttonMenuPayment.Text" xml:space="preserve">
+    <value>Payment </value>
+  </data>
+  <data name="&gt;&gt;buttonMenuPayment.Name" xml:space="preserve">
+    <value>buttonMenuPayment</value>
+  </data>
+  <data name="&gt;&gt;buttonMenuPayment.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonMenuPayment.Parent" xml:space="preserve">
+    <value>tabPageMenu</value>
+  </data>
+  <data name="&gt;&gt;buttonMenuPayment.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="buttonMenuCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>296, 477</value>
+  </data>
+  <data name="buttonMenuCancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 23</value>
+  </data>
+  <data name="buttonMenuCancel.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="buttonMenuCancel.Text" xml:space="preserve">
+    <value>Cancel </value>
+  </data>
+  <data name="&gt;&gt;buttonMenuCancel.Name" xml:space="preserve">
+    <value>buttonMenuCancel</value>
+  </data>
+  <data name="&gt;&gt;buttonMenuCancel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonMenuCancel.Parent" xml:space="preserve">
+    <value>tabPageMenu</value>
+  </data>
+  <data name="&gt;&gt;buttonMenuCancel.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="buttonLanguageEnglish.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="tabControlMenu.Alignment" type="System.Windows.Forms.TabAlignment, System.Windows.Forms">
+    <value>Left</value>
   </data>
-  <data name="labelRoomDevicesTemperatureValue.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 15.75pt</value>
+  <data name="tabControlMenu.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
   </data>
-  <data name="&gt;&gt;labelRoomDevicesLights.Type" xml:space="preserve">
+  <data name="tabPageRestaurant.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="checkBoxMenuFoodCheececake.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBoxMenuFoodCheececake.Location" type="System.Drawing.Point, System.Drawing">
+    <value>210, 214</value>
+  </data>
+  <data name="checkBoxMenuFoodCheececake.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 17</value>
+  </data>
+  <data name="checkBoxMenuFoodCheececake.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="checkBoxMenuFoodCheececake.Text" xml:space="preserve">
+    <value>Cheececake - 10.00</value>
+  </data>
+  <data name="&gt;&gt;checkBoxMenuFoodCheececake.Name" xml:space="preserve">
+    <value>checkBoxMenuFoodCheececake</value>
+  </data>
+  <data name="&gt;&gt;checkBoxMenuFoodCheececake.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxMenuFoodCheececake.Parent" xml:space="preserve">
+    <value>groupBoxMenuFood</value>
+  </data>
+  <data name="&gt;&gt;checkBoxMenuFoodCheececake.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="labelMenuFoodSweet.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelMenuFoodSweet.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold, Underline</value>
+  </data>
+  <data name="labelMenuFoodSweet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>228, 161</value>
+  </data>
+  <data name="labelMenuFoodSweet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 13</value>
+  </data>
+  <data name="labelMenuFoodSweet.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="labelMenuFoodSweet.Text" xml:space="preserve">
+    <value>Sweets</value>
+  </data>
+  <data name="&gt;&gt;labelMenuFoodSweet.Name" xml:space="preserve">
+    <value>labelMenuFoodSweet</value>
+  </data>
+  <data name="&gt;&gt;labelMenuFoodSweet.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="trackBarAlarm.Size" type="System.Drawing.Size, System.Drawing">
-    <value>264, 45</value>
+  <data name="&gt;&gt;labelMenuFoodSweet.Parent" xml:space="preserve">
+    <value>groupBoxMenuFood</value>
   </data>
-  <data name="&gt;&gt;labelRoomDevicesRadio.Name" xml:space="preserve">
-    <value>labelRoomDevicesRadio</value>
-  </data>
-  <data name="&gt;&gt;labelRoomDevicesTemperatureValue.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;labelMenuFoodSweet.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="labelRoomDevicesDoor.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 20.25pt</value>
+  <data name="checkBoxMenuFoodProfiterol.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
-  <data name="labelDescritpionExit.Text" xml:space="preserve">
-    <value>Exit</value>
+  <data name="checkBoxMenuFoodProfiterol.Location" type="System.Drawing.Point, System.Drawing">
+    <value>210, 191</value>
   </data>
+  <data name="checkBoxMenuFoodProfiterol.Size" type="System.Drawing.Size, System.Drawing">
+    <value>109, 17</value>
+  </data>
+  <data name="checkBoxMenuFoodProfiterol.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="checkBoxMenuFoodProfiterol.Text" xml:space="preserve">
+    <value>Profiterole - 10.00</value>
+  </data>
+  <data name="&gt;&gt;checkBoxMenuFoodProfiterol.Name" xml:space="preserve">
+    <value>checkBoxMenuFoodProfiterol</value>
+  </data>
+  <data name="&gt;&gt;checkBoxMenuFoodProfiterol.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxMenuFoodProfiterol.Parent" xml:space="preserve">
+    <value>groupBoxMenuFood</value>
+  </data>
+  <data name="&gt;&gt;checkBoxMenuFoodProfiterol.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="checkBoxMenuFoodCarbonara.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBoxMenuFoodCarbonara.Location" type="System.Drawing.Point, System.Drawing">
+    <value>213, 126</value>
+  </data>
+  <data name="checkBoxMenuFoodCarbonara.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 17</value>
+  </data>
+  <data name="checkBoxMenuFoodCarbonara.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="checkBoxMenuFoodCarbonara.Text" xml:space="preserve">
+    <value>Carbonara - 16.00</value>
+  </data>
+  <data name="&gt;&gt;checkBoxMenuFoodCarbonara.Name" xml:space="preserve">
+    <value>checkBoxMenuFoodCarbonara</value>
+  </data>
+  <data name="&gt;&gt;checkBoxMenuFoodCarbonara.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxMenuFoodCarbonara.Parent" xml:space="preserve">
+    <value>groupBoxMenuFood</value>
+  </data>
+  <data name="&gt;&gt;checkBoxMenuFoodCarbonara.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="checkBoxMenuFoodCanneloni.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBoxMenuFoodCanneloni.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="checkBoxMenuFoodCanneloni.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 207</value>
+  </data>
+  <data name="checkBoxMenuFoodCanneloni.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 17</value>
+  </data>
+  <data name="checkBoxMenuFoodCanneloni.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="checkBoxMenuFoodCanneloni.Text" xml:space="preserve">
+    <value>Cannelloni - 8,50</value>
+  </data>
+  <data name="&gt;&gt;checkBoxMenuFoodCanneloni.Name" xml:space="preserve">
+    <value>checkBoxMenuFoodCanneloni</value>
+  </data>
+  <data name="&gt;&gt;checkBoxMenuFoodCanneloni.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxMenuFoodCanneloni.Parent" xml:space="preserve">
+    <value>groupBoxMenuFood</value>
+  </data>
+  <data name="&gt;&gt;checkBoxMenuFoodCanneloni.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="checkBoxMenuFoodRisotto.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBoxMenuFoodRisotto.Location" type="System.Drawing.Point, System.Drawing">
+    <value>213, 102</value>
+  </data>
+  <data name="checkBoxMenuFoodRisotto.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 17</value>
+  </data>
+  <data name="checkBoxMenuFoodRisotto.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="checkBoxMenuFoodRisotto.Text" xml:space="preserve">
+    <value>Risotto - 13.50</value>
+  </data>
+  <data name="&gt;&gt;checkBoxMenuFoodRisotto.Name" xml:space="preserve">
+    <value>checkBoxMenuFoodRisotto</value>
+  </data>
+  <data name="&gt;&gt;checkBoxMenuFoodRisotto.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxMenuFoodRisotto.Parent" xml:space="preserve">
+    <value>groupBoxMenuFood</value>
+  </data>
+  <data name="&gt;&gt;checkBoxMenuFoodRisotto.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="checkBoxMenuFoodRibEye.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBoxMenuFoodRibEye.Location" type="System.Drawing.Point, System.Drawing">
+    <value>213, 79</value>
+  </data>
+  <data name="checkBoxMenuFoodRibEye.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 17</value>
+  </data>
+  <data name="checkBoxMenuFoodRibEye.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="checkBoxMenuFoodRibEye.Text" xml:space="preserve">
+    <value>Rib Eye - 31.00 </value>
+  </data>
+  <data name="&gt;&gt;checkBoxMenuFoodRibEye.Name" xml:space="preserve">
+    <value>checkBoxMenuFoodRibEye</value>
+  </data>
+  <data name="&gt;&gt;checkBoxMenuFoodRibEye.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxMenuFoodRibEye.Parent" xml:space="preserve">
+    <value>groupBoxMenuFood</value>
+  </data>
+  <data name="&gt;&gt;checkBoxMenuFoodRibEye.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="checkBoxMenuFoodChops.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBoxMenuFoodChops.Location" type="System.Drawing.Point, System.Drawing">
+    <value>213, 56</value>
+  </data>
+  <data name="checkBoxMenuFoodChops.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 17</value>
+  </data>
+  <data name="checkBoxMenuFoodChops.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="checkBoxMenuFoodChops.Text" xml:space="preserve">
+    <value>Chops - 20.00</value>
+  </data>
+  <data name="&gt;&gt;checkBoxMenuFoodChops.Name" xml:space="preserve">
+    <value>checkBoxMenuFoodChops</value>
+  </data>
+  <data name="&gt;&gt;checkBoxMenuFoodChops.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxMenuFoodChops.Parent" xml:space="preserve">
+    <value>groupBoxMenuFood</value>
+  </data>
+  <data name="&gt;&gt;checkBoxMenuFoodChops.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="labelMenuFoodMainCourse.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelMenuFoodMainCourse.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold, Underline</value>
+  </data>
+  <data name="labelMenuFoodMainCourse.Location" type="System.Drawing.Point, System.Drawing">
+    <value>228, 24</value>
+  </data>
+  <data name="labelMenuFoodMainCourse.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 13</value>
+  </data>
+  <data name="labelMenuFoodMainCourse.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="labelMenuFoodMainCourse.Text" xml:space="preserve">
+    <value>Main Courses</value>
+  </data>
+  <data name="&gt;&gt;labelMenuFoodMainCourse.Name" xml:space="preserve">
+    <value>labelMenuFoodMainCourse</value>
+  </data>
+  <data name="&gt;&gt;labelMenuFoodMainCourse.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelMenuFoodMainCourse.Parent" xml:space="preserve">
+    <value>groupBoxMenuFood</value>
+  </data>
+  <data name="&gt;&gt;labelMenuFoodMainCourse.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="checkBoxMenuFoodMuffin.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBoxMenuFoodMuffin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 183</value>
+  </data>
+  <data name="checkBoxMenuFoodMuffin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 17</value>
+  </data>
+  <data name="checkBoxMenuFoodMuffin.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="checkBoxMenuFoodMuffin.Text" xml:space="preserve">
+    <value>Muffin - 7.50</value>
+  </data>
+  <data name="&gt;&gt;checkBoxMenuFoodMuffin.Name" xml:space="preserve">
+    <value>checkBoxMenuFoodMuffin</value>
+  </data>
+  <data name="&gt;&gt;checkBoxMenuFoodMuffin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxMenuFoodMuffin.Parent" xml:space="preserve">
+    <value>groupBoxMenuFood</value>
+  </data>
+  <data name="&gt;&gt;checkBoxMenuFoodMuffin.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="checkBoxMenuFoodTsigarilos.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBoxMenuFoodTsigarilos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 160</value>
+  </data>
+  <data name="checkBoxMenuFoodTsigarilos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 17</value>
+  </data>
+  <data name="checkBoxMenuFoodTsigarilos.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="checkBoxMenuFoodTsigarilos.Text" xml:space="preserve">
+    <value>Tsigarilos - 13.00</value>
+  </data>
+  <data name="&gt;&gt;checkBoxMenuFoodTsigarilos.Name" xml:space="preserve">
+    <value>checkBoxMenuFoodTsigarilos</value>
+  </data>
+  <data name="&gt;&gt;checkBoxMenuFoodTsigarilos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxMenuFoodTsigarilos.Parent" xml:space="preserve">
+    <value>groupBoxMenuFood</value>
+  </data>
+  <data name="&gt;&gt;checkBoxMenuFoodTsigarilos.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="labelMenuFoodAppetizers.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelMenuFoodAppetizers.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold, Underline</value>
+  </data>
+  <data name="labelMenuFoodAppetizers.Location" type="System.Drawing.Point, System.Drawing">
+    <value>32, 130</value>
+  </data>
+  <data name="labelMenuFoodAppetizers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 13</value>
+  </data>
+  <data name="labelMenuFoodAppetizers.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="labelMenuFoodAppetizers.Text" xml:space="preserve">
+    <value>Appetizers</value>
+  </data>
+  <data name="&gt;&gt;labelMenuFoodAppetizers.Name" xml:space="preserve">
+    <value>labelMenuFoodAppetizers</value>
+  </data>
+  <data name="&gt;&gt;labelMenuFoodAppetizers.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelMenuFoodAppetizers.Parent" xml:space="preserve">
+    <value>groupBoxMenuFood</value>
+  </data>
+  <data name="&gt;&gt;labelMenuFoodAppetizers.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="checkBoxMenuFoodExotic.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBoxMenuFoodExotic.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 96</value>
+  </data>
+  <data name="checkBoxMenuFoodExotic.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 17</value>
+  </data>
+  <data name="checkBoxMenuFoodExotic.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="checkBoxMenuFoodExotic.Text" xml:space="preserve">
+    <value>Exotic - 12.50</value>
+  </data>
+  <data name="&gt;&gt;checkBoxMenuFoodExotic.Name" xml:space="preserve">
+    <value>checkBoxMenuFoodExotic</value>
+  </data>
+  <data name="&gt;&gt;checkBoxMenuFoodExotic.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxMenuFoodExotic.Parent" xml:space="preserve">
+    <value>groupBoxMenuFood</value>
+  </data>
+  <data name="&gt;&gt;checkBoxMenuFoodExotic.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="checkBoxMenuFoodCaesar.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBoxMenuFoodCaesar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 73</value>
+  </data>
+  <data name="checkBoxMenuFoodCaesar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 17</value>
+  </data>
+  <data name="checkBoxMenuFoodCaesar.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="checkBoxMenuFoodCaesar.Text" xml:space="preserve">
+    <value>Ceasar - 11.00</value>
+  </data>
+  <data name="&gt;&gt;checkBoxMenuFoodCaesar.Name" xml:space="preserve">
+    <value>checkBoxMenuFoodCaesar</value>
+  </data>
+  <data name="&gt;&gt;checkBoxMenuFoodCaesar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxMenuFoodCaesar.Parent" xml:space="preserve">
+    <value>groupBoxMenuFood</value>
+  </data>
+  <data name="&gt;&gt;checkBoxMenuFoodCaesar.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="checkBoxMenuFoodGreek.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBoxMenuFoodGreek.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 50</value>
+  </data>
+  <data name="checkBoxMenuFoodGreek.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 17</value>
+  </data>
+  <data name="checkBoxMenuFoodGreek.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="checkBoxMenuFoodGreek.Text" xml:space="preserve">
+    <value>Greek - 9.00</value>
+  </data>
+  <data name="&gt;&gt;checkBoxMenuFoodGreek.Name" xml:space="preserve">
+    <value>checkBoxMenuFoodGreek</value>
+  </data>
+  <data name="&gt;&gt;checkBoxMenuFoodGreek.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxMenuFoodGreek.Parent" xml:space="preserve">
+    <value>groupBoxMenuFood</value>
+  </data>
+  <data name="&gt;&gt;checkBoxMenuFoodGreek.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="labelMenuFoodSalads.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelMenuFoodSalads.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold, Underline</value>
+  </data>
+  <data name="labelMenuFoodSalads.Location" type="System.Drawing.Point, System.Drawing">
+    <value>32, 24</value>
+  </data>
+  <data name="labelMenuFoodSalads.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 13</value>
+  </data>
+  <data name="labelMenuFoodSalads.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="labelMenuFoodSalads.Text" xml:space="preserve">
+    <value>Salads</value>
+  </data>
+  <data name="&gt;&gt;labelMenuFoodSalads.Name" xml:space="preserve">
+    <value>labelMenuFoodSalads</value>
+  </data>
+  <data name="&gt;&gt;labelMenuFoodSalads.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelMenuFoodSalads.Parent" xml:space="preserve">
+    <value>groupBoxMenuFood</value>
+  </data>
+  <data name="&gt;&gt;labelMenuFoodSalads.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="groupBoxMenuFood.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 59</value>
+  </data>
+  <data name="groupBoxMenuFood.Size" type="System.Drawing.Size, System.Drawing">
+    <value>366, 253</value>
+  </data>
+  <data name="groupBoxMenuFood.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="groupBoxMenuFood.Text" xml:space="preserve">
+    <value>Menu</value>
+  </data>
+  <data name="&gt;&gt;groupBoxMenuFood.Name" xml:space="preserve">
+    <value>groupBoxMenuFood</value>
+  </data>
+  <data name="&gt;&gt;groupBoxMenuFood.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBoxMenuFood.Parent" xml:space="preserve">
+    <value>tabPageRestaurant</value>
+  </data>
+  <data name="&gt;&gt;groupBoxMenuFood.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabPageRestaurant.ImageKey" xml:space="preserve">
+    <value>(none)</value>
+  </data>
+  <data name="tabPageRestaurant.Location" type="System.Drawing.Point, System.Drawing">
+    <value>54, 4</value>
+  </data>
+  <data name="tabPageRestaurant.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabPageRestaurant.Size" type="System.Drawing.Size, System.Drawing">
+    <value>564, 467</value>
+  </data>
+  <data name="tabPageRestaurant.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tabPageRestaurant.Text" xml:space="preserve">
+    <value>Food</value>
+  </data>
+  <data name="&gt;&gt;tabPageRestaurant.Name" xml:space="preserve">
+    <value>tabPageRestaurant</value>
+  </data>
+  <data name="&gt;&gt;tabPageRestaurant.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPageRestaurant.Parent" xml:space="preserve">
+    <value>tabControlMenu</value>
+  </data>
+  <data name="&gt;&gt;tabPageRestaurant.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabPageCafeteria.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="checkBoxMenuDrinksJuice.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBoxMenuDrinksJuice.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="checkBoxMenuDrinksJuice.Location" type="System.Drawing.Point, System.Drawing">
+    <value>206, 50</value>
+  </data>
+  <data name="checkBoxMenuDrinksJuice.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 17</value>
+  </data>
+  <data name="checkBoxMenuDrinksJuice.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="checkBoxMenuDrinksJuice.Text" xml:space="preserve">
+    <value>Juice - 5.00</value>
+  </data>
+  <data name="&gt;&gt;checkBoxMenuDrinksJuice.Name" xml:space="preserve">
+    <value>checkBoxMenuDrinksJuice</value>
+  </data>
+  <data name="&gt;&gt;checkBoxMenuDrinksJuice.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxMenuDrinksJuice.Parent" xml:space="preserve">
+    <value>groupBoxMenuDrinks</value>
+  </data>
+  <data name="&gt;&gt;checkBoxMenuDrinksJuice.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="labelMenuFoodOther.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelMenuFoodOther.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold, Underline</value>
+  </data>
+  <data name="labelMenuFoodOther.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelMenuFoodOther.Location" type="System.Drawing.Point, System.Drawing">
+    <value>228, 24</value>
+  </data>
+  <data name="labelMenuFoodOther.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 13</value>
+  </data>
+  <data name="labelMenuFoodOther.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="labelMenuFoodOther.Text" xml:space="preserve">
+    <value>Other</value>
+  </data>
+  <data name="&gt;&gt;labelMenuFoodOther.Name" xml:space="preserve">
+    <value>labelMenuFoodOther</value>
+  </data>
+  <data name="&gt;&gt;labelMenuFoodOther.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelMenuFoodOther.Parent" xml:space="preserve">
+    <value>groupBoxMenuDrinks</value>
+  </data>
+  <data name="&gt;&gt;labelMenuFoodOther.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="checkBoxMenuDrinksVodka.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBoxMenuDrinksVodka.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="checkBoxMenuDrinksVodka.Location" type="System.Drawing.Point, System.Drawing">
+    <value>139, 183</value>
+  </data>
+  <data name="checkBoxMenuDrinksVodka.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 17</value>
+  </data>
+  <data name="checkBoxMenuDrinksVodka.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="checkBoxMenuDrinksVodka.Text" xml:space="preserve">
+    <value>Vodka - 6.00</value>
+  </data>
+  <data name="&gt;&gt;checkBoxMenuDrinksVodka.Name" xml:space="preserve">
+    <value>checkBoxMenuDrinksVodka</value>
+  </data>
+  <data name="&gt;&gt;checkBoxMenuDrinksVodka.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxMenuDrinksVodka.Parent" xml:space="preserve">
+    <value>groupBoxMenuDrinks</value>
+  </data>
+  <data name="&gt;&gt;checkBoxMenuDrinksVodka.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="checkBoxMenuDrinksBeer.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBoxMenuDrinksBeer.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="checkBoxMenuDrinksBeer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>139, 160</value>
+  </data>
+  <data name="checkBoxMenuDrinksBeer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 17</value>
+  </data>
+  <data name="checkBoxMenuDrinksBeer.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="checkBoxMenuDrinksBeer.Text" xml:space="preserve">
+    <value>Beer - 5.00</value>
+  </data>
+  <data name="&gt;&gt;checkBoxMenuDrinksBeer.Name" xml:space="preserve">
+    <value>checkBoxMenuDrinksBeer</value>
+  </data>
+  <data name="&gt;&gt;checkBoxMenuDrinksBeer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxMenuDrinksBeer.Parent" xml:space="preserve">
+    <value>groupBoxMenuDrinks</value>
+  </data>
+  <data name="&gt;&gt;checkBoxMenuDrinksBeer.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="labelMenuFoodAlcoholic.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelMenuFoodAlcoholic.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold, Underline</value>
+  </data>
+  <data name="labelMenuFoodAlcoholic.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelMenuFoodAlcoholic.Location" type="System.Drawing.Point, System.Drawing">
+    <value>154, 130</value>
+  </data>
+  <data name="labelMenuFoodAlcoholic.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 13</value>
+  </data>
+  <data name="labelMenuFoodAlcoholic.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="labelMenuFoodAlcoholic.Text" xml:space="preserve">
+    <value>Alcoholic</value>
+  </data>
+  <data name="&gt;&gt;labelMenuFoodAlcoholic.Name" xml:space="preserve">
+    <value>labelMenuFoodAlcoholic</value>
+  </data>
+  <data name="&gt;&gt;labelMenuFoodAlcoholic.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelMenuFoodAlcoholic.Parent" xml:space="preserve">
+    <value>groupBoxMenuDrinks</value>
+  </data>
+  <data name="&gt;&gt;labelMenuFoodAlcoholic.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="checkBoxMenuDrinksCappuccino.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBoxMenuDrinksCappuccino.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="checkBoxMenuDrinksCappuccino.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 96</value>
+  </data>
+  <data name="checkBoxMenuDrinksCappuccino.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 17</value>
+  </data>
+  <data name="checkBoxMenuDrinksCappuccino.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="checkBoxMenuDrinksCappuccino.Text" xml:space="preserve">
+    <value>Cappuccino - 3.50</value>
+  </data>
+  <data name="&gt;&gt;checkBoxMenuDrinksCappuccino.Name" xml:space="preserve">
+    <value>checkBoxMenuDrinksCappuccino</value>
+  </data>
+  <data name="&gt;&gt;checkBoxMenuDrinksCappuccino.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxMenuDrinksCappuccino.Parent" xml:space="preserve">
+    <value>groupBoxMenuDrinks</value>
+  </data>
+  <data name="&gt;&gt;checkBoxMenuDrinksCappuccino.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="checkBoxMenuDrinksEspresso.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBoxMenuDrinksEspresso.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="checkBoxMenuDrinksEspresso.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 73</value>
+  </data>
+  <data name="checkBoxMenuDrinksEspresso.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 17</value>
+  </data>
+  <data name="checkBoxMenuDrinksEspresso.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="checkBoxMenuDrinksEspresso.Text" xml:space="preserve">
+    <value>Espresso - 2.00</value>
+  </data>
+  <data name="&gt;&gt;checkBoxMenuDrinksEspresso.Name" xml:space="preserve">
+    <value>checkBoxMenuDrinksEspresso</value>
+  </data>
+  <data name="&gt;&gt;checkBoxMenuDrinksEspresso.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxMenuDrinksEspresso.Parent" xml:space="preserve">
+    <value>groupBoxMenuDrinks</value>
+  </data>
+  <data name="&gt;&gt;checkBoxMenuDrinksEspresso.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="checkBoxMenuDrinksGreek.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBoxMenuDrinksGreek.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="checkBoxMenuDrinksGreek.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 50</value>
+  </data>
+  <data name="checkBoxMenuDrinksGreek.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 17</value>
+  </data>
+  <data name="checkBoxMenuDrinksGreek.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="checkBoxMenuDrinksGreek.Text" xml:space="preserve">
+    <value>Greek - 2.00</value>
+  </data>
+  <data name="&gt;&gt;checkBoxMenuDrinksGreek.Name" xml:space="preserve">
+    <value>checkBoxMenuDrinksGreek</value>
+  </data>
+  <data name="&gt;&gt;checkBoxMenuDrinksGreek.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxMenuDrinksGreek.Parent" xml:space="preserve">
+    <value>groupBoxMenuDrinks</value>
+  </data>
+  <data name="&gt;&gt;checkBoxMenuDrinksGreek.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="labelMenuFoodCoffee.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelMenuFoodCoffee.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold, Underline</value>
+  </data>
+  <data name="labelMenuFoodCoffee.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelMenuFoodCoffee.Location" type="System.Drawing.Point, System.Drawing">
+    <value>32, 24</value>
+  </data>
+  <data name="labelMenuFoodCoffee.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 13</value>
+  </data>
+  <data name="labelMenuFoodCoffee.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="labelMenuFoodCoffee.Text" xml:space="preserve">
+    <value>Coffee</value>
+  </data>
+  <data name="&gt;&gt;labelMenuFoodCoffee.Name" xml:space="preserve">
+    <value>labelMenuFoodCoffee</value>
+  </data>
+  <data name="&gt;&gt;labelMenuFoodCoffee.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelMenuFoodCoffee.Parent" xml:space="preserve">
+    <value>groupBoxMenuDrinks</value>
+  </data>
+  <data name="&gt;&gt;labelMenuFoodCoffee.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="groupBoxMenuDrinks.Location" type="System.Drawing.Point, System.Drawing">
+    <value>99, 107</value>
+  </data>
+  <data name="groupBoxMenuDrinks.Size" type="System.Drawing.Size, System.Drawing">
+    <value>366, 253</value>
+  </data>
+  <data name="groupBoxMenuDrinks.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="groupBoxMenuDrinks.Text" xml:space="preserve">
+    <value>Menu</value>
+  </data>
+  <data name="&gt;&gt;groupBoxMenuDrinks.Name" xml:space="preserve">
+    <value>groupBoxMenuDrinks</value>
+  </data>
+  <data name="&gt;&gt;groupBoxMenuDrinks.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBoxMenuDrinks.Parent" xml:space="preserve">
+    <value>tabPageCafeteria</value>
+  </data>
+  <data name="&gt;&gt;groupBoxMenuDrinks.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabPageCafeteria.ImageKey" xml:space="preserve">
+    <value>(none)</value>
+  </data>
+  <data name="tabPageCafeteria.Location" type="System.Drawing.Point, System.Drawing">
+    <value>54, 4</value>
+  </data>
+  <data name="tabPageCafeteria.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabPageCafeteria.Size" type="System.Drawing.Size, System.Drawing">
+    <value>564, 467</value>
+  </data>
+  <data name="tabPageCafeteria.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tabPageCafeteria.Text" xml:space="preserve">
+    <value>Drinks</value>
+  </data>
+  <data name="&gt;&gt;tabPageCafeteria.Name" xml:space="preserve">
+    <value>tabPageCafeteria</value>
+  </data>
+  <data name="&gt;&gt;tabPageCafeteria.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPageCafeteria.Parent" xml:space="preserve">
+    <value>tabControlMenu</value>
+  </data>
+  <data name="&gt;&gt;tabPageCafeteria.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="imageList.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
   <data name="imageList.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
         LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
         ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAABk
-        EAAAAk1TRnQBSQFMAwEBAAEUAQEBHAEBAW4BAAFkAQAE/wEJARAI/wFCAU0BNgEEBgABNgEEAgABKAMA
+        EAAAAk1TRnQBSQFMAwEBAAFQAQIBUAECAW4BAAFkAQAE/wEJAQAI/wFCAU0BNgEEBgABNgEEAgABKAMA
         AbgBAQIAAWQDAAEBAQABCAUAAeABqxgAAYACAAGAAwACgAEAAYADAAGAAQABgAEAAoACAAPAAQABwAHc
         AcABAAHwAcoBpgEAATMFAAEzAQABMwEAATMBAAIzAgADFgEAAxwBAAMiAQADKQEAA1UBAANNAQADQgEA
         AzkBAAGAAXwB/wEAAlAB/wEAAZMBAAHWAQAB/wHsAcwBAAHGAdYB7wEAAdYC5wEAAZABqQGtAgAB/wEz
@@ -299,821 +1130,875 @@
         AR8B/wH8KgAC/wHACAABDwH/AfwqAAL/AYAIAAEHAf8B/CoAAv8JAAEDAf8B/CoAAf8B/gkAAQEB/wH8
         KgAB/wH8CgABfwH8KgAB/wH4CgABfwH8KgAB/wHwCgABHwH8KgAB/wHgCgABHwH8KgAB/wGACgABBwH8
         KgAB/wGACgABAwH8KgAB/gsAAQEB/CoAAfwMAAH8KgAB/AwAAXwqAAH8DAABfCoAAfgMAAF8KgAB+AwA
-        AXwqAAH8DAABfCoAAfwMAAH8KgAB/wsAAQMB/CoADf8B/CoADf8B/CoADf8B/CoADf8B/CoADf8B/EAA
+        AXwqAAH8DAABfCoAAfwMAAH8KgAB/wsAAQMB/CoADf8B/CoADf8B/CoADf8B/CoADf8B/CoADf8B/CoA
         Cw==
 </value>
   </data>
-  <data name="trackBarDoor.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="labelDescritpionMenu.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;labelRoomDevicesAlarm.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="tabPageCafeteria.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
-  </data>
-  <data name="tabControl.Size" type="System.Drawing.Size, System.Drawing">
-    <value>736, 513</value>
-  </data>
-  <data name="tabPageMenu.Size" type="System.Drawing.Size, System.Drawing">
-    <value>618, 505</value>
-  </data>
-  <data name="tabPageRestaurant.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Stretch</value>
-  </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Our little castle !!!</value>
-  </data>
-  <data name="labelRoomDevicesAlarm.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="labelRoomDevicesTemperature.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="&gt;&gt;tabPageMenu.Name" xml:space="preserve">
-    <value>tabPageMenu</value>
-  </data>
-  <data name="labelRoomDevicesON.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;buttonLanguageGreek.Parent" xml:space="preserve">
-    <value>tabPageExit</value>
-  </data>
-  <data name="labelRoomDevicesDoor.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;labelRoomDevicesTemperature.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;buttonLanguageGreek.Name" xml:space="preserve">
-    <value>buttonLanguageGreek</value>
-  </data>
-  <data name="&gt;&gt;labelDescritptionPool.Name" xml:space="preserve">
-    <value>labelDescritptionPool</value>
-  </data>
-  <data name="buttonLanguageGreek.Size" type="System.Drawing.Size, System.Drawing">
-    <value>110, 70</value>
-  </data>
-  <data name="&gt;&gt;trackBarTemperature.Parent" xml:space="preserve">
-    <value>tabPageDevices</value>
-  </data>
-  <data name="&gt;&gt;labelDescritptionPool.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="labelRoomDevices.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;buttonStop.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;trackBarLights.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;labelRoomDevices.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="labelDescritptionPool.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="labelRoomDevices.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;labelDescriptionRoomDevices.Name" xml:space="preserve">
-    <value>labelDescriptionRoomDevices</value>
-  </data>
-  <data name="labelRoomDevicesAlarm.Location" type="System.Drawing.Point, System.Drawing">
-    <value>132, 196</value>
-  </data>
-  <data name="tabPageExit.Size" type="System.Drawing.Size, System.Drawing">
-    <value>618, 505</value>
-  </data>
-  <data name="&gt;&gt;labelDescritpionExit.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;trackBarAlarm.Name" xml:space="preserve">
-    <value>trackBarAlarm</value>
-  </data>
-  <data name="tabPagePool.Location" type="System.Drawing.Point, System.Drawing">
-    <value>114, 4</value>
-  </data>
-  <data name="buttonPlay.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="labelDescriptionRoomDevices.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="labelRoomDevicesOFF.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 15.75pt</value>
-  </data>
-  <data name="tabPageDevices.ImageKey" xml:space="preserve">
-    <value>glass.png</value>
-  </data>
-  <data name="&gt;&gt;buttonLanguageGreek.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="trackBarLights.Location" type="System.Drawing.Point, System.Drawing">
-    <value>314, 128</value>
-  </data>
-  <data name="&gt;&gt;labelRoomDevices.ZOrder" xml:space="preserve">
-    <value>14</value>
-  </data>
-  <data name="labelRoomDevicesTemperature.Location" type="System.Drawing.Point, System.Drawing">
-    <value>92, 332</value>
-  </data>
-  <data name="tabPageMenu.Location" type="System.Drawing.Point, System.Drawing">
-    <value>114, 4</value>
-  </data>
-  <data name="&gt;&gt;labelRoomDevicesAlarm.Parent" xml:space="preserve">
-    <value>tabPageDevices</value>
-  </data>
-  <data name="&gt;&gt;labelRoomDevicesAlarm.Name" xml:space="preserve">
-    <value>labelRoomDevicesAlarm</value>
-  </data>
-  <data name="tabControlMenu.Alignment" type="System.Windows.Forms.TabAlignment, System.Windows.Forms">
-    <value>Left</value>
-  </data>
-  <data name="labelRoomDevicesRadio.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 20.25pt</value>
-  </data>
-  <data name="labelRoomDevicesON.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;trackBarDoor.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="labelDescritptionPool.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="buttonPlay.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;labelRoomDevicesTemperatureValue.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="labelDescritptionPool.Location" type="System.Drawing.Point, System.Drawing">
-    <value>22, 44</value>
-  </data>
-  <data name="&gt;&gt;trackBarAlarm.Parent" xml:space="preserve">
-    <value>tabPageDevices</value>
-  </data>
-  <data name="&gt;&gt;trackBarDoor.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tabPageRestaurant.Name" xml:space="preserve">
-    <value>tabPageRestaurant</value>
-  </data>
-  <data name="trackBarLights.Size" type="System.Drawing.Size, System.Drawing">
-    <value>264, 45</value>
-  </data>
-  <data name="labelRoomDevicesOFF.Size" type="System.Drawing.Size, System.Drawing">
-    <value>54, 25</value>
-  </data>
-  <data name="&gt;&gt;labelRoomDevicesDoor.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="labelRoomDevicesAlarm.Text" xml:space="preserve">
-    <value>Alarm</value>
-  </data>
-  <data name="tabPageCafeteria.Size" type="System.Drawing.Size, System.Drawing">
-    <value>504, 505</value>
-  </data>
-  <data name="&gt;&gt;tabPageCafeteria.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="tabControlMenu.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Left</value>
-  </data>
-  <data name="&gt;&gt;labelRoomDevicesDoor.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;tabPageRestaurant.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;labelDescritptionPool.Parent" xml:space="preserve">
-    <value>tabPageExit</value>
-  </data>
-  <data name="buttonStop.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 25</value>
-  </data>
-  <data name="labelDescritpionExit.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="labelDescritpionMenu.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 20.25pt</value>
-  </data>
-  <data name="&gt;&gt;trackBarLights.ZOrder" xml:space="preserve">
-    <value>13</value>
-  </data>
-  <data name="labelRoomDevicesRadio.Text" xml:space="preserve">
-    <value>Radio</value>
-  </data>
-  <data name="labelRoomDevices.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 20.25pt</value>
-  </data>
-  <data name="&gt;&gt;buttonPlay.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="labelRoomDevices.Text" xml:space="preserve">
-    <value>Room Devices</value>
-  </data>
-  <data name="labelRoomDevicesLights.Location" type="System.Drawing.Point, System.Drawing">
-    <value>132, 128</value>
-  </data>
-  <data name="tabPagePool.ImageKey" xml:space="preserve">
-    <value>glass.png</value>
-  </data>
-  <data name="buttonPlay.Location" type="System.Drawing.Point, System.Drawing">
-    <value>314, 268</value>
-  </data>
-  <data name="labelDescritpionMenu.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>MainForm</value>
-  </data>
-  <data name="&gt;&gt;tabPagePool.Parent" xml:space="preserve">
-    <value>tabControl</value>
-  </data>
-  <data name="&gt;&gt;labelDescritpionExit.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="buttonStop.Location" type="System.Drawing.Point, System.Drawing">
-    <value>343, 268</value>
-  </data>
-  <data name="tabPageDevices.Location" type="System.Drawing.Point, System.Drawing">
-    <value>114, 4</value>
-  </data>
-  <data name="buttonLanguageEnglish.Location" type="System.Drawing.Point, System.Drawing">
-    <value>460, 270</value>
-  </data>
-  <data name="trackBarDoor.Location" type="System.Drawing.Point, System.Drawing">
-    <value>314, 411</value>
-  </data>
-  <data name="labelDescritptionPool.Text" xml:space="preserve">
-    <value>Pool</value>
-  </data>
-  <data name="labelDescritpionMenu.Size" type="System.Drawing.Size, System.Drawing">
-    <value>177, 31</value>
-  </data>
-  <data name="tabPagePool.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Stretch</value>
-  </data>
-  <data name="tabPageRestaurant.ImageKey" xml:space="preserve">
-    <value>glass.png</value>
-  </data>
-  <data name="&gt;&gt;tabPageMenu.Parent" xml:space="preserve">
-    <value>tabControl</value>
-  </data>
-  <data name="labelDescritptionPool.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 20.25pt</value>
-  </data>
-  <data name="labelRoomDevicesTemperatureValue.Location" type="System.Drawing.Point, System.Drawing">
-    <value>539, 338</value>
-  </data>
-  <data name="&gt;&gt;tabPageExit.Parent" xml:space="preserve">
-    <value>tabControl</value>
-  </data>
-  <data name="tabPagePool.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="tabPageMenu.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Stretch</value>
-  </data>
-  <data name="&gt;&gt;trackBarAlarm.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="labelRoomDevicesAlarm.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="labelRoomDevicesDoor.Text" xml:space="preserve">
-    <value>Door</value>
-  </data>
-  <data name="&gt;&gt;labelRoomDevicesON.Name" xml:space="preserve">
-    <value>labelRoomDevicesON</value>
-  </data>
-  <data name="tabPageDevices.Size" type="System.Drawing.Size, System.Drawing">
-    <value>618, 505</value>
-  </data>
-  <data name="&gt;&gt;buttonPlay.Name" xml:space="preserve">
-    <value>buttonPlay</value>
-  </data>
-  <data name="&gt;&gt;labelRoomDevicesLights.Name" xml:space="preserve">
-    <value>labelRoomDevicesLights</value>
-  </data>
-  <data name="tabPageMenu.ImageKey" xml:space="preserve">
-    <value>glass.png</value>
-  </data>
-  <data name="&gt;&gt;labelRoomDevicesAlarm.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="labelRoomDevicesTemperatureValue.Size" type="System.Drawing.Size, System.Drawing">
-    <value>57, 25</value>
-  </data>
-  <data name="labelRoomDevicesLights.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;labelWelcome.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;labelRoomDevicesOFF.ZOrder" xml:space="preserve">
-    <value>11</value>
-  </data>
-  <data name="labelRoomDevicesAlarm.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 20.25pt</value>
-  </data>
-  <data name="labelDescriptionRoomDevices.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="tabPageRestaurant.Size" type="System.Drawing.Size, System.Drawing">
-    <value>504, 505</value>
-  </data>
-  <data name="labelRoomDevicesAlarm.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="&gt;&gt;trackBarTemperature.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;buttonStop.Name" xml:space="preserve">
-    <value>buttonStop</value>
-  </data>
-  <data name="trackBarTemperature.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="tabControl.ItemSize" type="System.Drawing.Size, System.Drawing">
-    <value>110, 110</value>
-  </data>
-  <data name="buttonLanguageEnglish.Text" xml:space="preserve">
-    <value>English</value>
-  </data>
-  <data name="&gt;&gt;tabPageMenu.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="buttonStop.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="&gt;&gt;tabPageRestaurant.Parent" xml:space="preserve">
-    <value>tabControlMenu</value>
-  </data>
-  <data name="tabPageCafeteria.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="labelDescriptionRoomDevices.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;labelDescritpionMenu.Name" xml:space="preserve">
-    <value>labelDescritpionMenu</value>
-  </data>
-  <data name="tabPagePool.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
-  </data>
-  <data name="&gt;&gt;tabPageDevices.Parent" xml:space="preserve">
-    <value>tabControl</value>
-  </data>
-  <data name="tabPageCafeteria.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Stretch</value>
-  </data>
-  <data name="&gt;&gt;labelRoomDevicesTemperature.Parent" xml:space="preserve">
-    <value>tabPageDevices</value>
-  </data>
-  <data name="tabPageDevices.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;tabPageExit.Name" xml:space="preserve">
-    <value>tabPageExit</value>
-  </data>
-  <data name="labelRoomDevicesAlarm.Size" type="System.Drawing.Size, System.Drawing">
-    <value>84, 31</value>
-  </data>
-  <data name="&gt;&gt;tabPageMenu.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="tabControl.Alignment" type="System.Windows.Forms.TabAlignment, System.Windows.Forms">
-    <value>Left</value>
-  </data>
-  <data name="labelRoomDevicesTemperature.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 20.25pt</value>
-  </data>
-  <data name="&gt;&gt;buttonLanguageGreek.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="labelRoomDevicesDoor.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="tabPageRestaurant.Location" type="System.Drawing.Point, System.Drawing">
-    <value>114, 4</value>
-  </data>
-  <data name="labelDescritpionExit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="&gt;&gt;tabPageExit.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="labelWelcome.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 20.25pt</value>
-  </data>
-  <data name="&gt;&gt;buttonLanguageEnglish.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="tabControlMenu.ItemSize" type="System.Drawing.Size, System.Drawing">
+    <value>50, 50</value>
   </data>
   <data name="tabControlMenu.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, -4</value>
   </data>
-  <data name="labelRoomDevices.Location" type="System.Drawing.Point, System.Drawing">
-    <value>177, 33</value>
-  </data>
-  <data name="&gt;&gt;labelRoomDevicesTemperature.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="labelWelcome.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;buttonLanguageEnglish.Name" xml:space="preserve">
-    <value>buttonLanguageEnglish</value>
-  </data>
-  <data name="trackBarTemperature.Size" type="System.Drawing.Size, System.Drawing">
-    <value>219, 45</value>
-  </data>
-  <data name="&gt;&gt;tabControl.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;trackBarDoor.Parent" xml:space="preserve">
-    <value>tabPageDevices</value>
-  </data>
-  <data name="labelRoomDevicesTemperature.Size" type="System.Drawing.Size, System.Drawing">
-    <value>169, 31</value>
-  </data>
-  <data name="&gt;&gt;labelRoomDevicesTemperature.Name" xml:space="preserve">
-    <value>labelRoomDevicesTemperature</value>
-  </data>
-  <data name="labelDescritpionExit.Location" type="System.Drawing.Point, System.Drawing">
-    <value>22, 401</value>
-  </data>
-  <data name="&gt;&gt;buttonPlay.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="labelRoomDevices.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="trackBarAlarm.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;labelRoomDevices.Name" xml:space="preserve">
-    <value>labelRoomDevices</value>
+  <data name="tabControlMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>622, 475</value>
   </data>
   <data name="tabControlMenu.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;tabPagePool.Name" xml:space="preserve">
-    <value>tabPagePool</value>
-  </data>
-  <data name="labelDescritpionMenu.Location" type="System.Drawing.Point, System.Drawing">
-    <value>22, 169</value>
-  </data>
-  <data name="&gt;&gt;labelDescritpionExit.Name" xml:space="preserve">
-    <value>labelDescritpionExit</value>
-  </data>
-  <data name="&gt;&gt;labelDescritpionMenu.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="labelDescritptionPool.Size" type="System.Drawing.Size, System.Drawing">
-    <value>68, 31</value>
-  </data>
-  <data name="trackBarTemperature.Location" type="System.Drawing.Point, System.Drawing">
-    <value>314, 332</value>
-  </data>
-  <data name="&gt;&gt;tabControl.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="labelRoomDevicesTemperatureValue.Text" xml:space="preserve">
-    <value>22 C</value>
-  </data>
-  <data name="&gt;&gt;tabPageCafeteria.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tabControlMenu.Parent" xml:space="preserve">
-    <value>tabPageMenu</value>
-  </data>
-  <data name="tabPageRestaurant.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
-  </data>
-  <data name="&gt;&gt;trackBarDoor.Name" xml:space="preserve">
-    <value>trackBarDoor</value>
-  </data>
-  <data name="tabControl.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="labelRoomDevicesON.Text" xml:space="preserve">
-    <value>ON</value>
-  </data>
   <data name="&gt;&gt;tabControlMenu.Name" xml:space="preserve">
     <value>tabControlMenu</value>
-  </data>
-  <data name="&gt;&gt;trackBarLights.Parent" xml:space="preserve">
-    <value>tabPageDevices</value>
-  </data>
-  <data name="buttonLanguageGreek.Location" type="System.Drawing.Point, System.Drawing">
-    <value>460, 118</value>
-  </data>
-  <data name="&gt;&gt;labelRoomDevicesON.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="labelDescritpionMenu.Text" xml:space="preserve">
-    <value>Foods-Drinks</value>
-  </data>
-  <data name="tabControlMenu.ItemSize" type="System.Drawing.Size, System.Drawing">
-    <value>110, 110</value>
-  </data>
-  <data name="&gt;&gt;buttonStop.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="buttonStop.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
   </data>
   <data name="&gt;&gt;tabControlMenu.Type" xml:space="preserve">
     <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;tabControlMenu.Parent" xml:space="preserve">
+    <value>tabPageMenu</value>
   </data>
-  <data name="labelRoomDevicesDoor.Size" type="System.Drawing.Size, System.Drawing">
-    <value>73, 31</value>
-  </data>
-  <data name="labelRoomDevicesOFF.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="labelRoomDevicesON.Location" type="System.Drawing.Point, System.Drawing">
-    <value>535, 100</value>
-  </data>
-  <data name="trackBarDoor.Size" type="System.Drawing.Size, System.Drawing">
-    <value>264, 45</value>
-  </data>
-  <data name="labelDescriptionRoomDevices.Text" xml:space="preserve">
-    <value>Room Devices</value>
-  </data>
-  <data name="tabPageExit.Location" type="System.Drawing.Point, System.Drawing">
-    <value>114, 4</value>
-  </data>
-  <data name="labelDescriptionRoomDevices.Location" type="System.Drawing.Point, System.Drawing">
-    <value>22, 284</value>
-  </data>
-  <data name="&gt;&gt;tabControl.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="labelRoomDevicesLights.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="labelWelcome.Size" type="System.Drawing.Size, System.Drawing">
-    <value>126, 31</value>
-  </data>
-  <data name="&gt;&gt;labelRoomDevicesRadio.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="labelWelcome.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;buttonLanguageEnglish.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;tabPagePool.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;trackBarLights.Name" xml:space="preserve">
-    <value>trackBarLights</value>
-  </data>
-  <data name="&gt;&gt;tabPageDevices.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;labelWelcome.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="labelRoomDevicesLights.Text" xml:space="preserve">
-    <value>Lights</value>
-  </data>
-  <data name="labelRoomDevicesTemperature.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="buttonLanguageGreek.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="&gt;&gt;tabPageRestaurant.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;trackBarAlarm.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
-  </data>
-  <data name="&gt;&gt;labelRoomDevicesOFF.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;trackBarTemperature.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;tabControlMenu.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="&gt;&gt;labelDescritptionPool.Type" xml:space="preserve">
+  <data name="textBoxMenuTotal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>500, 482</value>
+  </data>
+  <data name="textBoxMenuTotal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 13</value>
+  </data>
+  <data name="textBoxMenuTotal.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="textBoxMenuTotal.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;textBoxMenuTotal.Name" xml:space="preserve">
+    <value>textBoxMenuTotal</value>
+  </data>
+  <data name="&gt;&gt;textBoxMenuTotal.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxMenuTotal.Parent" xml:space="preserve">
+    <value>tabPageMenu</value>
+  </data>
+  <data name="&gt;&gt;textBoxMenuTotal.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="labelMenuTotal.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelMenuTotal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="labelMenuTotal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>441, 482</value>
+  </data>
+  <data name="labelMenuTotal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 13</value>
+  </data>
+  <data name="labelMenuTotal.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="labelMenuTotal.Text" xml:space="preserve">
+    <value>Total:</value>
+  </data>
+  <data name="&gt;&gt;labelMenuTotal.Name" xml:space="preserve">
+    <value>labelMenuTotal</value>
+  </data>
+  <data name="&gt;&gt;labelMenuTotal.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="labelRoomDevicesRadio.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="&gt;&gt;labelMenuTotal.Parent" xml:space="preserve">
+    <value>tabPageMenu</value>
   </data>
-  <data name="&gt;&gt;labelRoomDevices.Parent" xml:space="preserve">
-    <value>tabPageDevices</value>
+  <data name="&gt;&gt;labelMenuTotal.ZOrder" xml:space="preserve">
+    <value>4</value>
   </data>
-  <data name="labelRoomDevicesTemperature.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="tabPageMenu.ImageKey" xml:space="preserve">
+    <value>glass.png</value>
   </data>
-  <data name="tabPagePool.Size" type="System.Drawing.Size, System.Drawing">
-    <value>618, 505</value>
-  </data>
-  <data name="tabControlMenu.Size" type="System.Drawing.Size, System.Drawing">
-    <value>622, 513</value>
-  </data>
-  <data name="tabPageExit.AutoScrollMargin" type="System.Drawing.Size, System.Drawing">
-    <value>110, 110</value>
-  </data>
-  <data name="&gt;&gt;labelRoomDevicesOFF.Parent" xml:space="preserve">
-    <value>tabPageDevices</value>
-  </data>
-  <data name="labelWelcome.Location" type="System.Drawing.Point, System.Drawing">
-    <value>237, 29</value>
+  <data name="tabPageMenu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>114, 4</value>
   </data>
   <data name="tabPageMenu.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 3, 3, 3</value>
   </data>
-  <data name="&gt;&gt;tabPageDevices.Name" xml:space="preserve">
+  <data name="tabPageMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>618, 505</value>
+  </data>
+  <data name="tabPageMenu.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;tabPageMenu.Name" xml:space="preserve">
+    <value>tabPageMenu</value>
+  </data>
+  <data name="&gt;&gt;tabPageMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPageMenu.Parent" xml:space="preserve">
+    <value>tabControl</value>
+  </data>
+  <data name="&gt;&gt;tabPageMenu.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tabPageDevices.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="trackBarDoor.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="trackBarDoor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>314, 411</value>
+  </data>
+  <data name="trackBarDoor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>264, 45</value>
+  </data>
+  <data name="trackBarDoor.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;trackBarDoor.Name" xml:space="preserve">
+    <value>trackBarDoor</value>
+  </data>
+  <data name="&gt;&gt;trackBarDoor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;trackBarDoor.Parent" xml:space="preserve">
     <value>tabPageDevices</value>
   </data>
-  <data name="&gt;&gt;tabControl.Name" xml:space="preserve">
-    <value>tabControl</value>
+  <data name="&gt;&gt;trackBarDoor.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="labelRoomDevicesTemperatureValue.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelRoomDevicesTemperatureValue.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="labelRoomDevicesTemperatureValue.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelRoomDevicesTemperatureValue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>539, 338</value>
+  </data>
+  <data name="labelRoomDevicesTemperatureValue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 25</value>
+  </data>
+  <data name="labelRoomDevicesTemperatureValue.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="labelRoomDevicesTemperatureValue.Text" xml:space="preserve">
+    <value>22 C</value>
+  </data>
+  <data name="&gt;&gt;labelRoomDevicesTemperatureValue.Name" xml:space="preserve">
+    <value>labelRoomDevicesTemperatureValue</value>
+  </data>
+  <data name="&gt;&gt;labelRoomDevicesTemperatureValue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelRoomDevicesTemperatureValue.Parent" xml:space="preserve">
+    <value>tabPageDevices</value>
+  </data>
+  <data name="&gt;&gt;labelRoomDevicesTemperatureValue.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="trackBarTemperature.Location" type="System.Drawing.Point, System.Drawing">
+    <value>314, 332</value>
+  </data>
+  <data name="trackBarTemperature.Size" type="System.Drawing.Size, System.Drawing">
+    <value>219, 45</value>
+  </data>
+  <data name="trackBarTemperature.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
   </data>
   <data name="&gt;&gt;trackBarTemperature.Name" xml:space="preserve">
     <value>trackBarTemperature</value>
   </data>
-  <data name="tabPageCafeteria.ImageKey" xml:space="preserve">
-    <value>glass.png</value>
+  <data name="&gt;&gt;trackBarTemperature.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="labelRoomDevicesRadio.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
-  <data name="&gt;&gt;tabPageDevices.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;labelDescritpionMenu.Parent" xml:space="preserve">
-    <value>tabPageExit</value>
-  </data>
-  <data name="buttonLanguageGreek.Text" xml:space="preserve">
-    <value>Greek</value>
-  </data>
-  <data name="labelDescritpionExit.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 20.25pt</value>
-  </data>
-  <data name="labelRoomDevices.Size" type="System.Drawing.Size, System.Drawing">
-    <value>191, 31</value>
-  </data>
-  <data name="labelDescritpionExit.Size" type="System.Drawing.Size, System.Drawing">
-    <value>59, 31</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>734, 511</value>
-  </data>
-  <data name="&gt;&gt;tabControlMenu.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;tabPageExit.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;buttonStop.Parent" xml:space="preserve">
+  <data name="&gt;&gt;trackBarTemperature.Parent" xml:space="preserve">
     <value>tabPageDevices</value>
   </data>
-  <data name="tabPageCafeteria.Location" type="System.Drawing.Point, System.Drawing">
-    <value>114, 4</value>
+  <data name="&gt;&gt;trackBarTemperature.ZOrder" xml:space="preserve">
+    <value>2</value>
   </data>
-  <data name="buttonLanguageEnglish.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
+  <data name="labelRoomDevicesDoor.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
-  <data name="labelDescritptionPool.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="labelRoomDevicesDoor.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt</value>
+  </data>
+  <data name="labelRoomDevicesDoor.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="tabControl.Location" type="System.Drawing.Point, System.Drawing">
-    <value>-1, -2</value>
+  <data name="labelRoomDevicesDoor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>134, 411</value>
   </data>
-  <data name="&gt;&gt;labelDescritpionMenu.ZOrder" xml:space="preserve">
-    <value>3</value>
+  <data name="labelRoomDevicesDoor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 31</value>
   </data>
-  <data name="labelRoomDevicesRadio.Location" type="System.Drawing.Point, System.Drawing">
-    <value>134, 259</value>
+  <data name="labelRoomDevicesDoor.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="labelRoomDevicesDoor.Text" xml:space="preserve">
+    <value>Door</value>
+  </data>
+  <data name="&gt;&gt;labelRoomDevicesDoor.Name" xml:space="preserve">
+    <value>labelRoomDevicesDoor</value>
+  </data>
+  <data name="&gt;&gt;labelRoomDevicesDoor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;labelRoomDevicesDoor.Parent" xml:space="preserve">
     <value>tabPageDevices</value>
   </data>
-  <data name="trackBarLights.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="&gt;&gt;labelRoomDevicesDoor.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="labelRoomDevicesTemperature.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelRoomDevicesTemperature.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt</value>
+  </data>
+  <data name="labelRoomDevicesTemperature.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelRoomDevicesTemperature.Location" type="System.Drawing.Point, System.Drawing">
+    <value>92, 332</value>
+  </data>
+  <data name="labelRoomDevicesTemperature.Size" type="System.Drawing.Size, System.Drawing">
+    <value>169, 31</value>
+  </data>
+  <data name="labelRoomDevicesTemperature.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="labelRoomDevicesTemperature.Text" xml:space="preserve">
+    <value>Temperature</value>
+  </data>
+  <data name="&gt;&gt;labelRoomDevicesTemperature.Name" xml:space="preserve">
+    <value>labelRoomDevicesTemperature</value>
+  </data>
+  <data name="&gt;&gt;labelRoomDevicesTemperature.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelRoomDevicesTemperature.Parent" xml:space="preserve">
+    <value>tabPageDevices</value>
+  </data>
+  <data name="&gt;&gt;labelRoomDevicesTemperature.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="labelRoomDevicesRadio.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelRoomDevicesRadio.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt</value>
+  </data>
+  <data name="labelRoomDevicesRadio.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelRoomDevicesRadio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>134, 259</value>
+  </data>
+  <data name="labelRoomDevicesRadio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 31</value>
+  </data>
+  <data name="labelRoomDevicesRadio.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="labelRoomDevicesRadio.Text" xml:space="preserve">
+    <value>Radio</value>
+  </data>
+  <data name="&gt;&gt;labelRoomDevicesRadio.Name" xml:space="preserve">
+    <value>labelRoomDevicesRadio</value>
+  </data>
+  <data name="&gt;&gt;labelRoomDevicesRadio.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelRoomDevicesRadio.Parent" xml:space="preserve">
+    <value>tabPageDevices</value>
+  </data>
+  <data name="&gt;&gt;labelRoomDevicesRadio.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="buttonStop.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="buttonStop.Location" type="System.Drawing.Point, System.Drawing">
+    <value>343, 268</value>
+  </data>
+  <data name="buttonStop.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 25</value>
+  </data>
+  <data name="buttonStop.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;buttonStop.Name" xml:space="preserve">
+    <value>buttonStop</value>
+  </data>
+  <data name="&gt;&gt;buttonStop.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonStop.Parent" xml:space="preserve">
+    <value>tabPageDevices</value>
+  </data>
+  <data name="&gt;&gt;buttonStop.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="buttonPlay.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="buttonPlay.Location" type="System.Drawing.Point, System.Drawing">
+    <value>314, 268</value>
+  </data>
+  <data name="buttonPlay.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 25</value>
+  </data>
+  <data name="buttonPlay.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;buttonPlay.Name" xml:space="preserve">
+    <value>buttonPlay</value>
+  </data>
+  <data name="&gt;&gt;buttonPlay.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonPlay.Parent" xml:space="preserve">
+    <value>tabPageDevices</value>
+  </data>
+  <data name="&gt;&gt;buttonPlay.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="labelRoomDevicesAlarm.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelRoomDevicesAlarm.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt</value>
+  </data>
+  <data name="labelRoomDevicesAlarm.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelRoomDevicesAlarm.Location" type="System.Drawing.Point, System.Drawing">
+    <value>132, 196</value>
+  </data>
+  <data name="labelRoomDevicesAlarm.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 31</value>
+  </data>
+  <data name="labelRoomDevicesAlarm.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="labelRoomDevicesAlarm.Text" xml:space="preserve">
+    <value>Alarm</value>
+  </data>
+  <data name="&gt;&gt;labelRoomDevicesAlarm.Name" xml:space="preserve">
+    <value>labelRoomDevicesAlarm</value>
+  </data>
+  <data name="&gt;&gt;labelRoomDevicesAlarm.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelRoomDevicesAlarm.Parent" xml:space="preserve">
+    <value>tabPageDevices</value>
+  </data>
+  <data name="&gt;&gt;labelRoomDevicesAlarm.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="trackBarAlarm.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="trackBarAlarm.Location" type="System.Drawing.Point, System.Drawing">
     <value>314, 196</value>
   </data>
-  <data name="labelDescritpionExit.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
+  <data name="trackBarAlarm.Size" type="System.Drawing.Size, System.Drawing">
+    <value>264, 45</value>
   </data>
-  <data name="&gt;&gt;imageList.Name" xml:space="preserve">
-    <value>imageList</value>
+  <data name="trackBarAlarm.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
   </data>
-  <data name="tabPageExit.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
+  <data name="&gt;&gt;trackBarAlarm.Name" xml:space="preserve">
+    <value>trackBarAlarm</value>
   </data>
-  <data name="tabPageExit.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Stretch</value>
+  <data name="&gt;&gt;trackBarAlarm.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="trackBarDoor.TabIndex" type="System.Int32, mscorlib">
-    <value>14</value>
+  <data name="&gt;&gt;trackBarAlarm.Parent" xml:space="preserve">
+    <value>tabPageDevices</value>
   </data>
-  <data name="buttonPlay.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 25</value>
+  <data name="&gt;&gt;trackBarAlarm.ZOrder" xml:space="preserve">
+    <value>9</value>
   </data>
-  <data name="buttonLanguageEnglish.Size" type="System.Drawing.Size, System.Drawing">
-    <value>110, 70</value>
-  </data>
-  <data name="&gt;&gt;labelRoomDevicesON.ZOrder" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="&gt;&gt;tabPageCafeteria.Parent" xml:space="preserve">
-    <value>tabControlMenu</value>
+  <data name="labelRoomDevicesON.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="labelRoomDevicesON.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 15.75pt</value>
   </data>
-  <data name="&gt;&gt;labelDescriptionRoomDevices.Type" xml:space="preserve">
+  <data name="labelRoomDevicesON.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelRoomDevicesON.Location" type="System.Drawing.Point, System.Drawing">
+    <value>535, 100</value>
+  </data>
+  <data name="labelRoomDevicesON.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 25</value>
+  </data>
+  <data name="labelRoomDevicesON.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="labelRoomDevicesON.Text" xml:space="preserve">
+    <value>ON</value>
+  </data>
+  <data name="&gt;&gt;labelRoomDevicesON.Name" xml:space="preserve">
+    <value>labelRoomDevicesON</value>
+  </data>
+  <data name="&gt;&gt;labelRoomDevicesON.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;labelRoomDevicesON.Parent" xml:space="preserve">
     <value>tabPageDevices</value>
   </data>
-  <data name="trackBarAlarm.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="&gt;&gt;labelRoomDevicesON.ZOrder" xml:space="preserve">
+    <value>10</value>
   </data>
-  <data name="labelRoomDevicesON.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="tabPageExit.ImageKey" xml:space="preserve">
-    <value>glass.png</value>
-  </data>
-  <data name="labelRoomDevicesTemperatureValue.AutoSize" type="System.Boolean, mscorlib">
+  <data name="labelRoomDevicesOFF.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="&gt;&gt;labelDescriptionRoomDevices.ZOrder" xml:space="preserve">
-    <value>2</value>
+  <data name="labelRoomDevicesOFF.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
   </data>
-  <data name="tabPageRestaurant.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+  <data name="labelRoomDevicesOFF.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="&gt;&gt;imageList.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ImageList, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="labelRoomDevicesOFF.Location" type="System.Drawing.Point, System.Drawing">
+    <value>290, 100</value>
   </data>
-  <data name="labelRoomDevicesRadio.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="labelRoomDevicesOFF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 25</value>
   </data>
-  <data name="labelRoomDevicesTemperature.Text" xml:space="preserve">
-    <value>Temperature</value>
+  <data name="labelRoomDevicesOFF.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
   </data>
-  <data name="labelRoomDevicesTemperatureValue.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
-  </data>
-  <data name="&gt;&gt;tabPageCafeteria.Name" xml:space="preserve">
-    <value>tabPageCafeteria</value>
-  </data>
-  <data name="&gt;&gt;buttonPlay.Parent" xml:space="preserve">
-    <value>tabPageDevices</value>
-  </data>
-  <data name="&gt;&gt;labelRoomDevicesTemperatureValue.Name" xml:space="preserve">
-    <value>labelRoomDevicesTemperatureValue</value>
+  <data name="labelRoomDevicesOFF.Text" xml:space="preserve">
+    <value>OFF</value>
   </data>
   <data name="&gt;&gt;labelRoomDevicesOFF.Name" xml:space="preserve">
     <value>labelRoomDevicesOFF</value>
   </data>
+  <data name="&gt;&gt;labelRoomDevicesOFF.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelRoomDevicesOFF.Parent" xml:space="preserve">
+    <value>tabPageDevices</value>
+  </data>
+  <data name="&gt;&gt;labelRoomDevicesOFF.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="labelRoomDevicesLights.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelRoomDevicesLights.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt</value>
+  </data>
   <data name="labelRoomDevicesLights.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="&gt;&gt;labelWelcome.Parent" xml:space="preserve">
+  <data name="labelRoomDevicesLights.Location" type="System.Drawing.Point, System.Drawing">
+    <value>132, 128</value>
+  </data>
+  <data name="labelRoomDevicesLights.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 31</value>
+  </data>
+  <data name="labelRoomDevicesLights.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="labelRoomDevicesLights.Text" xml:space="preserve">
+    <value>Lights</value>
+  </data>
+  <data name="&gt;&gt;labelRoomDevicesLights.Name" xml:space="preserve">
+    <value>labelRoomDevicesLights</value>
+  </data>
+  <data name="&gt;&gt;labelRoomDevicesLights.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelRoomDevicesLights.Parent" xml:space="preserve">
+    <value>tabPageDevices</value>
+  </data>
+  <data name="&gt;&gt;labelRoomDevicesLights.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="trackBarLights.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="trackBarLights.Location" type="System.Drawing.Point, System.Drawing">
+    <value>314, 128</value>
+  </data>
+  <data name="trackBarLights.Size" type="System.Drawing.Size, System.Drawing">
+    <value>264, 45</value>
+  </data>
+  <data name="trackBarLights.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;trackBarLights.Name" xml:space="preserve">
+    <value>trackBarLights</value>
+  </data>
+  <data name="&gt;&gt;trackBarLights.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;trackBarLights.Parent" xml:space="preserve">
+    <value>tabPageDevices</value>
+  </data>
+  <data name="&gt;&gt;trackBarLights.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="labelRoomDevices.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelRoomDevices.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt</value>
+  </data>
+  <data name="labelRoomDevices.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelRoomDevices.Location" type="System.Drawing.Point, System.Drawing">
+    <value>177, 33</value>
+  </data>
+  <data name="labelRoomDevices.Size" type="System.Drawing.Size, System.Drawing">
+    <value>191, 31</value>
+  </data>
+  <data name="labelRoomDevices.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="labelRoomDevices.Text" xml:space="preserve">
+    <value>Room Devices</value>
+  </data>
+  <data name="&gt;&gt;labelRoomDevices.Name" xml:space="preserve">
+    <value>labelRoomDevices</value>
+  </data>
+  <data name="&gt;&gt;labelRoomDevices.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelRoomDevices.Parent" xml:space="preserve">
+    <value>tabPageDevices</value>
+  </data>
+  <data name="&gt;&gt;labelRoomDevices.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="tabPageDevices.ImageKey" xml:space="preserve">
+    <value>glass.png</value>
+  </data>
+  <data name="tabPageDevices.Location" type="System.Drawing.Point, System.Drawing">
+    <value>114, 4</value>
+  </data>
+  <data name="tabPageDevices.Size" type="System.Drawing.Size, System.Drawing">
+    <value>618, 505</value>
+  </data>
+  <data name="tabPageDevices.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;tabPageDevices.Name" xml:space="preserve">
+    <value>tabPageDevices</value>
+  </data>
+  <data name="&gt;&gt;tabPageDevices.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPageDevices.Parent" xml:space="preserve">
+    <value>tabControl</value>
+  </data>
+  <data name="&gt;&gt;tabPageDevices.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tabPageExit.AutoScrollMargin" type="System.Drawing.Size, System.Drawing">
+    <value>110, 110</value>
+  </data>
+  <data name="tabPageExit.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="labelDescritptionPool.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelDescritptionPool.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt</value>
+  </data>
+  <data name="labelDescritptionPool.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelDescritptionPool.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 44</value>
+  </data>
+  <data name="labelDescritptionPool.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 31</value>
+  </data>
+  <data name="labelDescritptionPool.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="labelDescritptionPool.Text" xml:space="preserve">
+    <value>Pool</value>
+  </data>
+  <data name="&gt;&gt;labelDescritptionPool.Name" xml:space="preserve">
+    <value>labelDescritptionPool</value>
+  </data>
+  <data name="&gt;&gt;labelDescritptionPool.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelDescritptionPool.Parent" xml:space="preserve">
     <value>tabPageExit</value>
+  </data>
+  <data name="&gt;&gt;labelDescritptionPool.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="labelDescritpionExit.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelDescritpionExit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt</value>
+  </data>
+  <data name="labelDescritpionExit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelDescritpionExit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 401</value>
+  </data>
+  <data name="labelDescritpionExit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 31</value>
+  </data>
+  <data name="labelDescritpionExit.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="labelDescritpionExit.Text" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="&gt;&gt;labelDescritpionExit.Name" xml:space="preserve">
+    <value>labelDescritpionExit</value>
+  </data>
+  <data name="&gt;&gt;labelDescritpionExit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelDescritpionExit.Parent" xml:space="preserve">
+    <value>tabPageExit</value>
+  </data>
+  <data name="&gt;&gt;labelDescritpionExit.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="labelDescriptionRoomDevices.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="labelDescriptionRoomDevices.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 20.25pt</value>
   </data>
-  <data name="&gt;&gt;labelRoomDevicesTemperatureValue.Parent" xml:space="preserve">
-    <value>tabPageDevices</value>
+  <data name="labelDescriptionRoomDevices.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelDescriptionRoomDevices.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 284</value>
+  </data>
+  <data name="labelDescriptionRoomDevices.Size" type="System.Drawing.Size, System.Drawing">
+    <value>191, 31</value>
+  </data>
+  <data name="labelDescriptionRoomDevices.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="labelDescriptionRoomDevices.Text" xml:space="preserve">
+    <value>Room Devices</value>
+  </data>
+  <data name="&gt;&gt;labelDescriptionRoomDevices.Name" xml:space="preserve">
+    <value>labelDescriptionRoomDevices</value>
+  </data>
+  <data name="&gt;&gt;labelDescriptionRoomDevices.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelDescriptionRoomDevices.Parent" xml:space="preserve">
+    <value>tabPageExit</value>
+  </data>
+  <data name="&gt;&gt;labelDescriptionRoomDevices.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="labelDescritpionMenu.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelDescritpionMenu.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt</value>
+  </data>
+  <data name="labelDescritpionMenu.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelDescritpionMenu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 169</value>
+  </data>
+  <data name="labelDescritpionMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 31</value>
+  </data>
+  <data name="labelDescritpionMenu.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="labelDescritpionMenu.Text" xml:space="preserve">
+    <value>Foods-Drinks</value>
+  </data>
+  <data name="&gt;&gt;labelDescritpionMenu.Name" xml:space="preserve">
+    <value>labelDescritpionMenu</value>
+  </data>
+  <data name="&gt;&gt;labelDescritpionMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelDescritpionMenu.Parent" xml:space="preserve">
+    <value>tabPageExit</value>
+  </data>
+  <data name="&gt;&gt;labelDescritpionMenu.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="buttonLanguageEnglish.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="buttonLanguageEnglish.Location" type="System.Drawing.Point, System.Drawing">
+    <value>460, 270</value>
+  </data>
+  <data name="buttonLanguageEnglish.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 70</value>
+  </data>
+  <data name="buttonLanguageEnglish.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="buttonLanguageEnglish.Text" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="&gt;&gt;buttonLanguageEnglish.Name" xml:space="preserve">
+    <value>buttonLanguageEnglish</value>
+  </data>
+  <data name="&gt;&gt;buttonLanguageEnglish.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonLanguageEnglish.Parent" xml:space="preserve">
+    <value>tabPageExit</value>
+  </data>
+  <data name="&gt;&gt;buttonLanguageEnglish.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="buttonLanguageGreek.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="buttonLanguageGreek.Location" type="System.Drawing.Point, System.Drawing">
+    <value>460, 118</value>
+  </data>
+  <data name="buttonLanguageGreek.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 70</value>
+  </data>
+  <data name="buttonLanguageGreek.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="buttonLanguageGreek.Text" xml:space="preserve">
+    <value>Greek</value>
+  </data>
+  <data name="&gt;&gt;buttonLanguageGreek.Name" xml:space="preserve">
+    <value>buttonLanguageGreek</value>
+  </data>
+  <data name="&gt;&gt;buttonLanguageGreek.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonLanguageGreek.Parent" xml:space="preserve">
+    <value>tabPageExit</value>
+  </data>
+  <data name="&gt;&gt;buttonLanguageGreek.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="labelWelcome.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelWelcome.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt</value>
+  </data>
+  <data name="labelWelcome.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelWelcome.Location" type="System.Drawing.Point, System.Drawing">
+    <value>237, 29</value>
+  </data>
+  <data name="labelWelcome.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 31</value>
+  </data>
+  <data name="labelWelcome.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="labelWelcome.Text" xml:space="preserve">
+    <value>Welcome</value>
   </data>
   <data name="&gt;&gt;labelWelcome.Name" xml:space="preserve">
     <value>labelWelcome</value>
   </data>
-  <data name="&gt;&gt;labelRoomDevicesRadio.ZOrder" xml:space="preserve">
-    <value>5</value>
+  <data name="&gt;&gt;labelWelcome.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelWelcome.Parent" xml:space="preserve">
+    <value>tabPageExit</value>
+  </data>
+  <data name="&gt;&gt;labelWelcome.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="tabPageExit.ImageKey" xml:space="preserve">
+    <value>glass.png</value>
+  </data>
+  <data name="tabPageExit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>114, 4</value>
+  </data>
+  <data name="tabPageExit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>618, 505</value>
+  </data>
+  <data name="tabPageExit.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;tabPageExit.Name" xml:space="preserve">
+    <value>tabPageExit</value>
+  </data>
+  <data name="&gt;&gt;tabPageExit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPageExit.Parent" xml:space="preserve">
+    <value>tabControl</value>
+  </data>
+  <data name="&gt;&gt;tabPageExit.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="tabControl.ItemSize" type="System.Drawing.Size, System.Drawing">
+    <value>110, 110</value>
+  </data>
+  <data name="tabControl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-1, -2</value>
+  </data>
+  <data name="tabControl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>736, 513</value>
+  </data>
+  <data name="tabControl.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tabControl.Name" xml:space="preserve">
+    <value>tabControl</value>
+  </data>
+  <data name="&gt;&gt;tabControl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabControl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tabControl.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <metadata name="imageList.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>734, 511</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Our little castle !!!</value>
+  </data>
+  <data name="&gt;&gt;imageList.Name" xml:space="preserve">
+    <value>imageList</value>
+  </data>
+  <data name="&gt;&gt;imageList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ImageList, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>MainForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
 </root>

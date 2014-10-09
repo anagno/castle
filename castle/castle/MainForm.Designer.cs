@@ -33,10 +33,41 @@
             this.tabControl = new System.Windows.Forms.TabControl();
             this.tabPagePool = new System.Windows.Forms.TabPage();
             this.tabPageMenu = new System.Windows.Forms.TabPage();
+            this.buttonMenuPayment = new System.Windows.Forms.Button();
+            this.buttonMenuCancel = new System.Windows.Forms.Button();
             this.tabControlMenu = new System.Windows.Forms.TabControl();
             this.tabPageRestaurant = new System.Windows.Forms.TabPage();
+            this.groupBoxMenuFood = new System.Windows.Forms.GroupBox();
+            this.checkBoxMenuFoodCheececake = new System.Windows.Forms.CheckBox();
+            this.labelMenuFoodSweet = new System.Windows.Forms.Label();
+            this.checkBoxMenuFoodProfiterol = new System.Windows.Forms.CheckBox();
+            this.checkBoxMenuFoodCarbonara = new System.Windows.Forms.CheckBox();
+            this.checkBoxMenuFoodCanneloni = new System.Windows.Forms.CheckBox();
+            this.checkBoxMenuFoodRisotto = new System.Windows.Forms.CheckBox();
+            this.checkBoxMenuFoodRibEye = new System.Windows.Forms.CheckBox();
+            this.checkBoxMenuFoodChops = new System.Windows.Forms.CheckBox();
+            this.labelMenuFoodMainCourse = new System.Windows.Forms.Label();
+            this.checkBoxMenuFoodMuffin = new System.Windows.Forms.CheckBox();
+            this.checkBoxMenuFoodTsigarilos = new System.Windows.Forms.CheckBox();
+            this.labelMenuFoodAppetizers = new System.Windows.Forms.Label();
+            this.checkBoxMenuFoodExotic = new System.Windows.Forms.CheckBox();
+            this.checkBoxMenuFoodCaesar = new System.Windows.Forms.CheckBox();
+            this.checkBoxMenuFoodGreek = new System.Windows.Forms.CheckBox();
+            this.labelMenuFoodSalads = new System.Windows.Forms.Label();
             this.tabPageCafeteria = new System.Windows.Forms.TabPage();
+            this.groupBoxMenuDrinks = new System.Windows.Forms.GroupBox();
+            this.checkBoxMenuDrinksJuice = new System.Windows.Forms.CheckBox();
+            this.labelMenuFoodOther = new System.Windows.Forms.Label();
+            this.checkBoxMenuDrinksVodka = new System.Windows.Forms.CheckBox();
+            this.checkBoxMenuDrinksBeer = new System.Windows.Forms.CheckBox();
+            this.labelMenuFoodAlcoholic = new System.Windows.Forms.Label();
+            this.checkBoxMenuDrinksCappuccino = new System.Windows.Forms.CheckBox();
+            this.checkBoxMenuDrinksEspresso = new System.Windows.Forms.CheckBox();
+            this.checkBoxMenuDrinksGreek = new System.Windows.Forms.CheckBox();
+            this.labelMenuFoodCoffee = new System.Windows.Forms.Label();
             this.imageList = new System.Windows.Forms.ImageList(this.components);
+            this.textBoxMenuTotal = new System.Windows.Forms.TextBox();
+            this.labelMenuTotal = new System.Windows.Forms.Label();
             this.tabPageDevices = new System.Windows.Forms.TabPage();
             this.trackBarDoor = new System.Windows.Forms.TrackBar();
             this.labelRoomDevicesTemperatureValue = new System.Windows.Forms.Label();
@@ -64,6 +95,10 @@
             this.tabControl.SuspendLayout();
             this.tabPageMenu.SuspendLayout();
             this.tabControlMenu.SuspendLayout();
+            this.tabPageRestaurant.SuspendLayout();
+            this.groupBoxMenuFood.SuspendLayout();
+            this.tabPageCafeteria.SuspendLayout();
+            this.groupBoxMenuDrinks.SuspendLayout();
             this.tabPageDevices.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.trackBarDoor)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBarTemperature)).BeginInit();
@@ -86,18 +121,35 @@
             // 
             // tabPagePool
             // 
-            resources.ApplyResources(this.tabPagePool, "tabPagePool");
             this.tabPagePool.BackgroundImage = global::Castle.Properties.Resources.castle_5;
+            resources.ApplyResources(this.tabPagePool, "tabPagePool");
             this.tabPagePool.Name = "tabPagePool";
             this.tabPagePool.UseVisualStyleBackColor = true;
             // 
             // tabPageMenu
             // 
             resources.ApplyResources(this.tabPageMenu, "tabPageMenu");
-            this.tabPageMenu.BackgroundImage = global::Castle.Properties.Resources.castle_5;
+            this.tabPageMenu.Controls.Add(this.buttonMenuPayment);
+            this.tabPageMenu.Controls.Add(this.buttonMenuCancel);
             this.tabPageMenu.Controls.Add(this.tabControlMenu);
+            this.tabPageMenu.Controls.Add(this.textBoxMenuTotal);
+            this.tabPageMenu.Controls.Add(this.labelMenuTotal);
             this.tabPageMenu.Name = "tabPageMenu";
             this.tabPageMenu.UseVisualStyleBackColor = true;
+            // 
+            // buttonMenuPayment
+            // 
+            resources.ApplyResources(this.buttonMenuPayment, "buttonMenuPayment");
+            this.buttonMenuPayment.Name = "buttonMenuPayment";
+            this.buttonMenuPayment.UseVisualStyleBackColor = true;
+            this.buttonMenuPayment.Click += new System.EventHandler(this.buttonMenuPayment_Click);
+            // 
+            // buttonMenuCancel
+            // 
+            resources.ApplyResources(this.buttonMenuCancel, "buttonMenuCancel");
+            this.buttonMenuCancel.Name = "buttonMenuCancel";
+            this.buttonMenuCancel.UseVisualStyleBackColor = true;
+            this.buttonMenuCancel.Click += new System.EventHandler(this.buttonMenuCancel_Click);
             // 
             // tabControlMenu
             // 
@@ -112,17 +164,219 @@
             // 
             // tabPageRestaurant
             // 
+            this.tabPageRestaurant.BackgroundImage = global::Castle.Properties.Resources.size1;
             resources.ApplyResources(this.tabPageRestaurant, "tabPageRestaurant");
-            this.tabPageRestaurant.BackgroundImage = global::Castle.Properties.Resources.villecroze_cafe_provence;
+            this.tabPageRestaurant.Controls.Add(this.groupBoxMenuFood);
             this.tabPageRestaurant.Name = "tabPageRestaurant";
             this.tabPageRestaurant.UseVisualStyleBackColor = true;
             // 
+            // groupBoxMenuFood
+            // 
+            this.groupBoxMenuFood.BackColor = System.Drawing.SystemColors.Control;
+            this.groupBoxMenuFood.Controls.Add(this.checkBoxMenuFoodCheececake);
+            this.groupBoxMenuFood.Controls.Add(this.labelMenuFoodSweet);
+            this.groupBoxMenuFood.Controls.Add(this.checkBoxMenuFoodProfiterol);
+            this.groupBoxMenuFood.Controls.Add(this.checkBoxMenuFoodCarbonara);
+            this.groupBoxMenuFood.Controls.Add(this.checkBoxMenuFoodCanneloni);
+            this.groupBoxMenuFood.Controls.Add(this.checkBoxMenuFoodRisotto);
+            this.groupBoxMenuFood.Controls.Add(this.checkBoxMenuFoodRibEye);
+            this.groupBoxMenuFood.Controls.Add(this.checkBoxMenuFoodChops);
+            this.groupBoxMenuFood.Controls.Add(this.labelMenuFoodMainCourse);
+            this.groupBoxMenuFood.Controls.Add(this.checkBoxMenuFoodMuffin);
+            this.groupBoxMenuFood.Controls.Add(this.checkBoxMenuFoodTsigarilos);
+            this.groupBoxMenuFood.Controls.Add(this.labelMenuFoodAppetizers);
+            this.groupBoxMenuFood.Controls.Add(this.checkBoxMenuFoodExotic);
+            this.groupBoxMenuFood.Controls.Add(this.checkBoxMenuFoodCaesar);
+            this.groupBoxMenuFood.Controls.Add(this.checkBoxMenuFoodGreek);
+            this.groupBoxMenuFood.Controls.Add(this.labelMenuFoodSalads);
+            resources.ApplyResources(this.groupBoxMenuFood, "groupBoxMenuFood");
+            this.groupBoxMenuFood.Name = "groupBoxMenuFood";
+            this.groupBoxMenuFood.TabStop = false;
+            // 
+            // checkBoxMenuFoodCheececake
+            // 
+            resources.ApplyResources(this.checkBoxMenuFoodCheececake, "checkBoxMenuFoodCheececake");
+            this.checkBoxMenuFoodCheececake.Name = "checkBoxMenuFoodCheececake";
+            this.checkBoxMenuFoodCheececake.UseVisualStyleBackColor = true;
+            this.checkBoxMenuFoodCheececake.CheckedChanged += new System.EventHandler(this.checkBoxMenuFoodCheececake_CheckedChanged);
+            // 
+            // labelMenuFoodSweet
+            // 
+            resources.ApplyResources(this.labelMenuFoodSweet, "labelMenuFoodSweet");
+            this.labelMenuFoodSweet.Name = "labelMenuFoodSweet";
+            // 
+            // checkBoxMenuFoodProfiterol
+            // 
+            resources.ApplyResources(this.checkBoxMenuFoodProfiterol, "checkBoxMenuFoodProfiterol");
+            this.checkBoxMenuFoodProfiterol.Name = "checkBoxMenuFoodProfiterol";
+            this.checkBoxMenuFoodProfiterol.UseVisualStyleBackColor = true;
+            this.checkBoxMenuFoodProfiterol.CheckedChanged += new System.EventHandler(this.checkBoxMenuFoodProfiterol_CheckedChanged);
+            // 
+            // checkBoxMenuFoodCarbonara
+            // 
+            resources.ApplyResources(this.checkBoxMenuFoodCarbonara, "checkBoxMenuFoodCarbonara");
+            this.checkBoxMenuFoodCarbonara.Name = "checkBoxMenuFoodCarbonara";
+            this.checkBoxMenuFoodCarbonara.UseVisualStyleBackColor = true;
+            this.checkBoxMenuFoodCarbonara.CheckedChanged += new System.EventHandler(this.checkBoxMenuFoodCarbonara_CheckedChanged);
+            // 
+            // checkBoxMenuFoodCanneloni
+            // 
+            resources.ApplyResources(this.checkBoxMenuFoodCanneloni, "checkBoxMenuFoodCanneloni");
+            this.checkBoxMenuFoodCanneloni.Name = "checkBoxMenuFoodCanneloni";
+            this.checkBoxMenuFoodCanneloni.UseVisualStyleBackColor = true;
+            this.checkBoxMenuFoodCanneloni.CheckedChanged += new System.EventHandler(this.checkBoxMenuFoodCanneloni_CheckedChanged);
+            // 
+            // checkBoxMenuFoodRisotto
+            // 
+            resources.ApplyResources(this.checkBoxMenuFoodRisotto, "checkBoxMenuFoodRisotto");
+            this.checkBoxMenuFoodRisotto.Name = "checkBoxMenuFoodRisotto";
+            this.checkBoxMenuFoodRisotto.UseVisualStyleBackColor = true;
+            this.checkBoxMenuFoodRisotto.CheckedChanged += new System.EventHandler(this.checkBoxMenuFoodRisotto_CheckedChanged);
+            // 
+            // checkBoxMenuFoodRibEye
+            // 
+            resources.ApplyResources(this.checkBoxMenuFoodRibEye, "checkBoxMenuFoodRibEye");
+            this.checkBoxMenuFoodRibEye.Name = "checkBoxMenuFoodRibEye";
+            this.checkBoxMenuFoodRibEye.UseVisualStyleBackColor = true;
+            this.checkBoxMenuFoodRibEye.CheckedChanged += new System.EventHandler(this.checkBoxMenuFoodRibEye_CheckedChanged);
+            // 
+            // checkBoxMenuFoodChops
+            // 
+            resources.ApplyResources(this.checkBoxMenuFoodChops, "checkBoxMenuFoodChops");
+            this.checkBoxMenuFoodChops.Name = "checkBoxMenuFoodChops";
+            this.checkBoxMenuFoodChops.UseVisualStyleBackColor = true;
+            this.checkBoxMenuFoodChops.CheckedChanged += new System.EventHandler(this.checkBoxMenuFoodChops_CheckedChanged);
+            // 
+            // labelMenuFoodMainCourse
+            // 
+            resources.ApplyResources(this.labelMenuFoodMainCourse, "labelMenuFoodMainCourse");
+            this.labelMenuFoodMainCourse.Name = "labelMenuFoodMainCourse";
+            // 
+            // checkBoxMenuFoodMuffin
+            // 
+            resources.ApplyResources(this.checkBoxMenuFoodMuffin, "checkBoxMenuFoodMuffin");
+            this.checkBoxMenuFoodMuffin.Name = "checkBoxMenuFoodMuffin";
+            this.checkBoxMenuFoodMuffin.UseVisualStyleBackColor = true;
+            this.checkBoxMenuFoodMuffin.CheckedChanged += new System.EventHandler(this.checkBoxMenuFoodMuffin_CheckedChanged);
+            // 
+            // checkBoxMenuFoodTsigarilos
+            // 
+            resources.ApplyResources(this.checkBoxMenuFoodTsigarilos, "checkBoxMenuFoodTsigarilos");
+            this.checkBoxMenuFoodTsigarilos.Name = "checkBoxMenuFoodTsigarilos";
+            this.checkBoxMenuFoodTsigarilos.UseVisualStyleBackColor = true;
+            this.checkBoxMenuFoodTsigarilos.CheckedChanged += new System.EventHandler(this.checkBoxMenuFoodTsigarilos_CheckedChanged);
+            // 
+            // labelMenuFoodAppetizers
+            // 
+            resources.ApplyResources(this.labelMenuFoodAppetizers, "labelMenuFoodAppetizers");
+            this.labelMenuFoodAppetizers.Name = "labelMenuFoodAppetizers";
+            // 
+            // checkBoxMenuFoodExotic
+            // 
+            resources.ApplyResources(this.checkBoxMenuFoodExotic, "checkBoxMenuFoodExotic");
+            this.checkBoxMenuFoodExotic.Name = "checkBoxMenuFoodExotic";
+            this.checkBoxMenuFoodExotic.UseVisualStyleBackColor = true;
+            this.checkBoxMenuFoodExotic.CheckedChanged += new System.EventHandler(this.checkBoxMenuFoodExotic_CheckedChanged);
+            // 
+            // checkBoxMenuFoodCaesar
+            // 
+            resources.ApplyResources(this.checkBoxMenuFoodCaesar, "checkBoxMenuFoodCaesar");
+            this.checkBoxMenuFoodCaesar.Name = "checkBoxMenuFoodCaesar";
+            this.checkBoxMenuFoodCaesar.UseVisualStyleBackColor = true;
+            this.checkBoxMenuFoodCaesar.CheckedChanged += new System.EventHandler(this.checkBoxMenuFoodCaesar_CheckedChanged);
+            // 
+            // checkBoxMenuFoodGreek
+            // 
+            resources.ApplyResources(this.checkBoxMenuFoodGreek, "checkBoxMenuFoodGreek");
+            this.checkBoxMenuFoodGreek.Name = "checkBoxMenuFoodGreek";
+            this.checkBoxMenuFoodGreek.UseVisualStyleBackColor = true;
+            this.checkBoxMenuFoodGreek.CheckedChanged += new System.EventHandler(this.checkBoxMenuFoodGreek_CheckedChanged);
+            // 
+            // labelMenuFoodSalads
+            // 
+            resources.ApplyResources(this.labelMenuFoodSalads, "labelMenuFoodSalads");
+            this.labelMenuFoodSalads.Name = "labelMenuFoodSalads";
+            // 
             // tabPageCafeteria
             // 
+            this.tabPageCafeteria.BackgroundImage = global::Castle.Properties.Resources.villecroze_cafe_provence;
             resources.ApplyResources(this.tabPageCafeteria, "tabPageCafeteria");
-            this.tabPageCafeteria.BackgroundImage = global::Castle.Properties.Resources.size1;
+            this.tabPageCafeteria.Controls.Add(this.groupBoxMenuDrinks);
             this.tabPageCafeteria.Name = "tabPageCafeteria";
             this.tabPageCafeteria.UseVisualStyleBackColor = true;
+            // 
+            // groupBoxMenuDrinks
+            // 
+            this.groupBoxMenuDrinks.BackColor = System.Drawing.SystemColors.Control;
+            this.groupBoxMenuDrinks.Controls.Add(this.checkBoxMenuDrinksJuice);
+            this.groupBoxMenuDrinks.Controls.Add(this.labelMenuFoodOther);
+            this.groupBoxMenuDrinks.Controls.Add(this.checkBoxMenuDrinksVodka);
+            this.groupBoxMenuDrinks.Controls.Add(this.checkBoxMenuDrinksBeer);
+            this.groupBoxMenuDrinks.Controls.Add(this.labelMenuFoodAlcoholic);
+            this.groupBoxMenuDrinks.Controls.Add(this.checkBoxMenuDrinksCappuccino);
+            this.groupBoxMenuDrinks.Controls.Add(this.checkBoxMenuDrinksEspresso);
+            this.groupBoxMenuDrinks.Controls.Add(this.checkBoxMenuDrinksGreek);
+            this.groupBoxMenuDrinks.Controls.Add(this.labelMenuFoodCoffee);
+            resources.ApplyResources(this.groupBoxMenuDrinks, "groupBoxMenuDrinks");
+            this.groupBoxMenuDrinks.Name = "groupBoxMenuDrinks";
+            this.groupBoxMenuDrinks.TabStop = false;
+            // 
+            // checkBoxMenuDrinksJuice
+            // 
+            resources.ApplyResources(this.checkBoxMenuDrinksJuice, "checkBoxMenuDrinksJuice");
+            this.checkBoxMenuDrinksJuice.Name = "checkBoxMenuDrinksJuice";
+            this.checkBoxMenuDrinksJuice.UseVisualStyleBackColor = true;
+            this.checkBoxMenuDrinksJuice.CheckedChanged += new System.EventHandler(this.checkBoxMenuDrinksJuice_CheckedChanged);
+            // 
+            // labelMenuFoodOther
+            // 
+            resources.ApplyResources(this.labelMenuFoodOther, "labelMenuFoodOther");
+            this.labelMenuFoodOther.Name = "labelMenuFoodOther";
+            // 
+            // checkBoxMenuDrinksVodka
+            // 
+            resources.ApplyResources(this.checkBoxMenuDrinksVodka, "checkBoxMenuDrinksVodka");
+            this.checkBoxMenuDrinksVodka.Name = "checkBoxMenuDrinksVodka";
+            this.checkBoxMenuDrinksVodka.UseVisualStyleBackColor = true;
+            this.checkBoxMenuDrinksVodka.CheckedChanged += new System.EventHandler(this.checkBoxMenuDrinksVodka_CheckedChanged);
+            // 
+            // checkBoxMenuDrinksBeer
+            // 
+            resources.ApplyResources(this.checkBoxMenuDrinksBeer, "checkBoxMenuDrinksBeer");
+            this.checkBoxMenuDrinksBeer.Name = "checkBoxMenuDrinksBeer";
+            this.checkBoxMenuDrinksBeer.UseVisualStyleBackColor = true;
+            this.checkBoxMenuDrinksBeer.CheckedChanged += new System.EventHandler(this.checkBoxMenuDrinksBeer_CheckedChanged);
+            // 
+            // labelMenuFoodAlcoholic
+            // 
+            resources.ApplyResources(this.labelMenuFoodAlcoholic, "labelMenuFoodAlcoholic");
+            this.labelMenuFoodAlcoholic.Name = "labelMenuFoodAlcoholic";
+            // 
+            // checkBoxMenuDrinksCappuccino
+            // 
+            resources.ApplyResources(this.checkBoxMenuDrinksCappuccino, "checkBoxMenuDrinksCappuccino");
+            this.checkBoxMenuDrinksCappuccino.Name = "checkBoxMenuDrinksCappuccino";
+            this.checkBoxMenuDrinksCappuccino.UseVisualStyleBackColor = true;
+            this.checkBoxMenuDrinksCappuccino.CheckedChanged += new System.EventHandler(this.checkBoxMenuDrinksCappuccino_CheckedChanged);
+            // 
+            // checkBoxMenuDrinksEspresso
+            // 
+            resources.ApplyResources(this.checkBoxMenuDrinksEspresso, "checkBoxMenuDrinksEspresso");
+            this.checkBoxMenuDrinksEspresso.Name = "checkBoxMenuDrinksEspresso";
+            this.checkBoxMenuDrinksEspresso.UseVisualStyleBackColor = true;
+            this.checkBoxMenuDrinksEspresso.CheckedChanged += new System.EventHandler(this.checkBoxMenuDrinksEspresso_CheckedChanged);
+            // 
+            // checkBoxMenuDrinksGreek
+            // 
+            resources.ApplyResources(this.checkBoxMenuDrinksGreek, "checkBoxMenuDrinksGreek");
+            this.checkBoxMenuDrinksGreek.Name = "checkBoxMenuDrinksGreek";
+            this.checkBoxMenuDrinksGreek.UseVisualStyleBackColor = true;
+            this.checkBoxMenuDrinksGreek.CheckedChanged += new System.EventHandler(this.checkBoxMenuDrinksGreek_CheckedChanged);
+            // 
+            // labelMenuFoodCoffee
+            // 
+            resources.ApplyResources(this.labelMenuFoodCoffee, "labelMenuFoodCoffee");
+            this.labelMenuFoodCoffee.Name = "labelMenuFoodCoffee";
             // 
             // imageList
             // 
@@ -130,10 +384,22 @@
             this.imageList.TransparentColor = System.Drawing.Color.Transparent;
             this.imageList.Images.SetKeyName(0, "glass.png");
             // 
+            // textBoxMenuTotal
+            // 
+            this.textBoxMenuTotal.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            resources.ApplyResources(this.textBoxMenuTotal, "textBoxMenuTotal");
+            this.textBoxMenuTotal.Name = "textBoxMenuTotal";
+            this.textBoxMenuTotal.ReadOnly = true;
+            // 
+            // labelMenuTotal
+            // 
+            resources.ApplyResources(this.labelMenuTotal, "labelMenuTotal");
+            this.labelMenuTotal.Name = "labelMenuTotal";
+            // 
             // tabPageDevices
             // 
-            resources.ApplyResources(this.tabPageDevices, "tabPageDevices");
             this.tabPageDevices.BackgroundImage = global::Castle.Properties.Resources.bedroom;
+            resources.ApplyResources(this.tabPageDevices, "tabPageDevices");
             this.tabPageDevices.Controls.Add(this.trackBarDoor);
             this.tabPageDevices.Controls.Add(this.labelRoomDevicesTemperatureValue);
             this.tabPageDevices.Controls.Add(this.trackBarTemperature);
@@ -195,16 +461,16 @@
             // 
             // buttonStop
             // 
-            resources.ApplyResources(this.buttonStop, "buttonStop");
             this.buttonStop.BackgroundImage = global::Castle.Properties.Resources.stop;
+            resources.ApplyResources(this.buttonStop, "buttonStop");
             this.buttonStop.Name = "buttonStop";
             this.buttonStop.UseVisualStyleBackColor = true;
             this.buttonStop.Click += new System.EventHandler(this.buttonStop_Click_1);
             // 
             // buttonPlay
             // 
-            resources.ApplyResources(this.buttonPlay, "buttonPlay");
             this.buttonPlay.BackgroundImage = global::Castle.Properties.Resources.play;
+            resources.ApplyResources(this.buttonPlay, "buttonPlay");
             this.buttonPlay.Name = "buttonPlay";
             this.buttonPlay.UseVisualStyleBackColor = true;
             this.buttonPlay.Click += new System.EventHandler(this.buttonPlay_Click);
@@ -319,7 +585,14 @@
             this.Name = "MainForm";
             this.tabControl.ResumeLayout(false);
             this.tabPageMenu.ResumeLayout(false);
+            this.tabPageMenu.PerformLayout();
             this.tabControlMenu.ResumeLayout(false);
+            this.tabPageRestaurant.ResumeLayout(false);
+            this.groupBoxMenuFood.ResumeLayout(false);
+            this.groupBoxMenuFood.PerformLayout();
+            this.tabPageCafeteria.ResumeLayout(false);
+            this.groupBoxMenuDrinks.ResumeLayout(false);
+            this.groupBoxMenuDrinks.PerformLayout();
             this.tabPageDevices.ResumeLayout(false);
             this.tabPageDevices.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.trackBarDoor)).EndInit();
@@ -365,5 +638,36 @@
         private System.Windows.Forms.Label labelRoomDevicesTemperature;
         private System.Windows.Forms.Label labelRoomDevicesTemperatureValue;
         private System.Windows.Forms.TrackBar trackBarDoor;
+        private System.Windows.Forms.GroupBox groupBoxMenuFood;
+        private System.Windows.Forms.Button buttonMenuCancel;
+        private System.Windows.Forms.TextBox textBoxMenuTotal;
+        private System.Windows.Forms.Label labelMenuTotal;
+        private System.Windows.Forms.CheckBox checkBoxMenuFoodCheececake;
+        private System.Windows.Forms.Label labelMenuFoodSweet;
+        private System.Windows.Forms.CheckBox checkBoxMenuFoodProfiterol;
+        private System.Windows.Forms.CheckBox checkBoxMenuFoodCarbonara;
+        private System.Windows.Forms.CheckBox checkBoxMenuFoodCanneloni;
+        private System.Windows.Forms.CheckBox checkBoxMenuFoodRisotto;
+        private System.Windows.Forms.CheckBox checkBoxMenuFoodRibEye;
+        private System.Windows.Forms.CheckBox checkBoxMenuFoodChops;
+        private System.Windows.Forms.Label labelMenuFoodMainCourse;
+        private System.Windows.Forms.CheckBox checkBoxMenuFoodMuffin;
+        private System.Windows.Forms.CheckBox checkBoxMenuFoodTsigarilos;
+        private System.Windows.Forms.Label labelMenuFoodAppetizers;
+        private System.Windows.Forms.CheckBox checkBoxMenuFoodExotic;
+        private System.Windows.Forms.CheckBox checkBoxMenuFoodCaesar;
+        private System.Windows.Forms.CheckBox checkBoxMenuFoodGreek;
+        private System.Windows.Forms.Label labelMenuFoodSalads;
+        private System.Windows.Forms.GroupBox groupBoxMenuDrinks;
+        private System.Windows.Forms.CheckBox checkBoxMenuDrinksJuice;
+        private System.Windows.Forms.Label labelMenuFoodOther;
+        private System.Windows.Forms.CheckBox checkBoxMenuDrinksVodka;
+        private System.Windows.Forms.CheckBox checkBoxMenuDrinksBeer;
+        private System.Windows.Forms.Label labelMenuFoodAlcoholic;
+        private System.Windows.Forms.CheckBox checkBoxMenuDrinksCappuccino;
+        private System.Windows.Forms.CheckBox checkBoxMenuDrinksEspresso;
+        private System.Windows.Forms.CheckBox checkBoxMenuDrinksGreek;
+        private System.Windows.Forms.Label labelMenuFoodCoffee;
+        private System.Windows.Forms.Button buttonMenuPayment;
     }
 }

@@ -122,7 +122,7 @@
         AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
         LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
         ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAABk
-        EAAAAk1TRnQBSQFMAwEBAAGEAQABhAEAAW4BAAFkAQAE/wEJAQAI/wFCAU0BNgEEBgABNgEEAgABKAMA
+        EAAAAk1TRnQBSQFMAwEBAAHkAQAB5AEAAW4BAAFkAQAE/wEJAQAI/wFCAU0BNgEEBgABNgEEAgABKAMA
         AbgBAQIAAWQDAAEBAQABCAUAAeABqxgAAYACAAGAAwACgAEAAYADAAGAAQABgAEAAoACAAPAAQABwAHc
         AcABAAHwAcoBpgEAATMFAAEzAQABMwEAATMBAAIzAgADFgEAAxwBAAMiAQADKQEAA1UBAANNAQADQgEA
         AzkBAAGAAXwB/wEAAlAB/wEAAZMBAAHWAQAB/wHsAcwBAAHGAdYB7wEAAdYC5wEAAZABqQGtAgAB/wEz
@@ -195,7 +195,146 @@
         Cw==
 </value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="buttonMenuPayment.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="buttonMenuPayment.Location" type="System.Drawing.Point, System.Drawing">
+    <value>154, 477</value>
+  </data>
+  <data name="buttonMenuPayment.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 23</value>
+  </data>
+  <data name="buttonMenuPayment.Text" xml:space="preserve">
+    <value>Πληρωμή</value>
+  </data>
+  <data name="buttonMenuCancel.Text" xml:space="preserve">
+    <value>Άκυρο</value>
+  </data>
+  <data name="tabPageRestaurant.Text" xml:space="preserve">
+    <value>Φαγητά</value>
+  </data>
+  <data name="tabPageCafeteria.Text" xml:space="preserve">
+    <value>Ποτά</value>
+  </data>
+  <data name="groupBoxMenuFood.Text" xml:space="preserve">
+    <value>Μενού</value>
+  </data>
+  <data name="labelMenuFoodSweet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 13</value>
+  </data>
+  <data name="labelMenuFoodSweet.Text" xml:space="preserve">
+    <value>Γλυκά</value>
+  </data>
+  <data name="checkBoxMenuFoodCarbonara.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 17</value>
+  </data>
+  <data name="checkBoxMenuFoodCarbonara.Text" xml:space="preserve">
+    <value>Καρμπονάρα - 16.00</value>
+  </data>
+  <data name="checkBoxMenuFoodCanneloni.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 17</value>
+  </data>
+  <data name="checkBoxMenuFoodCanneloni.Text" xml:space="preserve">
+    <value>Κανελόνια - 8,50</value>
+  </data>
+  <data name="checkBoxMenuFoodRisotto.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 17</value>
+  </data>
+  <data name="checkBoxMenuFoodRisotto.Text" xml:space="preserve">
+    <value>Ρισότο - 13.50</value>
+  </data>
+  <data name="checkBoxMenuFoodChops.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 17</value>
+  </data>
+  <data name="checkBoxMenuFoodChops.Text" xml:space="preserve">
+    <value>Παϊδάκια - 20.00</value>
+  </data>
+  <data name="labelMenuFoodMainCourse.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 13</value>
+  </data>
+  <data name="labelMenuFoodMainCourse.Text" xml:space="preserve">
+    <value>Κυρίως Πιάτο</value>
+  </data>
+  <data name="checkBoxMenuFoodTsigarilos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 17</value>
+  </data>
+  <data name="checkBoxMenuFoodTsigarilos.Text" xml:space="preserve">
+    <value>Τσιγαρίλος - 13.00</value>
+  </data>
+  <data name="labelMenuFoodAppetizers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 13</value>
+  </data>
+  <data name="labelMenuFoodAppetizers.Text" xml:space="preserve">
+    <value>Ορεκτικά</value>
+  </data>
+  <data name="checkBoxMenuFoodExotic.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 17</value>
+  </data>
+  <data name="checkBoxMenuFoodExotic.Text" xml:space="preserve">
+    <value>Εξωτική - 12.50</value>
+  </data>
+  <data name="checkBoxMenuFoodCaesar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 17</value>
+  </data>
+  <data name="checkBoxMenuFoodCaesar.Text" xml:space="preserve">
+    <value>Καίσαρα - 11.00</value>
+  </data>
+  <data name="checkBoxMenuFoodGreek.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 17</value>
+  </data>
+  <data name="checkBoxMenuFoodGreek.Text" xml:space="preserve">
+    <value>Ελληνική - 9.00</value>
+  </data>
+  <data name="labelMenuFoodSalads.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 13</value>
+  </data>
+  <data name="labelMenuFoodSalads.Text" xml:space="preserve">
+    <value>Σαλάτες</value>
+  </data>
+  <data name="checkBoxMenuDrinksJuice.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 17</value>
+  </data>
+  <data name="checkBoxMenuDrinksJuice.Text" xml:space="preserve">
+    <value>Χυμός - 5.00</value>
+  </data>
+  <data name="labelMenuFoodOther.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 13</value>
+  </data>
+  <data name="labelMenuFoodOther.Text" xml:space="preserve">
+    <value>Άλλα</value>
+  </data>
+  <data name="checkBoxMenuDrinksVodka.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 17</value>
+  </data>
+  <data name="checkBoxMenuDrinksVodka.Text" xml:space="preserve">
+    <value>Βότκα - 6.00</value>
+  </data>
+  <data name="checkBoxMenuDrinksBeer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 17</value>
+  </data>
+  <data name="checkBoxMenuDrinksBeer.Text" xml:space="preserve">
+    <value>Μπύρα - 5.00</value>
+  </data>
+  <data name="labelMenuFoodAlcoholic.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 13</value>
+  </data>
+  <data name="labelMenuFoodAlcoholic.Text" xml:space="preserve">
+    <value>Αλκοολούχα</value>
+  </data>
+  <data name="checkBoxMenuDrinksGreek.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 17</value>
+  </data>
+  <data name="checkBoxMenuDrinksGreek.Text" xml:space="preserve">
+    <value>Ελληνικός - 2.00</value>
+  </data>
+  <data name="labelMenuFoodCoffee.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 13</value>
+  </data>
+  <data name="labelMenuFoodCoffee.Text" xml:space="preserve">
+    <value>Καφέδες</value>
+  </data>
   <data name="labelRoomDevicesDoor.Size" type="System.Drawing.Size, System.Drawing">
     <value>94, 31</value>
   </data>
