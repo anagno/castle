@@ -105,6 +105,7 @@
             this.buttonLanguageEnglish = new System.Windows.Forms.Button();
             this.buttonLanguageGreek = new System.Windows.Forms.Button();
             this.labelWelcome = new System.Windows.Forms.Label();
+            this.timer = new System.Windows.Forms.Timer(this.components);
             this.tabControl.SuspendLayout();
             this.tabPagePool.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.trackBarPoolLevel)).BeginInit();
@@ -693,6 +694,12 @@
             resources.ApplyResources(this.labelWelcome, "labelWelcome");
             this.labelWelcome.Name = "labelWelcome";
             // 
+            // timer
+            // 
+            this.timer.Enabled = true;
+            this.timer.Interval = 1000;
+            this.timer.Tick += new System.EventHandler(this.timer_Tick);
+            // 
             // MainForm
             // 
             resources.ApplyResources(this, "$this");
@@ -804,5 +811,6 @@
         private System.Windows.Forms.Label labelPoolDevicesLevelValue;
         private System.Windows.Forms.TrackBar trackBarPoolLevel;
         private System.Windows.Forms.Label labelPoolDevicesLevel;
+        private System.Windows.Forms.Timer timer;
     }
 }

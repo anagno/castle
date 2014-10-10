@@ -16,6 +16,8 @@ namespace Castle
 {
     public partial class MainForm : Form
     {
+        private ChangeColor colors = new ChangeColor();
+
         // Music Player variable. Για να μην έχουμε απόλυτα μονοπάτια θα πρέπει να προστίθενται
         // οι τυχόν επιλογές στο Resources.resx
         private System.Media.SoundPlayer music_player = new System.Media.SoundPlayer(Castle.Properties.Resources.song);
@@ -329,6 +331,14 @@ namespace Castle
         private void trackBarPoolLevel_ValueChanged(object sender, EventArgs e)
         {
             labelPoolDevicesLevelValue.Text = trackBarPoolLevel.Value.ToString() + " M";
+        }
+
+        private void timer_Tick(object sender, EventArgs e)
+        {
+            labelWelcome.ForeColor = colors.returnColor();
+            labelRoomDevices.ForeColor = colors.returnColor();
+            labelPoolDevices.ForeColor = colors.returnColor();
+            colors.changeColor();
         }
 
     }
