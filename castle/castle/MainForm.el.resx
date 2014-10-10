@@ -122,7 +122,7 @@
         AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
         LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
         ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAABk
-        EAAAAk1TRnQBSQFMAwEBAAHkAQAB5AEAAW4BAAFkAQAE/wEJAQAI/wFCAU0BNgEEBgABNgEEAgABKAMA
+        EAAAAk1TRnQBSQFMAwEBAAH0AQAB9AEAAW4BAAFkAQAE/wEJAQAI/wFCAU0BNgEEBgABNgEEAgABKAMA
         AbgBAQIAAWQDAAEBAQABCAUAAeABqxgAAYACAAGAAwACgAEAAYADAAGAAQABgAEAAoACAAPAAQABwAHc
         AcABAAHwAcoBpgEAATMFAAEzAQABMwEAATMBAAIzAgADFgEAAxwBAAMiAQADKQEAA1UBAANNAQADQgEA
         AzkBAAGAAXwB/wEAAlAB/wEAAZMBAAHWAQAB/wHsAcwBAAHGAdYB7wEAAdYC5wEAAZABqQGtAgAB/wEz
@@ -195,11 +195,59 @@
         Cw==
 </value>
   </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="labelPoolDevicesLevel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 31</value>
+  </data>
+  <data name="labelPoolDevicesLevel.Text" xml:space="preserve">
+    <value>Στάθμη</value>
+  </data>
+  <data name="labelPoolDevicesDoor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 31</value>
+  </data>
+  <data name="labelPoolDevicesDoor.Text" xml:space="preserve">
+    <value>Πόρτα</value>
+  </data>
+  <data name="labelPoolDevicesTemperature.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 31</value>
+  </data>
+  <data name="labelPoolDevicesTemperature.Text" xml:space="preserve">
+    <value>Θερμοκρασία</value>
+  </data>
+  <data name="labelPoolDevicesOn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>504, 97</value>
+  </data>
+  <data name="labelPoolDevicesOn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 25</value>
+  </data>
+  <data name="labelPoolDevicesOn.Text" xml:space="preserve">
+    <value>Ανοικτά</value>
+  </data>
+  <data name="labelPoolDevicesOff.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 25</value>
+  </data>
+  <data name="labelPoolDevicesOff.Text" xml:space="preserve">
+    <value>Κλειστά</value>
+  </data>
+  <data name="labelPoolDevicesAlarm.Location" type="System.Drawing.Point, System.Drawing">
+    <value>77, 125</value>
+  </data>
+  <data name="labelPoolDevicesAlarm.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 31</value>
+  </data>
+  <data name="labelPoolDevicesAlarm.Text" xml:space="preserve">
+    <value>Συναγερμός</value>
+  </data>
+  <data name="labelPoolDevices.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 31</value>
+  </data>
+  <data name="labelPoolDevices.Text" xml:space="preserve">
+    <value>Συσκευές Πισίνας</value>
+  </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="buttonMenuPayment.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="buttonMenuPayment.Location" type="System.Drawing.Point, System.Drawing">
     <value>154, 477</value>
   </data>

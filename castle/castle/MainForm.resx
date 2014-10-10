@@ -124,10 +124,404 @@
   <data name="tabPagePool.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
   </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="labelPoolDevicesLevelValue.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="labelPoolDevicesLevelValue.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="labelPoolDevicesLevelValue.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelPoolDevicesLevelValue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>524, 345</value>
+  </data>
+  <data name="labelPoolDevicesLevelValue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 25</value>
+  </data>
+  <data name="labelPoolDevicesLevelValue.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="labelPoolDevicesLevelValue.Text" xml:space="preserve">
+    <value>3 Μ</value>
+  </data>
+  <data name="&gt;&gt;labelPoolDevicesLevelValue.Name" xml:space="preserve">
+    <value>labelPoolDevicesLevelValue</value>
+  </data>
+  <data name="&gt;&gt;labelPoolDevicesLevelValue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelPoolDevicesLevelValue.Parent" xml:space="preserve">
+    <value>tabPagePool</value>
+  </data>
+  <data name="&gt;&gt;labelPoolDevicesLevelValue.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="trackBarPoolLevel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="trackBarPoolLevel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>299, 339</value>
+  </data>
+  <data name="trackBarPoolLevel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>219, 45</value>
+  </data>
+  <data name="trackBarPoolLevel.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="&gt;&gt;trackBarPoolLevel.Name" xml:space="preserve">
+    <value>trackBarPoolLevel</value>
+  </data>
+  <data name="&gt;&gt;trackBarPoolLevel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;trackBarPoolLevel.Parent" xml:space="preserve">
+    <value>tabPagePool</value>
+  </data>
+  <data name="&gt;&gt;trackBarPoolLevel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="labelPoolDevicesLevel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelPoolDevicesLevel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt</value>
+  </data>
+  <data name="labelPoolDevicesLevel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelPoolDevicesLevel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>117, 339</value>
+  </data>
+  <data name="labelPoolDevicesLevel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 31</value>
+  </data>
+  <data name="labelPoolDevicesLevel.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="labelPoolDevicesLevel.Text" xml:space="preserve">
+    <value>Level</value>
+  </data>
+  <data name="&gt;&gt;labelPoolDevicesLevel.Name" xml:space="preserve">
+    <value>labelPoolDevicesLevel</value>
+  </data>
+  <data name="&gt;&gt;labelPoolDevicesLevel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelPoolDevicesLevel.Parent" xml:space="preserve">
+    <value>tabPagePool</value>
+  </data>
+  <data name="&gt;&gt;labelPoolDevicesLevel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="labelPoolDevicesTemperatureValue.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelPoolDevicesTemperatureValue.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="labelPoolDevicesTemperatureValue.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelPoolDevicesTemperatureValue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>524, 271</value>
+  </data>
+  <data name="labelPoolDevicesTemperatureValue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 25</value>
+  </data>
+  <data name="labelPoolDevicesTemperatureValue.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="labelPoolDevicesTemperatureValue.Text" xml:space="preserve">
+    <value>22 C</value>
+  </data>
+  <data name="&gt;&gt;labelPoolDevicesTemperatureValue.Name" xml:space="preserve">
+    <value>labelPoolDevicesTemperatureValue</value>
+  </data>
+  <data name="&gt;&gt;labelPoolDevicesTemperatureValue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelPoolDevicesTemperatureValue.Parent" xml:space="preserve">
+    <value>tabPagePool</value>
+  </data>
+  <data name="&gt;&gt;labelPoolDevicesTemperatureValue.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="trackBarPoolDoor.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="trackBarPoolDoor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>297, 190</value>
+  </data>
+  <data name="trackBarPoolDoor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>264, 45</value>
+  </data>
+  <data name="trackBarPoolDoor.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;trackBarPoolDoor.Name" xml:space="preserve">
+    <value>trackBarPoolDoor</value>
+  </data>
+  <data name="&gt;&gt;trackBarPoolDoor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;trackBarPoolDoor.Parent" xml:space="preserve">
+    <value>tabPagePool</value>
+  </data>
+  <data name="&gt;&gt;trackBarPoolDoor.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="trackBarPoolTemerature.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="trackBarPoolTemerature.Location" type="System.Drawing.Point, System.Drawing">
+    <value>299, 265</value>
+  </data>
+  <data name="trackBarPoolTemerature.Size" type="System.Drawing.Size, System.Drawing">
+    <value>219, 45</value>
+  </data>
+  <data name="trackBarPoolTemerature.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;trackBarPoolTemerature.Name" xml:space="preserve">
+    <value>trackBarPoolTemerature</value>
+  </data>
+  <data name="&gt;&gt;trackBarPoolTemerature.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;trackBarPoolTemerature.Parent" xml:space="preserve">
+    <value>tabPagePool</value>
+  </data>
+  <data name="&gt;&gt;trackBarPoolTemerature.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="labelPoolDevicesDoor.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelPoolDevicesDoor.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt</value>
+  </data>
+  <data name="labelPoolDevicesDoor.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelPoolDevicesDoor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>117, 190</value>
+  </data>
+  <data name="labelPoolDevicesDoor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 31</value>
+  </data>
+  <data name="labelPoolDevicesDoor.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="labelPoolDevicesDoor.Text" xml:space="preserve">
+    <value>Door</value>
+  </data>
+  <data name="&gt;&gt;labelPoolDevicesDoor.Name" xml:space="preserve">
+    <value>labelPoolDevicesDoor</value>
+  </data>
+  <data name="&gt;&gt;labelPoolDevicesDoor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelPoolDevicesDoor.Parent" xml:space="preserve">
+    <value>tabPagePool</value>
+  </data>
+  <data name="&gt;&gt;labelPoolDevicesDoor.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="labelPoolDevicesTemperature.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelPoolDevicesTemperature.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt</value>
+  </data>
+  <data name="labelPoolDevicesTemperature.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelPoolDevicesTemperature.Location" type="System.Drawing.Point, System.Drawing">
+    <value>77, 265</value>
+  </data>
+  <data name="labelPoolDevicesTemperature.Size" type="System.Drawing.Size, System.Drawing">
+    <value>169, 31</value>
+  </data>
+  <data name="labelPoolDevicesTemperature.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="labelPoolDevicesTemperature.Text" xml:space="preserve">
+    <value>Temperature</value>
+  </data>
+  <data name="&gt;&gt;labelPoolDevicesTemperature.Name" xml:space="preserve">
+    <value>labelPoolDevicesTemperature</value>
+  </data>
+  <data name="&gt;&gt;labelPoolDevicesTemperature.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelPoolDevicesTemperature.Parent" xml:space="preserve">
+    <value>tabPagePool</value>
+  </data>
+  <data name="&gt;&gt;labelPoolDevicesTemperature.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="labelPoolDevicesOn.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelPoolDevicesOn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="labelPoolDevicesOn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelPoolDevicesOn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>520, 97</value>
+  </data>
+  <data name="labelPoolDevicesOn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 25</value>
+  </data>
+  <data name="labelPoolDevicesOn.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="labelPoolDevicesOn.Text" xml:space="preserve">
+    <value>ON</value>
+  </data>
+  <data name="&gt;&gt;labelPoolDevicesOn.Name" xml:space="preserve">
+    <value>labelPoolDevicesOn</value>
+  </data>
+  <data name="&gt;&gt;labelPoolDevicesOn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelPoolDevicesOn.Parent" xml:space="preserve">
+    <value>tabPagePool</value>
+  </data>
+  <data name="&gt;&gt;labelPoolDevicesOn.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="labelPoolDevicesOff.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelPoolDevicesOff.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="labelPoolDevicesOff.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelPoolDevicesOff.Location" type="System.Drawing.Point, System.Drawing">
+    <value>275, 97</value>
+  </data>
+  <data name="labelPoolDevicesOff.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 25</value>
+  </data>
+  <data name="labelPoolDevicesOff.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="labelPoolDevicesOff.Text" xml:space="preserve">
+    <value>OFF</value>
+  </data>
+  <data name="&gt;&gt;labelPoolDevicesOff.Name" xml:space="preserve">
+    <value>labelPoolDevicesOff</value>
+  </data>
+  <data name="&gt;&gt;labelPoolDevicesOff.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelPoolDevicesOff.Parent" xml:space="preserve">
+    <value>tabPagePool</value>
+  </data>
+  <data name="&gt;&gt;labelPoolDevicesOff.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="labelPoolDevicesAlarm.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelPoolDevicesAlarm.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt</value>
+  </data>
+  <data name="labelPoolDevicesAlarm.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelPoolDevicesAlarm.Location" type="System.Drawing.Point, System.Drawing">
+    <value>117, 125</value>
+  </data>
+  <data name="labelPoolDevicesAlarm.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 31</value>
+  </data>
+  <data name="labelPoolDevicesAlarm.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="labelPoolDevicesAlarm.Text" xml:space="preserve">
+    <value>Alarm</value>
+  </data>
+  <data name="&gt;&gt;labelPoolDevicesAlarm.Name" xml:space="preserve">
+    <value>labelPoolDevicesAlarm</value>
+  </data>
+  <data name="&gt;&gt;labelPoolDevicesAlarm.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelPoolDevicesAlarm.Parent" xml:space="preserve">
+    <value>tabPagePool</value>
+  </data>
+  <data name="&gt;&gt;labelPoolDevicesAlarm.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="trackBarPoolAlarm.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="trackBarPoolAlarm.Location" type="System.Drawing.Point, System.Drawing">
+    <value>299, 125</value>
+  </data>
+  <data name="trackBarPoolAlarm.Size" type="System.Drawing.Size, System.Drawing">
+    <value>264, 45</value>
+  </data>
+  <data name="trackBarPoolAlarm.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;trackBarPoolAlarm.Name" xml:space="preserve">
+    <value>trackBarPoolAlarm</value>
+  </data>
+  <data name="&gt;&gt;trackBarPoolAlarm.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;trackBarPoolAlarm.Parent" xml:space="preserve">
+    <value>tabPagePool</value>
+  </data>
+  <data name="&gt;&gt;trackBarPoolAlarm.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="labelPoolDevices.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelPoolDevices.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt</value>
+  </data>
+  <data name="labelPoolDevices.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelPoolDevices.Location" type="System.Drawing.Point, System.Drawing">
+    <value>162, 30</value>
+  </data>
+  <data name="labelPoolDevices.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 31</value>
+  </data>
+  <data name="labelPoolDevices.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="labelPoolDevices.Text" xml:space="preserve">
+    <value>Pool Devices</value>
+  </data>
+  <data name="&gt;&gt;labelPoolDevices.Name" xml:space="preserve">
+    <value>labelPoolDevices</value>
+  </data>
+  <data name="&gt;&gt;labelPoolDevices.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelPoolDevices.Parent" xml:space="preserve">
+    <value>tabPagePool</value>
+  </data>
+  <data name="&gt;&gt;labelPoolDevices.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
   <data name="tabPagePool.ImageKey" xml:space="preserve">
     <value>glass.png</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="tabPagePool.Location" type="System.Drawing.Point, System.Drawing">
     <value>114, 4</value>
   </data>
@@ -137,7 +531,6 @@
   <data name="tabPagePool.Size" type="System.Drawing.Size, System.Drawing">
     <value>618, 505</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="tabPagePool.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
@@ -1061,7 +1454,7 @@
         AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
         LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
         ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAABk
-        EAAAAk1TRnQBSQFMAwEBAAFQAQIBUAECAW4BAAFkAQAE/wEJAQAI/wFCAU0BNgEEBgABNgEEAgABKAMA
+        EAAAAk1TRnQBSQFMAwEBAAF8AQIBfAECAW4BAAFkAQAE/wEJAQAI/wFCAU0BNgEEBgABNgEEAgABKAMA
         AbgBAQIAAWQDAAEBAQABCAUAAeABqxgAAYACAAGAAwACgAEAAYADAAGAAQABgAEAAoACAAPAAQABwAHc
         AcABAAHwAcoBpgEAATMFAAEzAQABMwEAATMBAAIzAgADFgEAAxwBAAMiAQADKQEAA1UBAANNAQADQgEA
         AzkBAAGAAXwB/wEAAlAB/wEAAZMBAAHWAQAB/wHsAcwBAAHGAdYB7wEAAdYC5wEAAZABqQGtAgAB/wEz

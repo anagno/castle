@@ -93,6 +93,8 @@ namespace Castle
 
             // Για να βάλουμε σωστά την τιμή της θερμοκρασίας όταν αλλάζουμε την γλώσσα.
             labelRoomDevicesTemperatureValue.Text = trackBarTemperature.Value.ToString() + " C";
+            labelPoolDevicesTemperatureValue.Text = trackBarPoolTemerature.Value.ToString() + " C";
+            labelPoolDevicesLevelValue.Text = trackBarPoolLevel.Value.ToString() + " M";
 
 
             buttonMenuPayment.Enabled = Enabled;
@@ -317,6 +319,16 @@ namespace Castle
             }
 
 
+        }
+
+        private void trackBarPoolTemerature_ValueChanged(object sender, EventArgs e)
+        {
+            labelPoolDevicesTemperatureValue.Text = trackBarPoolTemerature.Value.ToString() + " C";
+        }
+
+        private void trackBarPoolLevel_ValueChanged(object sender, EventArgs e)
+        {
+            labelPoolDevicesLevelValue.Text = trackBarPoolLevel.Value.ToString() + " M";
         }
 
     }

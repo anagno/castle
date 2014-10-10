@@ -32,6 +32,19 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.tabControl = new System.Windows.Forms.TabControl();
             this.tabPagePool = new System.Windows.Forms.TabPage();
+            this.labelPoolDevicesLevelValue = new System.Windows.Forms.Label();
+            this.trackBarPoolLevel = new System.Windows.Forms.TrackBar();
+            this.labelPoolDevicesLevel = new System.Windows.Forms.Label();
+            this.labelPoolDevicesTemperatureValue = new System.Windows.Forms.Label();
+            this.trackBarPoolDoor = new System.Windows.Forms.TrackBar();
+            this.trackBarPoolTemerature = new System.Windows.Forms.TrackBar();
+            this.labelPoolDevicesDoor = new System.Windows.Forms.Label();
+            this.labelPoolDevicesTemperature = new System.Windows.Forms.Label();
+            this.labelPoolDevicesOn = new System.Windows.Forms.Label();
+            this.labelPoolDevicesOff = new System.Windows.Forms.Label();
+            this.labelPoolDevicesAlarm = new System.Windows.Forms.Label();
+            this.trackBarPoolAlarm = new System.Windows.Forms.TrackBar();
+            this.labelPoolDevices = new System.Windows.Forms.Label();
             this.tabPageMenu = new System.Windows.Forms.TabPage();
             this.buttonMenuPayment = new System.Windows.Forms.Button();
             this.buttonMenuCancel = new System.Windows.Forms.Button();
@@ -93,6 +106,11 @@
             this.buttonLanguageGreek = new System.Windows.Forms.Button();
             this.labelWelcome = new System.Windows.Forms.Label();
             this.tabControl.SuspendLayout();
+            this.tabPagePool.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.trackBarPoolLevel)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.trackBarPoolDoor)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.trackBarPoolTemerature)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.trackBarPoolAlarm)).BeginInit();
             this.tabPageMenu.SuspendLayout();
             this.tabControlMenu.SuspendLayout();
             this.tabPageRestaurant.SuspendLayout();
@@ -123,8 +141,106 @@
             // 
             this.tabPagePool.BackgroundImage = global::Castle.Properties.Resources.castle_5;
             resources.ApplyResources(this.tabPagePool, "tabPagePool");
+            this.tabPagePool.Controls.Add(this.labelPoolDevicesLevelValue);
+            this.tabPagePool.Controls.Add(this.trackBarPoolLevel);
+            this.tabPagePool.Controls.Add(this.labelPoolDevicesLevel);
+            this.tabPagePool.Controls.Add(this.labelPoolDevicesTemperatureValue);
+            this.tabPagePool.Controls.Add(this.trackBarPoolDoor);
+            this.tabPagePool.Controls.Add(this.trackBarPoolTemerature);
+            this.tabPagePool.Controls.Add(this.labelPoolDevicesDoor);
+            this.tabPagePool.Controls.Add(this.labelPoolDevicesTemperature);
+            this.tabPagePool.Controls.Add(this.labelPoolDevicesOn);
+            this.tabPagePool.Controls.Add(this.labelPoolDevicesOff);
+            this.tabPagePool.Controls.Add(this.labelPoolDevicesAlarm);
+            this.tabPagePool.Controls.Add(this.trackBarPoolAlarm);
+            this.tabPagePool.Controls.Add(this.labelPoolDevices);
             this.tabPagePool.Name = "tabPagePool";
             this.tabPagePool.UseVisualStyleBackColor = true;
+            // 
+            // labelPoolDevicesLevelValue
+            // 
+            resources.ApplyResources(this.labelPoolDevicesLevelValue, "labelPoolDevicesLevelValue");
+            this.labelPoolDevicesLevelValue.ForeColor = System.Drawing.Color.Yellow;
+            this.labelPoolDevicesLevelValue.Name = "labelPoolDevicesLevelValue";
+            // 
+            // trackBarPoolLevel
+            // 
+            resources.ApplyResources(this.trackBarPoolLevel, "trackBarPoolLevel");
+            this.trackBarPoolLevel.Maximum = 5;
+            this.trackBarPoolLevel.Name = "trackBarPoolLevel";
+            this.trackBarPoolLevel.Value = 3;
+            this.trackBarPoolLevel.ValueChanged += new System.EventHandler(this.trackBarPoolLevel_ValueChanged);
+            // 
+            // labelPoolDevicesLevel
+            // 
+            resources.ApplyResources(this.labelPoolDevicesLevel, "labelPoolDevicesLevel");
+            this.labelPoolDevicesLevel.ForeColor = System.Drawing.Color.Yellow;
+            this.labelPoolDevicesLevel.Name = "labelPoolDevicesLevel";
+            // 
+            // labelPoolDevicesTemperatureValue
+            // 
+            resources.ApplyResources(this.labelPoolDevicesTemperatureValue, "labelPoolDevicesTemperatureValue");
+            this.labelPoolDevicesTemperatureValue.ForeColor = System.Drawing.Color.Yellow;
+            this.labelPoolDevicesTemperatureValue.Name = "labelPoolDevicesTemperatureValue";
+            // 
+            // trackBarPoolDoor
+            // 
+            resources.ApplyResources(this.trackBarPoolDoor, "trackBarPoolDoor");
+            this.trackBarPoolDoor.Maximum = 1;
+            this.trackBarPoolDoor.Name = "trackBarPoolDoor";
+            this.trackBarPoolDoor.Value = 1;
+            // 
+            // trackBarPoolTemerature
+            // 
+            resources.ApplyResources(this.trackBarPoolTemerature, "trackBarPoolTemerature");
+            this.trackBarPoolTemerature.Maximum = 35;
+            this.trackBarPoolTemerature.Minimum = 14;
+            this.trackBarPoolTemerature.Name = "trackBarPoolTemerature";
+            this.trackBarPoolTemerature.Value = 22;
+            this.trackBarPoolTemerature.ValueChanged += new System.EventHandler(this.trackBarPoolTemerature_ValueChanged);
+            // 
+            // labelPoolDevicesDoor
+            // 
+            resources.ApplyResources(this.labelPoolDevicesDoor, "labelPoolDevicesDoor");
+            this.labelPoolDevicesDoor.ForeColor = System.Drawing.Color.Yellow;
+            this.labelPoolDevicesDoor.Name = "labelPoolDevicesDoor";
+            // 
+            // labelPoolDevicesTemperature
+            // 
+            resources.ApplyResources(this.labelPoolDevicesTemperature, "labelPoolDevicesTemperature");
+            this.labelPoolDevicesTemperature.ForeColor = System.Drawing.Color.Yellow;
+            this.labelPoolDevicesTemperature.Name = "labelPoolDevicesTemperature";
+            // 
+            // labelPoolDevicesOn
+            // 
+            resources.ApplyResources(this.labelPoolDevicesOn, "labelPoolDevicesOn");
+            this.labelPoolDevicesOn.ForeColor = System.Drawing.Color.Yellow;
+            this.labelPoolDevicesOn.Name = "labelPoolDevicesOn";
+            // 
+            // labelPoolDevicesOff
+            // 
+            resources.ApplyResources(this.labelPoolDevicesOff, "labelPoolDevicesOff");
+            this.labelPoolDevicesOff.ForeColor = System.Drawing.Color.Yellow;
+            this.labelPoolDevicesOff.Name = "labelPoolDevicesOff";
+            // 
+            // labelPoolDevicesAlarm
+            // 
+            resources.ApplyResources(this.labelPoolDevicesAlarm, "labelPoolDevicesAlarm");
+            this.labelPoolDevicesAlarm.ForeColor = System.Drawing.Color.Yellow;
+            this.labelPoolDevicesAlarm.Name = "labelPoolDevicesAlarm";
+            // 
+            // trackBarPoolAlarm
+            // 
+            resources.ApplyResources(this.trackBarPoolAlarm, "trackBarPoolAlarm");
+            this.trackBarPoolAlarm.Maximum = 1;
+            this.trackBarPoolAlarm.Name = "trackBarPoolAlarm";
+            this.trackBarPoolAlarm.Value = 1;
+            // 
+            // labelPoolDevices
+            // 
+            resources.ApplyResources(this.labelPoolDevices, "labelPoolDevices");
+            this.labelPoolDevices.ForeColor = System.Drawing.Color.Yellow;
+            this.labelPoolDevices.Name = "labelPoolDevices";
             // 
             // tabPageMenu
             // 
@@ -584,6 +700,12 @@
             this.Controls.Add(this.tabControl);
             this.Name = "MainForm";
             this.tabControl.ResumeLayout(false);
+            this.tabPagePool.ResumeLayout(false);
+            this.tabPagePool.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.trackBarPoolLevel)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.trackBarPoolDoor)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.trackBarPoolTemerature)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.trackBarPoolAlarm)).EndInit();
             this.tabPageMenu.ResumeLayout(false);
             this.tabPageMenu.PerformLayout();
             this.tabControlMenu.ResumeLayout(false);
@@ -669,5 +791,18 @@
         private System.Windows.Forms.CheckBox checkBoxMenuDrinksGreek;
         private System.Windows.Forms.Label labelMenuFoodCoffee;
         private System.Windows.Forms.Button buttonMenuPayment;
+        private System.Windows.Forms.TrackBar trackBarPoolDoor;
+        private System.Windows.Forms.TrackBar trackBarPoolTemerature;
+        private System.Windows.Forms.Label labelPoolDevicesDoor;
+        private System.Windows.Forms.Label labelPoolDevicesTemperature;
+        private System.Windows.Forms.Label labelPoolDevicesOn;
+        private System.Windows.Forms.Label labelPoolDevicesOff;
+        private System.Windows.Forms.Label labelPoolDevicesAlarm;
+        private System.Windows.Forms.TrackBar trackBarPoolAlarm;
+        private System.Windows.Forms.Label labelPoolDevices;
+        private System.Windows.Forms.Label labelPoolDevicesTemperatureValue;
+        private System.Windows.Forms.Label labelPoolDevicesLevelValue;
+        private System.Windows.Forms.TrackBar trackBarPoolLevel;
+        private System.Windows.Forms.Label labelPoolDevicesLevel;
     }
 }
