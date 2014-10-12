@@ -500,6 +500,9 @@
             this.imageList.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList.ImageStream")));
             this.imageList.TransparentColor = System.Drawing.Color.Transparent;
             this.imageList.Images.SetKeyName(0, "glass.png");
+            this.imageList.Images.SetKeyName(1, "pool.jpg");
+            this.imageList.Images.SetKeyName(2, "exit.png");
+            this.imageList.Images.SetKeyName(3, "bedroom.png");
             // 
             // textBoxMenuTotal
             // 
