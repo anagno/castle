@@ -31,6 +31,14 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.tabControl = new System.Windows.Forms.TabControl();
+            this.tabPageMenu = new System.Windows.Forms.TabPage();
+            this.buttonMenuPayment = new System.Windows.Forms.Button();
+            this.buttonMenuCancel = new System.Windows.Forms.Button();
+            this.tabControlMenu = new System.Windows.Forms.TabControl();
+            this.imageList = new System.Windows.Forms.ImageList(this.components);
+            this.textBoxMenuTotal = new System.Windows.Forms.TextBox();
+            this.labelMenuTotal = new System.Windows.Forms.Label();
+            this.timer = new System.Windows.Forms.Timer(this.components);
             this.tabPagePool = new System.Windows.Forms.TabPage();
             this.labelPoolDevicesLevelValue = new System.Windows.Forms.Label();
             this.trackBarPoolLevel = new System.Windows.Forms.TrackBar();
@@ -45,10 +53,6 @@
             this.labelPoolDevicesAlarm = new System.Windows.Forms.Label();
             this.trackBarPoolAlarm = new System.Windows.Forms.TrackBar();
             this.labelPoolDevices = new System.Windows.Forms.Label();
-            this.tabPageMenu = new System.Windows.Forms.TabPage();
-            this.buttonMenuPayment = new System.Windows.Forms.Button();
-            this.buttonMenuCancel = new System.Windows.Forms.Button();
-            this.tabControlMenu = new System.Windows.Forms.TabControl();
             this.tabPageRestaurant = new System.Windows.Forms.TabPage();
             this.groupBoxMenuFood = new System.Windows.Forms.GroupBox();
             this.checkBoxMenuFoodCheececake = new System.Windows.Forms.CheckBox();
@@ -78,9 +82,6 @@
             this.checkBoxMenuDrinksEspresso = new System.Windows.Forms.CheckBox();
             this.checkBoxMenuDrinksGreek = new System.Windows.Forms.CheckBox();
             this.labelMenuFoodCoffee = new System.Windows.Forms.Label();
-            this.imageList = new System.Windows.Forms.ImageList(this.components);
-            this.textBoxMenuTotal = new System.Windows.Forms.TextBox();
-            this.labelMenuTotal = new System.Windows.Forms.Label();
             this.tabPageDevices = new System.Windows.Forms.TabPage();
             this.trackBarDoor = new System.Windows.Forms.TrackBar();
             this.labelRoomDevicesTemperatureValue = new System.Windows.Forms.Label();
@@ -105,15 +106,14 @@
             this.buttonLanguageEnglish = new System.Windows.Forms.Button();
             this.buttonLanguageGreek = new System.Windows.Forms.Button();
             this.labelWelcome = new System.Windows.Forms.Label();
-            this.timer = new System.Windows.Forms.Timer(this.components);
             this.tabControl.SuspendLayout();
+            this.tabPageMenu.SuspendLayout();
+            this.tabControlMenu.SuspendLayout();
             this.tabPagePool.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.trackBarPoolLevel)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBarPoolDoor)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBarPoolTemerature)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBarPoolAlarm)).BeginInit();
-            this.tabPageMenu.SuspendLayout();
-            this.tabControlMenu.SuspendLayout();
             this.tabPageRestaurant.SuspendLayout();
             this.groupBoxMenuFood.SuspendLayout();
             this.tabPageCafeteria.SuspendLayout();
@@ -137,6 +137,69 @@
             this.tabControl.Multiline = true;
             this.tabControl.Name = "tabControl";
             this.tabControl.SelectedIndex = 0;
+            // 
+            // tabPageMenu
+            // 
+            resources.ApplyResources(this.tabPageMenu, "tabPageMenu");
+            this.tabPageMenu.Controls.Add(this.buttonMenuPayment);
+            this.tabPageMenu.Controls.Add(this.buttonMenuCancel);
+            this.tabPageMenu.Controls.Add(this.tabControlMenu);
+            this.tabPageMenu.Controls.Add(this.textBoxMenuTotal);
+            this.tabPageMenu.Controls.Add(this.labelMenuTotal);
+            this.tabPageMenu.Name = "tabPageMenu";
+            this.tabPageMenu.UseVisualStyleBackColor = true;
+            // 
+            // buttonMenuPayment
+            // 
+            resources.ApplyResources(this.buttonMenuPayment, "buttonMenuPayment");
+            this.buttonMenuPayment.Name = "buttonMenuPayment";
+            this.buttonMenuPayment.UseVisualStyleBackColor = true;
+            this.buttonMenuPayment.Click += new System.EventHandler(this.buttonMenuPayment_Click);
+            // 
+            // buttonMenuCancel
+            // 
+            resources.ApplyResources(this.buttonMenuCancel, "buttonMenuCancel");
+            this.buttonMenuCancel.Name = "buttonMenuCancel";
+            this.buttonMenuCancel.UseVisualStyleBackColor = true;
+            this.buttonMenuCancel.Click += new System.EventHandler(this.buttonMenuCancel_Click);
+            // 
+            // tabControlMenu
+            // 
+            resources.ApplyResources(this.tabControlMenu, "tabControlMenu");
+            this.tabControlMenu.AllowDrop = true;
+            this.tabControlMenu.Controls.Add(this.tabPageRestaurant);
+            this.tabControlMenu.Controls.Add(this.tabPageCafeteria);
+            this.tabControlMenu.ImageList = this.imageList;
+            this.tabControlMenu.Multiline = true;
+            this.tabControlMenu.Name = "tabControlMenu";
+            this.tabControlMenu.SelectedIndex = 0;
+            // 
+            // imageList
+            // 
+            this.imageList.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList.ImageStream")));
+            this.imageList.TransparentColor = System.Drawing.Color.Transparent;
+            this.imageList.Images.SetKeyName(0, "glass.png");
+            this.imageList.Images.SetKeyName(1, "pool.jpg");
+            this.imageList.Images.SetKeyName(2, "exit.png");
+            this.imageList.Images.SetKeyName(3, "bedroom.png");
+            // 
+            // textBoxMenuTotal
+            // 
+            this.textBoxMenuTotal.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            resources.ApplyResources(this.textBoxMenuTotal, "textBoxMenuTotal");
+            this.textBoxMenuTotal.Name = "textBoxMenuTotal";
+            this.textBoxMenuTotal.ReadOnly = true;
+            // 
+            // labelMenuTotal
+            // 
+            resources.ApplyResources(this.labelMenuTotal, "labelMenuTotal");
+            this.labelMenuTotal.Name = "labelMenuTotal";
+            // 
+            // timer
+            // 
+            this.timer.Enabled = true;
+            this.timer.Interval = 1000;
+            this.timer.Tick += new System.EventHandler(this.timer_Tick);
             // 
             // tabPagePool
             // 
@@ -242,42 +305,6 @@
             resources.ApplyResources(this.labelPoolDevices, "labelPoolDevices");
             this.labelPoolDevices.ForeColor = System.Drawing.Color.Yellow;
             this.labelPoolDevices.Name = "labelPoolDevices";
-            // 
-            // tabPageMenu
-            // 
-            resources.ApplyResources(this.tabPageMenu, "tabPageMenu");
-            this.tabPageMenu.Controls.Add(this.buttonMenuPayment);
-            this.tabPageMenu.Controls.Add(this.buttonMenuCancel);
-            this.tabPageMenu.Controls.Add(this.tabControlMenu);
-            this.tabPageMenu.Controls.Add(this.textBoxMenuTotal);
-            this.tabPageMenu.Controls.Add(this.labelMenuTotal);
-            this.tabPageMenu.Name = "tabPageMenu";
-            this.tabPageMenu.UseVisualStyleBackColor = true;
-            // 
-            // buttonMenuPayment
-            // 
-            resources.ApplyResources(this.buttonMenuPayment, "buttonMenuPayment");
-            this.buttonMenuPayment.Name = "buttonMenuPayment";
-            this.buttonMenuPayment.UseVisualStyleBackColor = true;
-            this.buttonMenuPayment.Click += new System.EventHandler(this.buttonMenuPayment_Click);
-            // 
-            // buttonMenuCancel
-            // 
-            resources.ApplyResources(this.buttonMenuCancel, "buttonMenuCancel");
-            this.buttonMenuCancel.Name = "buttonMenuCancel";
-            this.buttonMenuCancel.UseVisualStyleBackColor = true;
-            this.buttonMenuCancel.Click += new System.EventHandler(this.buttonMenuCancel_Click);
-            // 
-            // tabControlMenu
-            // 
-            resources.ApplyResources(this.tabControlMenu, "tabControlMenu");
-            this.tabControlMenu.AllowDrop = true;
-            this.tabControlMenu.Controls.Add(this.tabPageRestaurant);
-            this.tabControlMenu.Controls.Add(this.tabPageCafeteria);
-            this.tabControlMenu.ImageList = this.imageList;
-            this.tabControlMenu.Multiline = true;
-            this.tabControlMenu.Name = "tabControlMenu";
-            this.tabControlMenu.SelectedIndex = 0;
             // 
             // tabPageRestaurant
             // 
@@ -495,27 +522,6 @@
             resources.ApplyResources(this.labelMenuFoodCoffee, "labelMenuFoodCoffee");
             this.labelMenuFoodCoffee.Name = "labelMenuFoodCoffee";
             // 
-            // imageList
-            // 
-            this.imageList.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList.ImageStream")));
-            this.imageList.TransparentColor = System.Drawing.Color.Transparent;
-            this.imageList.Images.SetKeyName(0, "glass.png");
-            this.imageList.Images.SetKeyName(1, "pool.jpg");
-            this.imageList.Images.SetKeyName(2, "exit.png");
-            this.imageList.Images.SetKeyName(3, "bedroom.png");
-            // 
-            // textBoxMenuTotal
-            // 
-            this.textBoxMenuTotal.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            resources.ApplyResources(this.textBoxMenuTotal, "textBoxMenuTotal");
-            this.textBoxMenuTotal.Name = "textBoxMenuTotal";
-            this.textBoxMenuTotal.ReadOnly = true;
-            // 
-            // labelMenuTotal
-            // 
-            resources.ApplyResources(this.labelMenuTotal, "labelMenuTotal");
-            this.labelMenuTotal.Name = "labelMenuTotal";
-            // 
             // tabPageDevices
             // 
             this.tabPageDevices.BackgroundImage = global::Castle.Properties.Resources.bedroom;
@@ -680,6 +686,7 @@
             // 
             // buttonLanguageEnglish
             // 
+            this.buttonLanguageEnglish.BackgroundImage = global::Castle.Properties.Resources.english;
             resources.ApplyResources(this.buttonLanguageEnglish, "buttonLanguageEnglish");
             this.buttonLanguageEnglish.Name = "buttonLanguageEnglish";
             this.buttonLanguageEnglish.UseVisualStyleBackColor = true;
@@ -687,6 +694,7 @@
             // 
             // buttonLanguageGreek
             // 
+            this.buttonLanguageGreek.BackgroundImage = global::Castle.Properties.Resources.greek;
             resources.ApplyResources(this.buttonLanguageGreek, "buttonLanguageGreek");
             this.buttonLanguageGreek.Name = "buttonLanguageGreek";
             this.buttonLanguageGreek.UseVisualStyleBackColor = true;
@@ -697,12 +705,6 @@
             resources.ApplyResources(this.labelWelcome, "labelWelcome");
             this.labelWelcome.Name = "labelWelcome";
             // 
-            // timer
-            // 
-            this.timer.Enabled = true;
-            this.timer.Interval = 1000;
-            this.timer.Tick += new System.EventHandler(this.timer_Tick);
-            // 
             // MainForm
             // 
             resources.ApplyResources(this, "$this");
@@ -710,15 +712,15 @@
             this.Controls.Add(this.tabControl);
             this.Name = "MainForm";
             this.tabControl.ResumeLayout(false);
+            this.tabPageMenu.ResumeLayout(false);
+            this.tabPageMenu.PerformLayout();
+            this.tabControlMenu.ResumeLayout(false);
             this.tabPagePool.ResumeLayout(false);
             this.tabPagePool.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.trackBarPoolLevel)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBarPoolDoor)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBarPoolTemerature)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBarPoolAlarm)).EndInit();
-            this.tabPageMenu.ResumeLayout(false);
-            this.tabPageMenu.PerformLayout();
-            this.tabControlMenu.ResumeLayout(false);
             this.tabPageRestaurant.ResumeLayout(false);
             this.groupBoxMenuFood.ResumeLayout(false);
             this.groupBoxMenuFood.PerformLayout();
