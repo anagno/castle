@@ -132,6 +132,18 @@
   <data name="buttonMenuPaymentEmpty" xml:space="preserve">
     <value>Δεν έχετε επιλέξει προϊόντα</value>
   </data>
+  <data name="PoolAlarmDisable" xml:space="preserve">
+    <value>Ο συναγερμός είναι απενεργοποιημένος. Δεν μπορείτε να κολυμπήσετε !!!</value>
+  </data>
+  <data name="PoolAlarmEnable" xml:space="preserve">
+    <value>Ο συναγερμός είναι ενεργοποιημένος. Μπορείτε να κολυμπήσετε !!!</value>
+  </data>
+  <data name="PoolDoorClose" xml:space="preserve">
+    <value>Η πόρτα είναι τώρα κλειδωμένη !!!</value>
+  </data>
+  <data name="PoolDoorOpen" xml:space="preserve">
+    <value>Η πόρτα είναι ανοικτή !!!</value>
+  </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="song" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\song.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>

@@ -106,6 +106,42 @@ namespace Castle.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to The alarm is disable. You can swim !!!.
+        /// </summary>
+        internal static string PoolAlarmDisable {
+            get {
+                return ResourceManager.GetString("PoolAlarmDisable", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The alarm is enable. You can`t swim!!!.
+        /// </summary>
+        internal static string PoolAlarmEnable {
+            get {
+                return ResourceManager.GetString("PoolAlarmEnable", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The door is now locked !!!.
+        /// </summary>
+        internal static string PoolDoorClose {
+            get {
+                return ResourceManager.GetString("PoolDoorClose", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The door is now open !!!.
+        /// </summary>
+        internal static string PoolDoorOpen {
+            get {
+                return ResourceManager.GetString("PoolDoorOpen", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
         internal static System.IO.UnmanagedMemoryStream song {

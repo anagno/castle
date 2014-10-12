@@ -341,5 +341,36 @@ namespace Castle
             colors.changeColor();
         }
 
+        private void trackBarPoolAlarm_ValueChanged(object sender, EventArgs e)
+        {
+            ResourceManager LocRM = new ResourceManager("Castle.Properties.strings", typeof(MainForm).Assembly);
+
+            switch (trackBarPoolAlarm.Value)
+            {
+                case 0:
+                    MessageBox.Show(LocRM.GetString("PoolAlarmDisable"));
+                    break;
+                case 1:
+                    MessageBox.Show(LocRM.GetString("PoolAlarmEnable"));
+                    break;
+            }
+        }
+
+        private void trackBarPoolDoor_ValueChanged(object sender, EventArgs e)
+        {
+            ResourceManager LocRM = new ResourceManager("Castle.Properties.strings", typeof(MainForm).Assembly);
+
+            switch (trackBarPoolDoor.Value)
+            {
+                case 0:
+                    MessageBox.Show(LocRM.GetString("PoolAlarmDisable"));
+                    break;
+                case 1:
+                    MessageBox.Show(LocRM.GetString("PoolAlarmEnable"));
+                    break;
+            }
+
+        }
+
     }
 }
