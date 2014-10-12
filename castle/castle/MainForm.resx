@@ -124,11 +124,38 @@
   <data name="tabPagePool.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
   </data>
+  <data name="buttonPoolHelp.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="buttonPoolHelp.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="buttonPoolHelp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>559, 10</value>
+  </data>
+  <data name="buttonPoolHelp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 50</value>
+  </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="buttonPoolHelp.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="&gt;&gt;buttonPoolHelp.Name" xml:space="preserve">
+    <value>buttonPoolHelp</value>
+  </data>
+  <data name="&gt;&gt;buttonPoolHelp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonPoolHelp.Parent" xml:space="preserve">
+    <value>tabPagePool</value>
+  </data>
+  <data name="&gt;&gt;buttonPoolHelp.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <data name="labelPoolDevicesLevelValue.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="labelPoolDevicesLevelValue.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 15.75pt</value>
   </data>
@@ -157,7 +184,7 @@
     <value>tabPagePool</value>
   </data>
   <data name="&gt;&gt;labelPoolDevicesLevelValue.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>1</value>
   </data>
   <data name="trackBarPoolLevel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -181,7 +208,7 @@
     <value>tabPagePool</value>
   </data>
   <data name="&gt;&gt;trackBarPoolLevel.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="labelPoolDevicesLevel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -214,7 +241,7 @@
     <value>tabPagePool</value>
   </data>
   <data name="&gt;&gt;labelPoolDevicesLevel.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
   </data>
   <data name="labelPoolDevicesTemperatureValue.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -247,7 +274,7 @@
     <value>tabPagePool</value>
   </data>
   <data name="&gt;&gt;labelPoolDevicesTemperatureValue.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>4</value>
   </data>
   <data name="trackBarPoolDoor.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -271,7 +298,7 @@
     <value>tabPagePool</value>
   </data>
   <data name="&gt;&gt;trackBarPoolDoor.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>5</value>
   </data>
   <data name="trackBarPoolTemerature.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -295,7 +322,7 @@
     <value>tabPagePool</value>
   </data>
   <data name="&gt;&gt;trackBarPoolTemerature.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>6</value>
   </data>
   <data name="labelPoolDevicesDoor.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -328,7 +355,7 @@
     <value>tabPagePool</value>
   </data>
   <data name="&gt;&gt;labelPoolDevicesDoor.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>7</value>
   </data>
   <data name="labelPoolDevicesTemperature.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -361,7 +388,7 @@
     <value>tabPagePool</value>
   </data>
   <data name="&gt;&gt;labelPoolDevicesTemperature.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>8</value>
   </data>
   <data name="labelPoolDevicesOn.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -394,7 +421,7 @@
     <value>tabPagePool</value>
   </data>
   <data name="&gt;&gt;labelPoolDevicesOn.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>9</value>
   </data>
   <data name="labelPoolDevicesOff.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -427,7 +454,7 @@
     <value>tabPagePool</value>
   </data>
   <data name="&gt;&gt;labelPoolDevicesOff.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>10</value>
   </data>
   <data name="labelPoolDevicesAlarm.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -460,7 +487,7 @@
     <value>tabPagePool</value>
   </data>
   <data name="&gt;&gt;labelPoolDevicesAlarm.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>11</value>
   </data>
   <data name="trackBarPoolAlarm.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -484,7 +511,7 @@
     <value>tabPagePool</value>
   </data>
   <data name="&gt;&gt;trackBarPoolAlarm.ZOrder" xml:space="preserve">
-    <value>11</value>
+    <value>12</value>
   </data>
   <data name="labelPoolDevices.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -517,7 +544,7 @@
     <value>tabPagePool</value>
   </data>
   <data name="&gt;&gt;labelPoolDevices.ZOrder" xml:space="preserve">
-    <value>12</value>
+    <value>13</value>
   </data>
   <data name="tabPagePool.ImageKey" xml:space="preserve">
     <value>pool.jpg</value>
@@ -614,6 +641,33 @@
   </data>
   <data name="tabPageRestaurant.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
+  </data>
+  <data name="buttonFoodHelp.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="buttonFoodHelp.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="buttonFoodHelp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>505, 10</value>
+  </data>
+  <data name="buttonFoodHelp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 50</value>
+  </data>
+  <data name="buttonFoodHelp.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;buttonFoodHelp.Name" xml:space="preserve">
+    <value>buttonFoodHelp</value>
+  </data>
+  <data name="&gt;&gt;buttonFoodHelp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonFoodHelp.Parent" xml:space="preserve">
+    <value>tabPageRestaurant</value>
+  </data>
+  <data name="&gt;&gt;buttonFoodHelp.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="checkBoxMenuFoodCheececake.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1108,7 +1162,7 @@
     <value>15</value>
   </data>
   <data name="groupBoxMenuFood.Location" type="System.Drawing.Point, System.Drawing">
-    <value>111, 59</value>
+    <value>121, 69</value>
   </data>
   <data name="groupBoxMenuFood.Size" type="System.Drawing.Size, System.Drawing">
     <value>366, 253</value>
@@ -1129,7 +1183,7 @@
     <value>tabPageRestaurant</value>
   </data>
   <data name="&gt;&gt;groupBoxMenuFood.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>1</value>
   </data>
   <data name="tabPageRestaurant.ImageKey" xml:space="preserve">
     <value>(none)</value>
@@ -1163,6 +1217,33 @@
   </data>
   <data name="tabPageCafeteria.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
+  </data>
+  <data name="buttonDrinkHelp.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="buttonDrinkHelp.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="buttonDrinkHelp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>505, 10</value>
+  </data>
+  <data name="buttonDrinkHelp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 50</value>
+  </data>
+  <data name="buttonDrinkHelp.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;buttonDrinkHelp.Name" xml:space="preserve">
+    <value>buttonDrinkHelp</value>
+  </data>
+  <data name="&gt;&gt;buttonDrinkHelp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonDrinkHelp.Parent" xml:space="preserve">
+    <value>tabPageCafeteria</value>
+  </data>
+  <data name="&gt;&gt;buttonDrinkHelp.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="checkBoxMenuDrinksJuice.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1465,7 +1546,7 @@
     <value>tabPageCafeteria</value>
   </data>
   <data name="&gt;&gt;groupBoxMenuDrinks.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>1</value>
   </data>
   <data name="tabPageCafeteria.ImageKey" xml:space="preserve">
     <value>(none)</value>
@@ -1505,7 +1586,7 @@
         AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
         LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
         ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAACI
-        TwAAAk1TRnQBSQFMAgEBBAEAAawBAgGsAQIBbgEAAWQBAAT/AQkBAAj/AUIBTQE2AQQGAAE2AQQCAAEo
+        TwAAAk1TRnQBSQFMAgEBBAEAAbQBAgG0AQIBbgEAAWQBAAT/AQkBAAj/AUIBTQE2AQQGAAE2AQQCAAEo
         AwABuAEBAgAByAMAAQEBAAEIBQABwAFXAQEXAAGAAgABgAMAAoABAAGAAwABgAEAAYABAAKAAgADwAEA
         AcAB3AHAAQAB8AHKAaYBAAEzBQABMwEAATMBAAEzAQACMwIAAxYBAAMcAQADIgEAAykBAANVAQADTQEA
         A0IBAAM5AQABgAF8Af8BAAJQAf8BAAGTAQAB1gEAAf8B7AHMAQABxgHWAe8BAAHWAucBAAGQAakBrQIA
@@ -1958,6 +2039,33 @@
   <data name="tabPageDevices.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
   </data>
+  <data name="buttonDeviceHelp.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="buttonDeviceHelp.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="buttonDeviceHelp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>559, 10</value>
+  </data>
+  <data name="buttonDeviceHelp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 50</value>
+  </data>
+  <data name="buttonDeviceHelp.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;buttonDeviceHelp.Name" xml:space="preserve">
+    <value>buttonDeviceHelp</value>
+  </data>
+  <data name="&gt;&gt;buttonDeviceHelp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonDeviceHelp.Parent" xml:space="preserve">
+    <value>tabPageDevices</value>
+  </data>
+  <data name="&gt;&gt;buttonDeviceHelp.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <data name="trackBarDoor.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -1980,7 +2088,7 @@
     <value>tabPageDevices</value>
   </data>
   <data name="&gt;&gt;trackBarDoor.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>1</value>
   </data>
   <data name="labelRoomDevicesTemperatureValue.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -2013,7 +2121,7 @@
     <value>tabPageDevices</value>
   </data>
   <data name="&gt;&gt;labelRoomDevicesTemperatureValue.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="trackBarTemperature.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -2037,7 +2145,7 @@
     <value>tabPageDevices</value>
   </data>
   <data name="&gt;&gt;trackBarTemperature.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
   </data>
   <data name="labelRoomDevicesDoor.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -2070,7 +2178,7 @@
     <value>tabPageDevices</value>
   </data>
   <data name="&gt;&gt;labelRoomDevicesDoor.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>4</value>
   </data>
   <data name="labelRoomDevicesTemperature.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -2103,7 +2211,7 @@
     <value>tabPageDevices</value>
   </data>
   <data name="&gt;&gt;labelRoomDevicesTemperature.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>5</value>
   </data>
   <data name="labelRoomDevicesRadio.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -2136,7 +2244,7 @@
     <value>tabPageDevices</value>
   </data>
   <data name="&gt;&gt;labelRoomDevicesRadio.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>6</value>
   </data>
   <data name="buttonStop.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -2160,7 +2268,7 @@
     <value>tabPageDevices</value>
   </data>
   <data name="&gt;&gt;buttonStop.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>7</value>
   </data>
   <data name="buttonPlay.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -2184,7 +2292,7 @@
     <value>tabPageDevices</value>
   </data>
   <data name="&gt;&gt;buttonPlay.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>8</value>
   </data>
   <data name="labelRoomDevicesAlarm.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -2217,7 +2325,7 @@
     <value>tabPageDevices</value>
   </data>
   <data name="&gt;&gt;labelRoomDevicesAlarm.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>9</value>
   </data>
   <data name="trackBarAlarm.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -2241,7 +2349,7 @@
     <value>tabPageDevices</value>
   </data>
   <data name="&gt;&gt;trackBarAlarm.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>10</value>
   </data>
   <data name="labelRoomDevicesON.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -2274,7 +2382,7 @@
     <value>tabPageDevices</value>
   </data>
   <data name="&gt;&gt;labelRoomDevicesON.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>11</value>
   </data>
   <data name="labelRoomDevicesOFF.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -2307,7 +2415,7 @@
     <value>tabPageDevices</value>
   </data>
   <data name="&gt;&gt;labelRoomDevicesOFF.ZOrder" xml:space="preserve">
-    <value>11</value>
+    <value>12</value>
   </data>
   <data name="labelRoomDevicesLights.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -2340,7 +2448,7 @@
     <value>tabPageDevices</value>
   </data>
   <data name="&gt;&gt;labelRoomDevicesLights.ZOrder" xml:space="preserve">
-    <value>12</value>
+    <value>13</value>
   </data>
   <data name="trackBarLights.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -2364,7 +2472,7 @@
     <value>tabPageDevices</value>
   </data>
   <data name="&gt;&gt;trackBarLights.ZOrder" xml:space="preserve">
-    <value>13</value>
+    <value>14</value>
   </data>
   <data name="labelRoomDevices.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -2397,7 +2505,7 @@
     <value>tabPageDevices</value>
   </data>
   <data name="&gt;&gt;labelRoomDevices.ZOrder" xml:space="preserve">
-    <value>14</value>
+    <value>15</value>
   </data>
   <data name="tabPageDevices.ImageKey" xml:space="preserve">
     <value>bedroom.png</value>
@@ -2428,6 +2536,30 @@
   </data>
   <data name="tabPageExit.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
+  </data>
+  <data name="buttonExitHelp.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="buttonExitHelp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>559, 10</value>
+  </data>
+  <data name="buttonExitHelp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 50</value>
+  </data>
+  <data name="buttonExitHelp.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;buttonExitHelp.Name" xml:space="preserve">
+    <value>buttonExitHelp</value>
+  </data>
+  <data name="&gt;&gt;buttonExitHelp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonExitHelp.Parent" xml:space="preserve">
+    <value>tabPageExit</value>
+  </data>
+  <data name="&gt;&gt;buttonExitHelp.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="labelDescritptionPool.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -2460,7 +2592,7 @@
     <value>tabPageExit</value>
   </data>
   <data name="&gt;&gt;labelDescritptionPool.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>1</value>
   </data>
   <data name="labelDescritpionExit.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -2493,7 +2625,7 @@
     <value>tabPageExit</value>
   </data>
   <data name="&gt;&gt;labelDescritpionExit.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="labelDescriptionRoomDevices.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -2526,7 +2658,7 @@
     <value>tabPageExit</value>
   </data>
   <data name="&gt;&gt;labelDescriptionRoomDevices.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
   </data>
   <data name="labelDescritpionMenu.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -2559,7 +2691,7 @@
     <value>tabPageExit</value>
   </data>
   <data name="&gt;&gt;labelDescritpionMenu.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>4</value>
   </data>
   <data name="buttonLanguageEnglish.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
@@ -2586,7 +2718,7 @@
     <value>tabPageExit</value>
   </data>
   <data name="&gt;&gt;buttonLanguageEnglish.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>5</value>
   </data>
   <data name="buttonLanguageGreek.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
@@ -2613,7 +2745,7 @@
     <value>tabPageExit</value>
   </data>
   <data name="&gt;&gt;buttonLanguageGreek.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>6</value>
   </data>
   <data name="labelWelcome.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -2646,7 +2778,7 @@
     <value>tabPageExit</value>
   </data>
   <data name="&gt;&gt;labelWelcome.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>7</value>
   </data>
   <data name="tabPageExit.ImageKey" xml:space="preserve">
     <value>exit.png</value>

@@ -106,6 +106,11 @@
             this.buttonLanguageGreek = new System.Windows.Forms.Button();
             this.labelWelcome = new System.Windows.Forms.Label();
             this.timer = new System.Windows.Forms.Timer(this.components);
+            this.buttonExitHelp = new System.Windows.Forms.Button();
+            this.buttonDeviceHelp = new System.Windows.Forms.Button();
+            this.buttonFoodHelp = new System.Windows.Forms.Button();
+            this.buttonDrinkHelp = new System.Windows.Forms.Button();
+            this.buttonPoolHelp = new System.Windows.Forms.Button();
             this.tabControl.SuspendLayout();
             this.tabPagePool.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.trackBarPoolLevel)).BeginInit();
@@ -142,6 +147,7 @@
             // 
             this.tabPagePool.BackgroundImage = global::Castle.Properties.Resources.castle_5;
             resources.ApplyResources(this.tabPagePool, "tabPagePool");
+            this.tabPagePool.Controls.Add(this.buttonPoolHelp);
             this.tabPagePool.Controls.Add(this.labelPoolDevicesLevelValue);
             this.tabPagePool.Controls.Add(this.trackBarPoolLevel);
             this.tabPagePool.Controls.Add(this.labelPoolDevicesLevel);
@@ -286,6 +292,7 @@
             // 
             this.tabPageRestaurant.BackgroundImage = global::Castle.Properties.Resources.size1;
             resources.ApplyResources(this.tabPageRestaurant, "tabPageRestaurant");
+            this.tabPageRestaurant.Controls.Add(this.buttonFoodHelp);
             this.tabPageRestaurant.Controls.Add(this.groupBoxMenuFood);
             this.tabPageRestaurant.Name = "tabPageRestaurant";
             this.tabPageRestaurant.UseVisualStyleBackColor = true;
@@ -421,6 +428,7 @@
             // 
             this.tabPageCafeteria.BackgroundImage = global::Castle.Properties.Resources.villecroze_cafe_provence;
             resources.ApplyResources(this.tabPageCafeteria, "tabPageCafeteria");
+            this.tabPageCafeteria.Controls.Add(this.buttonDrinkHelp);
             this.tabPageCafeteria.Controls.Add(this.groupBoxMenuDrinks);
             this.tabPageCafeteria.Name = "tabPageCafeteria";
             this.tabPageCafeteria.UseVisualStyleBackColor = true;
@@ -523,6 +531,7 @@
             // 
             this.tabPageDevices.BackgroundImage = global::Castle.Properties.Resources.bedroom;
             resources.ApplyResources(this.tabPageDevices, "tabPageDevices");
+            this.tabPageDevices.Controls.Add(this.buttonDeviceHelp);
             this.tabPageDevices.Controls.Add(this.trackBarDoor);
             this.tabPageDevices.Controls.Add(this.labelRoomDevicesTemperatureValue);
             this.tabPageDevices.Controls.Add(this.trackBarTemperature);
@@ -647,6 +656,7 @@
             // 
             resources.ApplyResources(this.tabPageExit, "tabPageExit");
             this.tabPageExit.BackgroundImage = global::Castle.Properties.Resources.castle_wallpaper_3;
+            this.tabPageExit.Controls.Add(this.buttonExitHelp);
             this.tabPageExit.Controls.Add(this.labelDescritptionPool);
             this.tabPageExit.Controls.Add(this.labelDescritpionExit);
             this.tabPageExit.Controls.Add(this.labelDescriptionRoomDevices);
@@ -707,6 +717,45 @@
             this.timer.Enabled = true;
             this.timer.Interval = 1000;
             this.timer.Tick += new System.EventHandler(this.timer_Tick);
+            // 
+            // buttonExitHelp
+            // 
+            this.buttonExitHelp.BackgroundImage = global::Castle.Properties.Resources.help;
+            resources.ApplyResources(this.buttonExitHelp, "buttonExitHelp");
+            this.buttonExitHelp.Name = "buttonExitHelp";
+            this.buttonExitHelp.UseVisualStyleBackColor = true;
+            this.buttonExitHelp.Click += new System.EventHandler(this.buttonExitHelp_Click);
+            // 
+            // buttonDeviceHelp
+            // 
+            this.buttonDeviceHelp.BackgroundImage = global::Castle.Properties.Resources.help;
+            resources.ApplyResources(this.buttonDeviceHelp, "buttonDeviceHelp");
+            this.buttonDeviceHelp.Name = "buttonDeviceHelp";
+            this.buttonDeviceHelp.UseVisualStyleBackColor = true;
+            this.buttonDeviceHelp.Click += new System.EventHandler(this.buttonDeviceHelp_Click);
+            // 
+            // buttonFoodHelp
+            // 
+            this.buttonFoodHelp.BackgroundImage = global::Castle.Properties.Resources.help;
+            resources.ApplyResources(this.buttonFoodHelp, "buttonFoodHelp");
+            this.buttonFoodHelp.Name = "buttonFoodHelp";
+            this.buttonFoodHelp.UseVisualStyleBackColor = true;
+            // 
+            // buttonDrinkHelp
+            // 
+            this.buttonDrinkHelp.BackgroundImage = global::Castle.Properties.Resources.help;
+            resources.ApplyResources(this.buttonDrinkHelp, "buttonDrinkHelp");
+            this.buttonDrinkHelp.Name = "buttonDrinkHelp";
+            this.buttonDrinkHelp.UseVisualStyleBackColor = true;
+            this.buttonDrinkHelp.Click += new System.EventHandler(this.buttonDrinkHelp_Click);
+            // 
+            // buttonPoolHelp
+            // 
+            this.buttonPoolHelp.BackgroundImage = global::Castle.Properties.Resources.help;
+            resources.ApplyResources(this.buttonPoolHelp, "buttonPoolHelp");
+            this.buttonPoolHelp.Name = "buttonPoolHelp";
+            this.buttonPoolHelp.UseVisualStyleBackColor = true;
+            this.buttonPoolHelp.Click += new System.EventHandler(this.buttonPoolHelp_Click);
             // 
             // MainForm
             // 
@@ -820,5 +869,10 @@
         private System.Windows.Forms.TrackBar trackBarPoolLevel;
         private System.Windows.Forms.Label labelPoolDevicesLevel;
         private System.Windows.Forms.Timer timer;
+        private System.Windows.Forms.Button buttonExitHelp;
+        private System.Windows.Forms.Button buttonFoodHelp;
+        private System.Windows.Forms.Button buttonDeviceHelp;
+        private System.Windows.Forms.Button buttonDrinkHelp;
+        private System.Windows.Forms.Button buttonPoolHelp;
     }
 }

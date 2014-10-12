@@ -372,5 +372,25 @@ namespace Castle
 
         }
 
+        private void buttonExitHelp_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buttonDeviceHelp_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buttonDrinkHelp_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buttonPoolHelp_Click(object sender, EventArgs e)
+        {
+
+        }
+
     }
 }
