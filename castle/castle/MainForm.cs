@@ -16,6 +16,7 @@ namespace Castle
 {
     public partial class MainForm : Form
     {
+
         private ChangeColor colors = new ChangeColor();
 
         // Music Player variable. Για να μην έχουμε απόλυτα μονοπάτια θα πρέπει να προστίθενται
@@ -25,11 +26,9 @@ namespace Castle
         public MainForm()
         {
             InitializeComponent();
-
             // Για να επιλεχθεί το τελευαίο tab στην Form
             tabControl.SelectedTab = tabPageExit;
             buttonMenuPayment.Enabled = Enabled;
-
         }
 
         private void buttonLanguageGreek_Click(object sender, EventArgs e)
