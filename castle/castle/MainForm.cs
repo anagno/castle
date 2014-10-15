@@ -302,7 +302,7 @@ namespace Castle
             ResourceManager LocRM = new ResourceManager("Castle.Properties.strings", typeof(MainForm).Assembly);
             if(float.Parse(textBoxMenuTotal.Text)!=0)
             {
-                DialogResult result = MessageBox.Show(LocRM.GetString("buttonMenuPayment") + textBoxMenuTotal.Text + LocRM.GetString("buttonMenuPayment2"), "Ναι or Όχι", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                DialogResult result = MessageBox.Show(LocRM.GetString("buttonMenuPayment") + textBoxMenuTotal.Text + LocRM.GetString("buttonMenuPayment2"), "", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
 
                 if (result == DialogResult.Yes)
                 {
