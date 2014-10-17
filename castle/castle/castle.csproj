@@ -44,7 +44,31 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Bedroom_Help.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bedroom_Help.Designer.cs">
+      <DependentUpon>Bedroom_Help.cs</DependentUpon>
+    </Compile>
     <Compile Include="ChangeColor.cs" />
+    <Compile Include="Help for cafe-restaurant.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Help for cafe-restaurant.Designer.cs">
+      <DependentUpon>Help for cafe-restaurant.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Help for pool.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Help for pool.Designer.cs">
+      <DependentUpon>Help for pool.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Help_menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Help_menu.Designer.cs">
+      <DependentUpon>Help_menu.cs</DependentUpon>
+    </Compile>
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -63,6 +87,18 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Bedroom_Help.resx">
+      <DependentUpon>Bedroom_Help.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Help for cafe-restaurant.resx">
+      <DependentUpon>Help for cafe-restaurant.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Help for pool.resx">
+      <DependentUpon>Help for pool.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Help_menu.resx">
+      <DependentUpon>Help_menu.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MainForm.el.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>

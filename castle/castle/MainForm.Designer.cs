@@ -32,6 +32,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.tabControl = new System.Windows.Forms.TabControl();
             this.tabPagePool = new System.Windows.Forms.TabPage();
+            this.buttonPoolHelp = new System.Windows.Forms.Button();
             this.labelPoolDevicesLevelValue = new System.Windows.Forms.Label();
             this.trackBarPoolLevel = new System.Windows.Forms.TrackBar();
             this.labelPoolDevicesLevel = new System.Windows.Forms.Label();
@@ -50,6 +51,7 @@
             this.buttonMenuCancel = new System.Windows.Forms.Button();
             this.tabControlMenu = new System.Windows.Forms.TabControl();
             this.tabPageRestaurant = new System.Windows.Forms.TabPage();
+            this.buttonFoodHelp = new System.Windows.Forms.Button();
             this.groupBoxMenuFood = new System.Windows.Forms.GroupBox();
             this.checkBoxMenuFoodCheececake = new System.Windows.Forms.CheckBox();
             this.labelMenuFoodSweet = new System.Windows.Forms.Label();
@@ -68,6 +70,7 @@
             this.checkBoxMenuFoodGreek = new System.Windows.Forms.CheckBox();
             this.labelMenuFoodSalads = new System.Windows.Forms.Label();
             this.tabPageCafeteria = new System.Windows.Forms.TabPage();
+            this.buttonDrinkHelp = new System.Windows.Forms.Button();
             this.groupBoxMenuDrinks = new System.Windows.Forms.GroupBox();
             this.checkBoxMenuDrinksJuice = new System.Windows.Forms.CheckBox();
             this.labelMenuFoodOther = new System.Windows.Forms.Label();
@@ -82,6 +85,7 @@
             this.textBoxMenuTotal = new System.Windows.Forms.TextBox();
             this.labelMenuTotal = new System.Windows.Forms.Label();
             this.tabPageDevices = new System.Windows.Forms.TabPage();
+            this.buttonDeviceHelp = new System.Windows.Forms.Button();
             this.trackBarDoor = new System.Windows.Forms.TrackBar();
             this.labelRoomDevicesTemperatureValue = new System.Windows.Forms.Label();
             this.trackBarTemperature = new System.Windows.Forms.TrackBar();
@@ -98,6 +102,7 @@
             this.trackBarLights = new System.Windows.Forms.TrackBar();
             this.labelRoomDevices = new System.Windows.Forms.Label();
             this.tabPageExit = new System.Windows.Forms.TabPage();
+            this.buttonExitHelp = new System.Windows.Forms.Button();
             this.labelDescritptionPool = new System.Windows.Forms.Label();
             this.labelDescritpionExit = new System.Windows.Forms.Label();
             this.labelDescriptionRoomDevices = new System.Windows.Forms.Label();
@@ -106,11 +111,7 @@
             this.buttonLanguageGreek = new System.Windows.Forms.Button();
             this.labelWelcome = new System.Windows.Forms.Label();
             this.timer = new System.Windows.Forms.Timer(this.components);
-            this.buttonExitHelp = new System.Windows.Forms.Button();
-            this.buttonDeviceHelp = new System.Windows.Forms.Button();
-            this.buttonFoodHelp = new System.Windows.Forms.Button();
-            this.buttonDrinkHelp = new System.Windows.Forms.Button();
-            this.buttonPoolHelp = new System.Windows.Forms.Button();
+            this.helpProvider1 = new System.Windows.Forms.HelpProvider();
             this.tabControl.SuspendLayout();
             this.tabPagePool.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.trackBarPoolLevel)).BeginInit();
@@ -164,6 +165,16 @@
             this.tabPagePool.Name = "tabPagePool";
             this.tabPagePool.UseVisualStyleBackColor = true;
             // 
+            // buttonPoolHelp
+            // 
+            this.buttonPoolHelp.BackgroundImage = global::Castle.Properties.Resources.help;
+            resources.ApplyResources(this.buttonPoolHelp, "buttonPoolHelp");
+            this.helpProvider1.SetHelpString(this.buttonPoolHelp, resources.GetString("buttonPoolHelp.HelpString"));
+            this.buttonPoolHelp.Name = "buttonPoolHelp";
+            this.helpProvider1.SetShowHelp(this.buttonPoolHelp, ((bool)(resources.GetObject("buttonPoolHelp.ShowHelp"))));
+            this.buttonPoolHelp.UseVisualStyleBackColor = true;
+            this.buttonPoolHelp.Click += new System.EventHandler(this.buttonPoolHelp_Click);
+            // 
             // labelPoolDevicesLevelValue
             // 
             resources.ApplyResources(this.labelPoolDevicesLevelValue, "labelPoolDevicesLevelValue");
@@ -197,6 +208,7 @@
             this.trackBarPoolDoor.Maximum = 1;
             this.trackBarPoolDoor.Name = "trackBarPoolDoor";
             this.trackBarPoolDoor.Value = 1;
+            this.trackBarPoolDoor.Scroll += new System.EventHandler(this.trackBarPoolDoor_Scroll);
             this.trackBarPoolDoor.ValueChanged += new System.EventHandler(this.trackBarPoolDoor_ValueChanged);
             // 
             // trackBarPoolTemerature
@@ -296,6 +308,14 @@
             this.tabPageRestaurant.Controls.Add(this.groupBoxMenuFood);
             this.tabPageRestaurant.Name = "tabPageRestaurant";
             this.tabPageRestaurant.UseVisualStyleBackColor = true;
+            // 
+            // buttonFoodHelp
+            // 
+            this.buttonFoodHelp.BackgroundImage = global::Castle.Properties.Resources.help;
+            resources.ApplyResources(this.buttonFoodHelp, "buttonFoodHelp");
+            this.buttonFoodHelp.Name = "buttonFoodHelp";
+            this.buttonFoodHelp.UseVisualStyleBackColor = true;
+            this.buttonFoodHelp.Click += new System.EventHandler(this.buttonFoodHelp_Click);
             // 
             // groupBoxMenuFood
             // 
@@ -433,6 +453,14 @@
             this.tabPageCafeteria.Name = "tabPageCafeteria";
             this.tabPageCafeteria.UseVisualStyleBackColor = true;
             // 
+            // buttonDrinkHelp
+            // 
+            this.buttonDrinkHelp.BackgroundImage = global::Castle.Properties.Resources.help;
+            resources.ApplyResources(this.buttonDrinkHelp, "buttonDrinkHelp");
+            this.buttonDrinkHelp.Name = "buttonDrinkHelp";
+            this.buttonDrinkHelp.UseVisualStyleBackColor = true;
+            this.buttonDrinkHelp.Click += new System.EventHandler(this.buttonDrinkHelp_Click);
+            // 
             // groupBoxMenuDrinks
             // 
             this.groupBoxMenuDrinks.BackColor = System.Drawing.SystemColors.Control;
@@ -549,6 +577,14 @@
             this.tabPageDevices.Controls.Add(this.labelRoomDevices);
             this.tabPageDevices.Name = "tabPageDevices";
             this.tabPageDevices.UseVisualStyleBackColor = true;
+            // 
+            // buttonDeviceHelp
+            // 
+            this.buttonDeviceHelp.BackgroundImage = global::Castle.Properties.Resources.help;
+            resources.ApplyResources(this.buttonDeviceHelp, "buttonDeviceHelp");
+            this.buttonDeviceHelp.Name = "buttonDeviceHelp";
+            this.buttonDeviceHelp.UseVisualStyleBackColor = true;
+            this.buttonDeviceHelp.Click += new System.EventHandler(this.buttonDeviceHelp_Click);
             // 
             // trackBarDoor
             // 
@@ -667,6 +703,14 @@
             this.tabPageExit.Name = "tabPageExit";
             this.tabPageExit.UseVisualStyleBackColor = true;
             // 
+            // buttonExitHelp
+            // 
+            this.buttonExitHelp.BackgroundImage = global::Castle.Properties.Resources.help;
+            resources.ApplyResources(this.buttonExitHelp, "buttonExitHelp");
+            this.buttonExitHelp.Name = "buttonExitHelp";
+            this.buttonExitHelp.UseVisualStyleBackColor = true;
+            this.buttonExitHelp.Click += new System.EventHandler(this.buttonExitHelp_Click);
+            // 
             // labelDescritptionPool
             // 
             resources.ApplyResources(this.labelDescritptionPool, "labelDescritptionPool");
@@ -718,50 +762,13 @@
             this.timer.Interval = 1000;
             this.timer.Tick += new System.EventHandler(this.timer_Tick);
             // 
-            // buttonExitHelp
-            // 
-            this.buttonExitHelp.BackgroundImage = global::Castle.Properties.Resources.help;
-            resources.ApplyResources(this.buttonExitHelp, "buttonExitHelp");
-            this.buttonExitHelp.Name = "buttonExitHelp";
-            this.buttonExitHelp.UseVisualStyleBackColor = true;
-            this.buttonExitHelp.Click += new System.EventHandler(this.buttonExitHelp_Click);
-            // 
-            // buttonDeviceHelp
-            // 
-            this.buttonDeviceHelp.BackgroundImage = global::Castle.Properties.Resources.help;
-            resources.ApplyResources(this.buttonDeviceHelp, "buttonDeviceHelp");
-            this.buttonDeviceHelp.Name = "buttonDeviceHelp";
-            this.buttonDeviceHelp.UseVisualStyleBackColor = true;
-            this.buttonDeviceHelp.Click += new System.EventHandler(this.buttonDeviceHelp_Click);
-            // 
-            // buttonFoodHelp
-            // 
-            this.buttonFoodHelp.BackgroundImage = global::Castle.Properties.Resources.help;
-            resources.ApplyResources(this.buttonFoodHelp, "buttonFoodHelp");
-            this.buttonFoodHelp.Name = "buttonFoodHelp";
-            this.buttonFoodHelp.UseVisualStyleBackColor = true;
-            // 
-            // buttonDrinkHelp
-            // 
-            this.buttonDrinkHelp.BackgroundImage = global::Castle.Properties.Resources.help;
-            resources.ApplyResources(this.buttonDrinkHelp, "buttonDrinkHelp");
-            this.buttonDrinkHelp.Name = "buttonDrinkHelp";
-            this.buttonDrinkHelp.UseVisualStyleBackColor = true;
-            this.buttonDrinkHelp.Click += new System.EventHandler(this.buttonDrinkHelp_Click);
-            // 
-            // buttonPoolHelp
-            // 
-            this.buttonPoolHelp.BackgroundImage = global::Castle.Properties.Resources.help;
-            resources.ApplyResources(this.buttonPoolHelp, "buttonPoolHelp");
-            this.buttonPoolHelp.Name = "buttonPoolHelp";
-            this.buttonPoolHelp.UseVisualStyleBackColor = true;
-            this.buttonPoolHelp.Click += new System.EventHandler(this.buttonPoolHelp_Click);
-            // 
             // MainForm
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.tabControl);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
             this.Name = "MainForm";
             this.tabControl.ResumeLayout(false);
             this.tabPagePool.ResumeLayout(false);
@@ -874,5 +881,6 @@
         private System.Windows.Forms.Button buttonDeviceHelp;
         private System.Windows.Forms.Button buttonDrinkHelp;
         private System.Windows.Forms.Button buttonPoolHelp;
+        private System.Windows.Forms.HelpProvider helpProvider1;
     }
 }
