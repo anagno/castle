@@ -118,6 +118,81 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>171, 13</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>Ανοίγει ή κλείνει την πόρτα σας.</value>
+  </data>
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>51, 109</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 16</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>Πόρτα:</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>236, 13</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Ρυθμίζει την θερμοκρασία του δωματίου σας.</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 84</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 16</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Θερμοκρασία:</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>320, 13</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Ενεργοποιεί ή απενεργοποιεί τον συναγερμό της πισίνας σας.</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 33</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 16</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Συναγερμός:</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>245, 13</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Ανοίγει και κλείνει τα φώτα του δωματίου σας.</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>59, 8</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 16</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Φώτα:</value>
+  </data>
+  <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 59</value>
+  </data>
+  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 16</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>Ραδιόφωνο:</value>
+  </data>
+  <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>190, 13</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>Ανοίγει ή κλείνει το ραδιόφωνό σας.</value>
+  </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAABAAYAEBAAAAEAIABoBAAAZgAAAAAAAAABACAAY3gAAM4EAAAYGAAAAQAgAIgJAAAxfQAAICAAAAEA
@@ -2055,5 +2130,8 @@
         AOAAAAAABwAA4AAAAAAHAADwAAAAAA8AAPAAAAAAHwAA+AAAAAA/AAD8AAAAAD8AAP4AAAAA/wAA/wAA
         AAH/AAD/wAAAA/8AAP/wAAAP/wAA//wAAD//AAD//wAB//8AAA==
 </value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Βοήθεια Δωματίου</value>
   </data>
 </root>

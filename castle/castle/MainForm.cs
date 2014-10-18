@@ -380,19 +380,19 @@ namespace Castle
 
         private void buttonDeviceHelp_Click(object sender, EventArgs e)
         {
-            Bedroom_Help bh = new Bedroom_Help();
+            Help_Bedroom bh = new Help_Bedroom();
             bh.Show();
         }
 
         private void buttonDrinkHelp_Click(object sender, EventArgs e)
         {
-            Help_for_cafe_restaurant hrc = new Help_for_cafe_restaurant();
+            Help_cafe hrc = new Help_cafe();
             hrc.Show();
         }
 
         private void buttonPoolHelp_Click(object sender, EventArgs e)
         {
-            Help_for_pool hfp = new Help_for_pool();
+            Help_pool hfp = new Help_pool();
             hfp.Show();
         }
 
@@ -403,7 +403,7 @@ namespace Castle
 
         private void buttonFoodHelp_Click(object sender, EventArgs e)
         {
-            Help_for_cafe_restaurant hcr = new Help_for_cafe_restaurant();
+            Help_cafe hcr = new Help_cafe();
             hcr.Show();
         }
 

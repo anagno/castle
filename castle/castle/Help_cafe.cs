@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace Castle
 {
-    public partial class Bedroom_Help : Form
+    public partial class Help_cafe : Form
     {
-        public Bedroom_Help()
+        public Help_cafe()
         {
             InitializeComponent();
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
         }
 
         private void button1_Click(object sender, EventArgs e)

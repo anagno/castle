@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Castle
 {
-    public partial class Help_for_pool : Form
+    public partial class Help_pool : Form
     {
-        public Help_for_pool()
+        public Help_pool()
         {
             InitializeComponent();
         }

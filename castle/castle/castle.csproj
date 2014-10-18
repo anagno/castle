@@ -44,24 +44,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Bedroom_Help.cs">
+    <Compile Include="Help_Bedroom.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Bedroom_Help.Designer.cs">
-      <DependentUpon>Bedroom_Help.cs</DependentUpon>
+    <Compile Include="Help_Bedroom.Designer.cs">
+      <DependentUpon>Help_Bedroom.cs</DependentUpon>
     </Compile>
     <Compile Include="ChangeColor.cs" />
-    <Compile Include="Help for cafe-restaurant.cs">
+    <Compile Include="Help_cafe.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Help for cafe-restaurant.Designer.cs">
-      <DependentUpon>Help for cafe-restaurant.cs</DependentUpon>
+    <Compile Include="Help_cafe.Designer.cs">
+      <DependentUpon>Help_cafe.cs</DependentUpon>
     </Compile>
-    <Compile Include="Help for pool.cs">
+    <Compile Include="Help_pool.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Help for pool.Designer.cs">
-      <DependentUpon>Help for pool.cs</DependentUpon>
+    <Compile Include="Help_pool.Designer.cs">
+      <DependentUpon>Help_pool.cs</DependentUpon>
     </Compile>
     <Compile Include="Help_menu.cs">
       <SubType>Form</SubType>
@@ -87,14 +87,26 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="Bedroom_Help.resx">
-      <DependentUpon>Bedroom_Help.cs</DependentUpon>
+    <EmbeddedResource Include="Help_Bedroom.el.resx">
+      <DependentUpon>Help_Bedroom.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Help for cafe-restaurant.resx">
-      <DependentUpon>Help for cafe-restaurant.cs</DependentUpon>
+    <EmbeddedResource Include="Help_Bedroom.resx">
+      <DependentUpon>Help_Bedroom.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Help for pool.resx">
-      <DependentUpon>Help for pool.cs</DependentUpon>
+    <EmbeddedResource Include="Help_cafe.el.resx">
+      <DependentUpon>Help_cafe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Help_cafe.resx">
+      <DependentUpon>Help_cafe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Help_menu.el.resx">
+      <DependentUpon>Help_menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Help_pool.el.resx">
+      <DependentUpon>Help_pool.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Help_pool.resx">
+      <DependentUpon>Help_pool.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Help_menu.resx">
       <DependentUpon>Help_menu.cs</DependentUpon>
