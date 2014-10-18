@@ -362,10 +362,10 @@ namespace Castle
             switch (trackBarPoolDoor.Value)
             {
                 case 0:
-                    MessageBox.Show(LocRM.GetString("PoolAlarmDisable"));
+                    MessageBox.Show(LocRM.GetString("trackBarDoorClose"));
                     break;
                 case 1:
-                    MessageBox.Show(LocRM.GetString("PoolAlarmEnable"));
+                    MessageBox.Show(LocRM.GetString("trackBarDoorOpen"));
                     break;
             }
 
@@ -373,22 +373,37 @@ namespace Castle
 
         private void buttonExitHelp_Click(object sender, EventArgs e)
         {
-
+            Help_menu hm = new Help_menu();
+            hm.Show();
         }
 
         private void buttonDeviceHelp_Click(object sender, EventArgs e)
         {
-
+            Help_Bedroom bh = new Help_Bedroom();
+            bh.Show();
         }
 
         private void buttonDrinkHelp_Click(object sender, EventArgs e)
         {
-
+            Help_cafe hrc = new Help_cafe();
+            hrc.Show();
         }
 
         private void buttonPoolHelp_Click(object sender, EventArgs e)
         {
+            Help_pool hfp = new Help_pool();
+            hfp.Show();
+        }
 
+        private void trackBarPoolDoor_Scroll(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buttonFoodHelp_Click(object sender, EventArgs e)
+        {
+            Help_cafe hcr = new Help_cafe();
+            hcr.Show();
         }
 
     }
