@@ -111,7 +111,6 @@
             this.buttonLanguageGreek = new System.Windows.Forms.Button();
             this.labelWelcome = new System.Windows.Forms.Label();
             this.timer = new System.Windows.Forms.Timer(this.components);
-            this.helpProvider1 = new System.Windows.Forms.HelpProvider();
             this.tabControl.SuspendLayout();
             this.tabPagePool.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.trackBarPoolLevel)).BeginInit();
@@ -169,9 +168,7 @@
             // 
             this.buttonPoolHelp.BackgroundImage = global::Castle.Properties.Resources.help;
             resources.ApplyResources(this.buttonPoolHelp, "buttonPoolHelp");
-            this.helpProvider1.SetHelpString(this.buttonPoolHelp, resources.GetString("buttonPoolHelp.HelpString"));
             this.buttonPoolHelp.Name = "buttonPoolHelp";
-            this.helpProvider1.SetShowHelp(this.buttonPoolHelp, ((bool)(resources.GetObject("buttonPoolHelp.ShowHelp"))));
             this.buttonPoolHelp.UseVisualStyleBackColor = true;
             this.buttonPoolHelp.Click += new System.EventHandler(this.buttonPoolHelp_Click);
             // 
@@ -881,6 +878,5 @@
         private System.Windows.Forms.Button buttonDeviceHelp;
         private System.Windows.Forms.Button buttonDrinkHelp;
         private System.Windows.Forms.Button buttonPoolHelp;
-        private System.Windows.Forms.HelpProvider helpProvider1;
     }
 }
